@@ -55,50 +55,115 @@ content:
         title: "PetLink"
         sub_title: "반려동물 펀딩 플랫폼 개발 프로젝트"
         link: "https://github.com/f-lab-edu/petLink"
-
-        quote: >
-          🐾 PetLink 프로젝트는 반려동물에 관한 펀딩 플랫폼 개발 프로젝트입니다.
-
         description: |
+          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">          
+            🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.<br> 
+              사용자가 펀딩 리워드를 구매할 때마다 일정 부분의 금액이 도움이 필요한 동물들에게 기부됩니다.<br><br>
+              펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
+              추후 확장 가능한 서비스라는 생각으로 개발을 진행했습니다.<br> <br>                            
+            <a href="https://f-lab-edu.github.io/petLink/">🐶 petLink api docs ( Click )</a><br>
+            <a href="http://petlink.cloud/">🐱 Product API Server ( Click )</a><br>        
+          </div>
+          <div style='display:flex; margin:15px'>          
+            <div style='width:50%'>
+              <ul style='font-size:14px; padding:10px;'>
+                <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
+                <li> 기능 하나하나를 깊게 고민해서 완성도 있게 구현하는 경험 </li>
+                <li> 코드 리뷰를 통해 고품질의 코드를 작성하는 경험 </li>
+                <li> 대용량 트래픽을 발생시켜 경험하고 처리하는 경험 </li>
+                <li> 분산환경을 구축해보고 서비스간 연동해보는 경험  </li>
+                <li> 추후 확장 가능한 , 성장 가능한 서비스를 만드는 경험 </li>
+              </ul>
+            </div>          
+            <div style='width:50%'>
+              <ul style='font-size:14px; padding:10px;'>
+                <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
+                <li> JAVA 17 </li>
+                <li> SpringBoot 3.0.5 </li>
+                <li> MySql 8.0 </li>
+                <li> JPA </li>
+                <li> QueryDSL </li>
+              </ul>
+            </div>          
+          </div>
+
+  - title:
+    layout: list
+    content:
+      - layout: left
+        title: "AllWeAdopt"
+        sub_title: "반려동물 펀딩 플랫폼 개발 프로젝트"
+        link: "https://github.com/WouldYouAdopt"
+        description: |
+          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">          
+          💡 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트를 구현했습니다.<br>
+          '포인핸드'는 앱과 웹을 모두 운영하고 있습니다.<br> 
+          그러나, 상대적으로 콘텐츠가 부족한 웹사이트를 저희의 방식으로 재구성했습니다.<br>
+          기존 유기 동물 관련 정보 조회는 보호소 게시판으로, 실종 동물 찾기 혹은 입양 후기 중심이었던 사용자 게시판을 <br>
+          스토리, 어댑터 게시판으로 구현했습니다.<br><br>
+          실시간 채팅 기능을 추가하여 개인정보 보호 및 사용자 간의 긴밀한 커뮤니티 형성을 지원하고,<br> 
+          내 주변 동물병원 정보 제공 기능, 반려동물을 위한 물품 구매 및 기부를 할 수 있는 펀딩 기능,<br><br>   
+          마지막으로 사용자의 재미를 더할 수 있는 포인트 게임 등을 더해 기존 '포인핸드'의 웹에서 확장한 사이트를 구현하고자 했습니다.<br>  
+          </div>
+
+          <div style='display:flex; margin-top:15px'>
           
-          [API Document ( Click )](https://f-lab-edu.github.io/petLink/)
+            <div style='width:50%'>
+              <ul style='font-size:14px; padding:10px;'>
+                <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
+                <li> 협업을 통한 프로젝트 경험 </li>
+                <li> 모듈을 추가해 확장해보는 경험 </li>
+                <li> ERD, UseCase 등 문서화 작업을 해보는 경험</li>
+              </ul>
+            </div>
           
-          [Produce API Server ( Click )](http://petlink.cloud/)
+            <div style='width:50%'>
+              <ul style='font-size:14px; padding:10px;'>
+                <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
+                  <li>spring framework</li>
+                  <li>Mybatis</li>
+                  <li>Oracle</li>
+                  <li>JavaScript</li>
+              </ul>
+            </div>
           
-          <br>
-          
-          ####  🔍 주요 관심사 🔍
-          
-            - 기능 하나하나를 깊게 고민해서 완성도 있게 구현하는 경험
-            - 코드 리뷰를 통해 고품질의 코드를 작성하는 경험
-            - 대용량 트래픽을 발생시켜 경험하고 처리하는 경험
-            - 분산환경을 구축해보고 서비스간 연동해보는 경험
-            - 추후 확장 가능한 , 성장 가능한 서비스를 만드는 경험
-          
-                
-          ####  🖥️ 사용 기술 및 환경 🖥️
-      
-            - JAVA 17 
-            - SpringBoot 3.0.5 
-            - MySql 8.0 
-            - JPA 
-            - QueryDSL    
+          </div>
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: F-LAB
+        sub_title: 스스로 학습하는 능력, F-Lab에서의 경험을 통해 배웠습니다
+        caption: 2023.02 ~ 2023.08
+        description: |
+          - 스스로 학습하는 것이 제일 중요한 멘토링 과정입니다.
+          - 멘토님은 질문을 주어주며 스스로 학습 할 수 있도록 도와주는 과정
+          - 진행되는 다양한 헤커톤 종류의 이벤트에 참여하며 재밌고 효율적인 경험을 쌓을 수 있었습니다.
+      - layout: left
+        title: 클라우드 AWS 구축/운영
+        sub_title: 가벼운 수준의 과제를 통해 클라우드 환경에 친숙해져가는 과정
+        caption: 2022.10 ~ 2022.12
+        description: |
+          - 매주 가상의 시나리오를 제공해 문제를 해결하며 경험하는 과정
+          - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 가벼운 수준으로 경험
 
   - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
+        quote: >
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
