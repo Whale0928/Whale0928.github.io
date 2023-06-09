@@ -92,7 +92,7 @@ content:
     content:
       - layout: left
         title: "AllWeAdopt"
-        sub_title: "반려동물 펀딩 플랫폼 개발 프로젝트"
+        sub_title: "유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트"
         link: "https://github.com/WouldYouAdopt"
         description: |
           <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">          
@@ -125,14 +125,15 @@ content:
                   <li>Oracle</li>
                   <li>JavaScript</li>
               </ul>
-            </div>
+            </div>  
+          
+          <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br>
           
           </div>
 
 
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: F-LAB
@@ -149,50 +150,53 @@ content:
         description: |
           - 매주 가상의 시나리오를 제공해 문제를 해결하며 경험하는 과정
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 가벼운 수준으로 경험
+      - layout: left
+        title: 한양사이버대학교
+        sub_title:  컴퓨터 공학과
+        caption: 2016.03 ~ 2023.03
+        description: |
+          - 컴퓨터 공학과를 전공하며 다양한 프로젝트를 진행하며 경험
+          - 과정 동안 하드웨어와 소프트웨어 개발에 관심을 갖게 되었습니다
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+
+  - title: Work Experience
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: SGU
+        sub_title: 패션 ERP 솔루션
+        caption: 2022.08 ~
+        description: |
+          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">  
+          
+          💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
+          ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 분야에 특화된 회사입니다.<br><br>
+          
+          부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
+          이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br>
+          결과적으로 프로젝트의 성공적인 진행에 기여하였습니다.<br><br>
+          
+          ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
+          프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br><br>
+          
+          회사가 중견급인만큼 변화에 반응하기 힘든 경우도 있었지만,<br>
+          저는 개인적인 적응력과 유연성을 활용하여<br>
+          그 어떤 도전에도 성공적으로 대응할 수 있었습니다.<br>
+          이런 경험들이 제가 더 큰 도전에 더 능동적으로 대처할 수 있는 능력을 키워주었다고 생각합니다.<br>
+          
+          </div>
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-  - title:
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Problem Solving Experience
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content:
+      <section style='font-size:14px'>
+      - 스스로 학습하는 것이 제일 중요한 멘토링 과정입니다.
+      - 멘토님은 질문을 주어주며 스스로 학습 할 수 있도록 도와주는 과정
+      - 진행되는 다양한 헤커톤 종류의 이벤트에 참여하며 재밌고 효율적인 경험을 쌓을 수 있었습니다.
+      </section>
 
-      Look at this cool image  
-
-# Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
-# Build settings
 remote_theme: sproogen/resume-theme
 
 sass:
