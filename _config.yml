@@ -13,7 +13,7 @@ github: www.github.com/Whale0928
 velog: https://velog.io/@disdos0928
 
 # 다크 모드 설정 (options: true, false, never)
-darkmode: true
+darkmode: false
 
 # 소셜 링크
 github_username: Whale0928
@@ -152,7 +152,7 @@ content:
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 가벼운 수준으로 경험
       - layout: left
         title: 한양사이버대학교
-        sub_title:  컴퓨터 공학과
+        sub_title: 컴퓨터 공학과
         caption: 2016.03 ~ 2023.03
         description: |
           - 컴퓨터 공학과를 전공하며 다양한 프로젝트를 진행하며 경험
@@ -189,11 +189,23 @@ content:
   - title: Problem Solving Experience
     layout: text
     content:
-      <section style='font-size:14px'>
-      - 스스로 학습하는 것이 제일 중요한 멘토링 과정입니다.
-      - 멘토님은 질문을 주어주며 스스로 학습 할 수 있도록 도와주는 과정
-      - 진행되는 다양한 헤커톤 종류의 이벤트에 참여하며 재밌고 효율적인 경험을 쌓을 수 있었습니다.
-      </section>
+      <article style='font-size:14px'>
+      회사에서 사용하는 코드 중 동작하니 더 이상 건드리지 말자하는 코드 들이 많았습니다.<br>
+      그러한 코드 중 ERP 특성상 조회되는 행이 5만건이 넘어 화면상에 표현하기 힘든 경우가 있었습니다<br><br>
+      
+      이러한 경우 조회 하기 전 미리 카운트를 통해 전체 행의 수를 확인하고,<br>
+      5만건이 넘는다면 사용자에게 조회할 수 없다는 메시지를 띄워주는 기능이 있었습니다.<br><br>
+      
+      다만 여기서 카운트를 위해 미리 조회할 때. 조회 시 , 동일한 쿼리에 COUNT(*)만 사용해 조회하는데.<br>
+      이럴 경우 4초짜리 쿼리라면 단순 계산으로 8초 혹은 그 이상이 발생하는 문제가 있었습니다 <br>
+      이를 해결하기 위해 카운트 하기 위한 요청을 사용하지 않고,<br>
+      한번에 쿼리에 값을 가져온 후 Service Layer에서 .getCount() 메소드를 통해 개수를 체크해 처리도록 수정 했습니다.<br><br>
+      
+      이렇게 접근한 이유가 몇가지 존재했는데.<br>
+      1. 쿼리를 한번만 날리면 되기 때문에 DB에 부하가 적습니다.<br>
+      2. WebServer는 메모리 상에서 동작하기 때문에 단순 카운트의 경우 메모리에서 처리하는 것이 더 빠릅니다.<br><br>
+      3. 사용자는 더 빠른 응답을 받을 수 있습니다.<br>
+      </article>
 
 footer_show_references: true
 

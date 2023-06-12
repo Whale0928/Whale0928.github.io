@@ -85,7 +85,16 @@
       <workItem from="1686188996704" duration="7552000" />
       <workItem from="1686200950589" duration="4582000" />
       <workItem from="1686225214066" duration="4700000" />
+      <workItem from="1686545269360" duration="6610000" />
     </task>
+    <task id="LOCAL-00001" summary="docs : 회사정보 작성">
+      <created>1686288290678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686288290678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
+    <MESSAGE value="docs : 회사정보 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : 회사정보 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
