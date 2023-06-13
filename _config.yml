@@ -48,7 +48,7 @@ about_content: |
   이런 역량과 함께, 저는 스스로의 일을 즐길 수 있는 긍정적인 태도를 가지고 있습니다. 회사의 일을 제 일처럼 여기며, 그 일을 즐기며 열심히 하겠습니다!
 
 content:
-  - title: Projects
+  - title: Projects - 프로젝트
     layout: list
     content:
       - layout: left
@@ -103,7 +103,10 @@ content:
           스토리, 어댑터 게시판으로 구현했습니다.<br><br>
           실시간 채팅 기능을 추가하여 개인정보 보호 및 사용자 간의 긴밀한 커뮤니티 형성을 지원하고,<br> 
           내 주변 동물병원 정보 제공 기능, 반려동물을 위한 물품 구매 및 기부를 할 수 있는 펀딩 기능,<br><br>   
-          마지막으로 사용자의 재미를 더할 수 있는 포인트 게임 등을 더해 기존 '포인핸드'의 웹에서 확장한 사이트를 구현하고자 했습니다.<br>  
+          마지막으로 사용자의 재미를 더할 수 있는 포인트 게임 등을 더해 기존 '포인핸드'의 웹에서 확장한 사이트를 구현하고자 했습니다.<br>
+          
+          <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br>
+          
           </div>
 
           <div style='display:flex; margin-top:15px'>
@@ -127,12 +130,11 @@ content:
               </ul>
             </div>  
           
-          <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br>
           
           </div>
 
 
-  - title: Education
+  - title: Education - 교육 , 학습
     layout: list
     content:
       - layout: left
@@ -159,7 +161,7 @@ content:
           - 과정 동안 하드웨어와 소프트웨어 개발에 관심을 갖게 되었습니다
 
 
-  - title: Work Experience
+  - title: Work Experience - 경력
     layout: list
     content:
       - layout: left
@@ -186,10 +188,10 @@ content:
           
           </div>
 
-  - title: Problem Solving Experience
+  - title: Problem Solving Experience - 문제 해결 경험
     layout: text
     content:
-      <article style='font-size:14px'>
+      <article style= 'font-size:14px; padding:25px; border-bottom:0.5px solid green;'>
       회사에서 사용하는 코드 중 동작하니 더 이상 건드리지 말자하는 코드 들이 많았습니다.<br>
       그러한 코드 중 ERP 특성상 조회되는 행이 5만건이 넘어 화면상에 표현하기 힘든 경우가 있었습니다<br><br>
       
@@ -203,9 +205,11 @@ content:
       
       이렇게 접근한 이유가 몇가지 존재했는데.<br>
       1. 쿼리를 한번만 날리면 되기 때문에 DB에 부하가 적습니다.<br>
-      2. WebServer는 메모리 상에서 동작하기 때문에 단순 카운트의 경우 메모리에서 처리하는 것이 더 빠릅니다.<br><br>
+      2. 어플리케이션 서버는 메모리 상에서 동작하기 때문에 단순 카운트의 경우 메모리에서 처리하는 것이 더 빠릅니다.<br>
       3. 사용자는 더 빠른 응답을 받을 수 있습니다.<br>
       </article>
+
+
 
 footer_show_references: true
 
