@@ -13,7 +13,7 @@ github: www.github.com/Whale0928
 velog: https://velog.io/@disdos0928
 
 # 다크 모드 설정 (options: true, false, never)
-darkmode: false
+darkmode: true
 
 # 소셜 링크
 github_username: Whale0928
@@ -25,36 +25,75 @@ additional_links:
     url: https://velog.io/@disdos0928
 
 about_profile_image: images/profile.jpg
+#자기소개
 about_content: |
   
-  새로운 것을 배우는 것이 재미있고 , 
-  개발에 열정을 가진 서울에 살고 있는 주니어 백엔드 개발자 김현기입니다.
-  
-  💡 저는 '오류와의 대결'을 제 가장 큰 개인 역량으로 소개하고 싶습니다.
-  프로젝트를 진행하면서 오류가 발생했을 때, 저는 당황보다 먼저 그 오류가 어디서 발생했는지, 
-  그리고 가장 가능성이 높은 원인이 무엇인지부터 파악하려고 합니다.  
-  "실수를 방지하기보다는 관리하는 것이 중요하다"라는 말에 저는 깊이 공감합니다.  
-  그 이유는, 같은 오류가 반복되거나 해결책이 없는 오류가 발생하더라도, 저는 그 오류의 원인을 찾아내고 어떻게 해결할 수 있을지에 대해 고민하게 됩니다.
-  저는 이런 오류에 대한 이해와 관리에 노력을 기울이며 개발합니다.
-  이런 역량과 함께, 저는 스스로의 일을 즐길 수 있는 긍정적인 태도를 가지고 있습니다. 회사의 일을 제 일처럼 여기며, 그 일을 즐기며 열심히 하겠습니다!
+  💡 1년차 주니어 백엔드 개발자 김현기입니다. 오류에 대응을 제 가장 큰 개인 역량으로 생각합니다.<br> 
+  프로젝트를 진행하면서, 발생한 오류의 최선의 해결을 위해 질문과 학습을 주저하지 않으며. <br>
+  이러한 오류에 대한 이해와 관리에 노력을 기울이며 개발합니다,<br>
+  또한 좋은 개발은 좋은 팀원과 함께라고 생각하며 팀원들과의 소통과 협업을 중요하게 생각합니다.<br>
+  긍정적인 태도를 가지고 일을 즐기며 열심히 하겠습니다
 
 content:
+  #경력
+  - title: Work Experience - 경력
+    layout: list
+    content:
+      - layout: left
+        title: SGU
+        sub_title: 패션 ERP 솔루션
+        caption: 2022.08 ~
+        description: |
+          <div style="background-color:rgba(000,102,000,0.1); padding:15px; border-radius:14px; font-size:14px;">  
+          
+          💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
+          ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 분야에 특화된 회사입니다.<br><br>
+          
+          부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
+          이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br><br>
+          
+          ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
+          프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br><br>
+          
+          회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
+          이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br><br>
+          </div>
+        
+          <article style= 'font-size:14px; padding:15px; border-top:0.5px solid gray;'>
+          ERP의 특정 시스템에서 5만건 이상의 행을 조회하는 쿼리가 실행 시간을 오래 잡아먹었습니다.<br> 
+          이 문제를 해결하기 위해 먼저 원인을 분석했습니다.<br> 
+          분석 결과, 기존에는 동일한 두 번의 쿼리 실행이 필요하여 시간과 자원이 추가로 소모되는 것을 확인했습니다.<br> 
+          쿼리를 두 번 실행하는 대신,<br> 
+          쿼리를 한 번만 실행하고 그 결과를 어플리케이션 서버 메모리에서 처리하면 더 효율적일 것으로 판단했습니다.<br> 
+          따라서, 기존의 쿼리를 수정하여 한 번의 쿼리로 원하는 결과를 얻을 수 있도록 했고,<br> 
+          해당 결과를 어플리케이션 서버에서 처리하는 로직을 추가했습니다.<br> 
+          이로 인해 응답 시간이 빨라져 사용자 경험이 향상되었고, DB의 부하도 줄어들어 서버의 안정성이 증가했습니다.<br>
+          </article>
+          
+          
+          <article style= 'font-size:14px; padding:15px; border-top:0.5px solid gray;'>
+          자사의 EPR 솔루션과 Groupware 솔루션간 회계 ,결재 등의 처리를 위해 API 연동을 하는 기능을 개발하였습니다.<br>
+          기존 이전 고객사들의 경우 API 연동을 위한 A - Z에 대한 코드를 매 화면 마다 작성하여야 했습니다.<br> 
+          </article>
+
+
+  #프로젝트
   - title: Projects - 프로젝트
     layout: list
     content:
       - layout: left
         title: "PetLink"
-        sub_title: "반려동물 펀딩 플랫폼 개발 프로젝트"
+        sub_title: "2023-03 ~ 2023-08"
         link: "https://github.com/f-lab-edu/petLink"
         description: |
-          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">          
+          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">
             🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.<br> 
-              사용자가 펀딩 리워드를 구매할 때마다 일정 부분의 금액이 도움이 필요한 동물들에게 기부됩니다.<br><br>
               펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
               추후 확장 가능한 서비스라는 생각으로 개발을 진행했습니다.<br> <br>                            
             <a href="https://f-lab-edu.github.io/petLink/">🐶 petLink api docs ( Click )</a><br>
             <a href="http://petlink.cloud/">🐱 Product API Server ( Click )</a><br>        
           </div>
+          
           <div style='display:flex; margin:15px'>          
             <div style='width:50%'>
               <ul style='font-size:14px; padding:10px;'>
@@ -79,60 +118,19 @@ content:
           </div>
           
           <hr style='color:green'>
-
-
-
-  - title: Work Experience - 경력
-    layout: list
-    content:
-      - layout: left
-        title: SGU
-        sub_title: 패션 ERP 솔루션
-        caption: 2022.08 ~
-        description: |
-          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">  
-          
-          💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
-          ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 분야에 특화된 회사입니다.<br><br>
-          
-          부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
-          이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br>
-          결과적으로 프로젝트의 성공적인 진행에 기여하였습니다.<br><br>
-          
-          ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
-          프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br><br>
-          
-          회사가 중견급인만큼 변화에 반응하기 힘든 경우도 있었지만,<br>
-          저는 개인적인 적응력과 유연성을 활용하여<br>
-          그 어떤 도전에도 성공적으로 대응할 수 있었습니다.<br>
-          이런 경험들이 제가 더 큰 도전에 더 능동적으로 대처할 수 있는 능력을 키워주었다고 생각합니다.<br>
-          
-          </div>
-          
-  - title:
-    layout: list
-    content:
       - layout: left
         title: "AllWeAdopt"
-        sub_title: "유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트"
+        sub_title: "2022-04 ~ 2023-08"
         link: "https://github.com/WouldYouAdopt"
         description: |
-          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">          
-          💡 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트를 구현했습니다.<br>
-          '포인핸드'는 앱과 웹을 모두 운영하고 있습니다.<br> 
-          그러나, 상대적으로 콘텐츠가 부족한 웹사이트를 저희의 방식으로 재구성했습니다.<br>
-          기존 유기 동물 관련 정보 조회는 보호소 게시판으로, 실종 동물 찾기 혹은 입양 후기 중심이었던 사용자 게시판을 <br>
-          스토리, 어댑터 게시판으로 구현했습니다.<br><br>
-          실시간 채팅 기능을 추가하여 개인정보 보호 및 사용자 간의 긴밀한 커뮤니티 형성을 지원하고,<br> 
-          내 주변 동물병원 정보 제공 기능, 반려동물을 위한 물품 구매 및 기부를 할 수 있는 펀딩 기능,<br><br>   
-          마지막으로 사용자의 재미를 더할 수 있는 포인트 게임 등을 더해 기존 '포인핸드'의 웹에서 확장한 사이트를 구현하고자 했습니다.<br>
-          
-          <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br>
-          
+          <div style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">            
+            유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
+            유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
+            6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>            
+            <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br>
           </div>
-
-          <div style='display:flex; margin-top:15px'>
           
+          <div style='display:flex; margin-top:15px'>          
             <div style='width:50%'>
               <ul style='font-size:14px; padding:10px;'>
                 <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
@@ -141,21 +139,18 @@ content:
                 <li> ERD, UseCase 등 문서화 작업을 해보는 경험</li>
               </ul>
             </div>
-          
             <div style='width:50%'>
               <ul style='font-size:14px; padding:10px;'>
                 <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
-                  <li>spring framework</li>
-                  <li>Mybatis</li>
-                  <li>Oracle</li>
-                  <li>JavaScript</li>
+                <li>spring framework</li>
+                <li>Mybatis</li>
+                <li>Oracle</li>
+                <li>JavaScript</li>
               </ul>
-            </div>  
-          
-          
+            </div>
           </div>
 
-
+  #교육,학습
   - title: Education - 교육 , 학습
     layout: list
     content:
@@ -169,9 +164,10 @@ content:
           - 진행되는 다양한 헤커톤 종류의 이벤트에 참여하며 재밌고 효율적인 경험을 쌓을 수 있었습니다.
       - layout: left
         title: 클라우드 AWS 구축/운영
-        sub_title: 가벼운 수준의 과제를 통해 클라우드 환경에 친숙해져가는 과정
+        sub_title: 과제를 통해 클라우드 환경에 친숙해져가는 과정
         caption: 2022.10 ~ 2022.12
         description: |
+          - 가벼운 수준의 클라우드 환경 구축 및 운영을 경험
           - 매주 가상의 시나리오를 제공해 문제를 해결하며 경험하는 과정
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 가벼운 수준으로 경험
       - layout: left
@@ -181,35 +177,6 @@ content:
         description: |
           - 컴퓨터 공학과를 전공하며 다양한 프로젝트를 진행하며 경험
           - 과정 동안 하드웨어와 소프트웨어 개발에 관심을 갖게 되었습니다
-
-
-  - title: Problem Solving Experience - 문제 해결 경험
-    layout: text
-    content:
-      <article style= 'font-size:14px; padding:25px; border-bottom:0.5px solid green;'>
-      회사에서 사용하는 코드 중 동작하니 더 이상 건드리지 말자하는 코드 들이 많았습니다.<br>
-      그러한 코드 중 ERP 특성상 조회되는 행이 5만건이 넘어 화면상에 표현하기 힘든 경우가 있었습니다<br><br>
-      
-      이러한 경우 조회 하기 전 미리 카운트를 통해 전체 행의 수를 확인하고,<br>
-      5만건이 넘는다면 사용자에게 조회할 수 없다는 메시지를 띄워주는 기능이 있었습니다.<br><br>
-      
-      다만 여기서 카운트를 위해 미리 조회할 때. 조회 시 , 동일한 쿼리에 COUNT(*)만 사용해 조회하는데.<br>
-      이럴 경우 4초짜리 쿼리라면 단순 계산으로 8초 혹은 그 이상이 발생하는 문제가 있었습니다 <br>
-      이를 해결하기 위해 카운트 하기 위한 요청을 사용하지 않고,<br>
-      한번에 쿼리에 값을 가져온 후 Service Layer에서 .getCount() 메소드를 통해 개수를 체크해 처리도록 수정 했습니다.<br><br>
-      
-      이렇게 접근한 이유가 몇가지 존재했는데.<br>
-      1. 쿼리를 한번만 날리면 되기 때문에 DB에 부하가 적습니다.<br>
-      2. 어플리케이션 서버는 메모리 상에서 동작하기 때문에 단순 카운트의 경우 메모리에서 처리하는 것이 더 빠릅니다.<br>
-      3. 사용자는 더 빠른 응답을 받을 수 있습니다.<br>
-      </article>
-      
-      <article style= 'font-size:14px; padding:25px; border-bottom:0.5px solid green;'>
-      EPR와 GW간 회계처리 ,결재 등을 위해 API 연동을 하는 기능을 개발하였습니다.<br>
-      
-      </article>
-
-
 
 footer_show_references: true
 
