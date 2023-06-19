@@ -58,24 +58,36 @@ content:
           회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
           이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br><br>
           </div>
-        
-          <article style= 'font-size:14px; padding:15px; border-top:0.5px solid gray;'>
+            
+          <section style="border 1px solid gray;"> 
+          <article style= 'font-size:14px; padding:15px;'>
           ERP의 특정 시스템에서 5만건 이상의 행을 조회하는 쿼리가 실행 시간을 오래 잡아먹었습니다.<br> 
-          이 문제를 해결하기 위해 먼저 원인을 분석했습니다.<br> 
+          이 문제를 해결하기 위해 먼저 원인을 분석했습니다.
           분석 결과, 기존에는 동일한 두 번의 쿼리 실행이 필요하여 시간과 자원이 추가로 소모되는 것을 확인했습니다.<br> 
           쿼리를 두 번 실행하는 대신,<br> 
           쿼리를 한 번만 실행하고 그 결과를 어플리케이션 서버 메모리에서 처리하면 더 효율적일 것으로 판단했습니다.<br> 
           따라서, 기존의 쿼리를 수정하여 한 번의 쿼리로 원하는 결과를 얻을 수 있도록 했고,<br> 
           해당 결과를 어플리케이션 서버에서 처리하는 로직을 추가했습니다.<br> 
           이로 인해 응답 시간이 빨라져 사용자 경험이 향상되었고, DB의 부하도 줄어들어 서버의 안정성이 증가했습니다.<br>
-          </article>
-          
-          
+          </article>     
+                
           <article style= 'font-size:14px; padding:15px; border-top:0.5px solid gray;'>
           자사의 EPR 솔루션과 Groupware 솔루션간 회계 ,결재 등의 처리를 위해 API 연동을 하는 기능을 개발하였습니다.<br>
           기존 이전 고객사들의 경우 API 연동을 위한 A - Z에 대한 코드를 매 화면 마다 작성하여야 했습니다.<br> 
+          이는 매번 코드를 작성해야 하는 번거로움과 코드의 중복으로 인한 유지보수의 어려움이 있었습니다.<br>
+          따라서, 기존의 코드를 재사용할 수 있도록 API 연동을 위한 공통 모듈을 개발하였습니다.<br>
+          이를 통해 코드의 중복을 줄이고, 유지보수의 편의성을 높였습니다.<br>
+          여러 충돌이 있었지만. 영업,물류등의 다양한 팀들과의 협업을 통해 API 연동에 대한 이해도를 높일 수 있었습니다.<br>
+          </article>  
+          
+          <article style= 'font-size:14px; padding:15px; border-top:0.5px solid gray;'>
+          개발적인 판단 외에도 현업 사용자들과 소통하고 개선하는 작업을 많이 진행하였습니다.
+          기존에는 쿼리를 통해 공통된 분배 비율을 계산하고 남은 소수점을 개발자가 임의로 분배하여 처리하였습니다.<br>
+          하지만 저는 이건 사용자의 판단이 추가되어야 올바르지 않겠냐고 요청을 올려 사용자들과 협의하였습니다.<br>
+          그 후 해당 기능은 사용자가 직접 분배 비율을 입력하고, 남은 소수점을 처리할 수 있도록 개선하였습니다.<br>
+          외에도 현업 사용자분들과 커뮤니케이션 하며 서로의 타협점을 추구하도록 개선 하는 작업을 여러번 진행하였습니다.
           </article>
-
+          </section>
 
   #프로젝트
   - title: Projects - 프로젝트
@@ -92,7 +104,6 @@ content:
               추후 확장 가능한 서비스라는 생각으로 개발을 진행했습니다.<br> <br>                            
             <a href="https://f-lab-edu.github.io/petLink/">🐶 petLink api docs ( Click )</a><br>
             <a href="http://petlink.cloud/">🐱 Product API Server ( Click )</a><br>        
-          </div>
           
           <div style='display:flex; margin:15px'>          
             <div style='width:50%'>
@@ -105,6 +116,7 @@ content:
                 <li> 추후 확장 가능한 , 성장 가능한 서비스를 만드는 경험 </li>
               </ul>
             </div>          
+          
             <div style='width:50%'>
               <ul style='font-size:14px; padding:10px;'>
                 <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
@@ -114,7 +126,14 @@ content:
                 <li> JPA </li>
                 <li> QueryDSL </li>
               </ul>
-            </div>          
+            </div> 
+          </div>
+          <div style="100%">         
+            <article style= 'font-size:14px; padding:15px;'>
+            테이블 설계에서 여러 부분을 생각했습니다, 서비스적 미래와 확장성을 고려하여 테이블을 설계하였습니다.<br>
+            
+            </article>  
+          </div>
           </div>
           
           <hr style='color:green'>
