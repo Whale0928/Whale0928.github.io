@@ -143,6 +143,56 @@ content:
               이 때 CustomUserService를 통해 생성자와 수정자를 구분하여 문제를 해결했습니다.  
           </article>
         </section>
+      <br><br>
+       <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
+        <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
+        <div style="font-weight:bold; font-size: 18px;">"2022-04 ~ 2023-08"</div>
+        <div style="font-weight:bold; font-size: 15px;">"https://github.com/WouldYouAdopt"</div><br>
+      
+            🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
+            유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
+            6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>                
+      
+            <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br> 
+      
+        <div style='display:flex; margin:15px'>          
+          <div style='width:50%'>
+            <ul style='font-size:14px; padding:10px;'>
+              <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
+              <li> 협업을 통한 프로젝트 경험 </li>
+              <li> 모듈을 추가해 확장해보는 경험 </li>
+              <li> ERD, UseCase 등 문서화 작업을 해보는 경험</li>
+            </ul>
+          </div>          
+      
+          <div style='width:50%'>
+            <ul style='font-size:14px; padding:10px;'>
+              <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
+              <li>spring framework</li>
+              <li>Mybatis</li>
+              <li>Oracle</li>
+              <li>JavaScript</li>
+            </ul>
+          </div> 
+        </div>
+      
+        <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
+          <article style= 'font-size:14px;'>
+            팀 프로젝트 중 가장 고민된 부분은  <b>'협업'</b> 이었습니다.<br><br>
+            패키지의 구조 , 반환 타입의 고민 , 에러에 대응등을 팀원과 함께 하며 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br>
+            동시에 팀원간 불화를 해결하는 과정에서도 협업의 중요성을 느낄 수 있었습니다.<br>
+            서로 다른 의견으로 인해 분쟁하는 일이 자주 발생했지만 , 서로 의견 분쟁이 있을때는 반드시 3자의 팀원을 껴서 중립적인 의견을 받아드려<br>
+            고집이 아닌 협업을 통해 문제를 해결해 나갔습니다.
+          </article> 
+           <br>
+          <article style= 'font-size:14px;'>
+            <b>도전적으로 해본 경험은 '채팅 모듈'</b> 이었습니다.<br>
+            게시판의 기능 중 분양자와 입양자간의 채팅 기능을 별도의 Node 프로젝트와 SSE 기반으로 구현하였습니다.<br>
+            이 때 같은 스프링 프로젝트 내에서 관리하는게 아닌<br>
+            이를 통해 단순히 프로젝트에 제한적으로 구현하는게 아닌 목적을 위해서 다양한 기능을 활용하는 경험을 해보았습니다.
+           </article>
+        </section>
+
 
 
   #교육,학습
