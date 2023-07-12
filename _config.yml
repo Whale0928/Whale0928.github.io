@@ -53,7 +53,7 @@ content:
           부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
           이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br><br>          
           ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
-          프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br><br>          
+          프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br>          
           회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
           이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br>
         
@@ -76,7 +76,7 @@ content:
           </article>
           <br>
           <article style= 'font-size:14px;'>
-              <b> ⬛ 사용자 중심의 기능 개선:</b> 사용자와의 소통을 통해 개선사항을 발견하고 적용하였습니다. 
+              <b> ⬛ 사용자 중심의 기능 개선:</b> 사용자와의 소통을 통해 개선사항을 발견하고 적용하였습니다. <br>
               예를 들어 기존에는 DB 레이어 에서 강제로 Round 처리 되어. 데이터가 부정합하지만 감수하고 사용하던 부분을<br>
               해당 현업 팀과 협의 하에 사용자가 직접 분배 비율을 입력하고,<br>
               남은 소수점을 처리할 수 있도록 기능을 개선한 것입니다.<br>
@@ -99,7 +99,11 @@ content:
       <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
         <div style="font-weight:bold; font-size: 34px;">PetLink</div>
         <div style="font-weight:bold; font-size: 18px;">"2023-03 ~ 2023-08"</div>
-        <div style="font-weight:bold; font-size: 15px;">"https://github.com/f-lab-edu/petLink"</div><br>
+        <div style="font-weight:bold; font-size: 15px;">
+          <a href='https://github.com/f-lab-edu/petLink' style='color:black;'>"https://github.com/f-lab-edu/petLink"</a>
+        </div>
+      
+        <br>
         
         🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.<br> 
           펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
@@ -141,9 +145,9 @@ content:
           </article> 
            <br>
           <article style= 'font-size:14px;'>
-            <b> ⬛ 경험으로 중요하게 생각했던 부분은</b> 문서화였습니다.<br>
-            대표적으로 프론트 팀이 따로 존재하진 않았지만 서로 협력을 위한 문서화 링크를 구성하고 <br>
-            일정 관리를 위한 마일스톤과 깃허브 프로젝트등 다양한 코드 외 작업을 관리하며 기록을 중시하려 했습니다.
+            <b> ⬛ 경험으로 중요하게 생각했던 부분은</b> <a href='https://f-lab-edu.github.io/petLink/'>문서화</a>였습니다.<br>
+            대표적으로 프론트 팀이 따로 존재하진 않았지만 서로 협력을 위한 <a href='https://f-lab-edu.github.io/petLink/'>문서화</a> 링크를 구성하고 <br>
+            일정 관리를 위한 마일스톤과 깃허브 프로젝트등 다양한 코드 외 작업을 관리하며 <a href='https://f-lab-edu.github.io/petLink/'>문서화</a>를 중시하려 했습니다.<br>
           </article>
            <br>
           <article style= 'font-size:14px;'>
@@ -156,7 +160,9 @@ content:
        <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
         <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
         <div style="font-weight:bold; font-size: 18px;">"2022-04 ~ 2023-08"</div>
-        <div style="font-weight:bold; font-size: 15px;">"https://github.com/WouldYouAdopt"</div><br>
+        <div style="font-weight:bold; font-size: 15px;">
+          <a href='https://github.com/WouldYouAdopt' style='color:black;'>"https://github.com/WouldYouAdopt"</a>
+        </div>
       
             🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
             유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
