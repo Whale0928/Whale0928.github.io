@@ -152,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689172807832</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="docs : 이력서 추가 작성">
+      <option name="closed" value="true" />
+      <created>1689173623965</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689173623965</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

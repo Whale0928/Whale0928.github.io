@@ -25,14 +25,17 @@ additional_links:
     url: https://velog.io/@disdos0928
 
 about_profile_image: images/profile.jpg
+
 #자기소개
 about_content: |
-  <div style="padding: 15px; text-align: center; font-size: 16px;">
+  <a href='https://whale0928.github.io/' style = 'color:black;' >https://whale0928.github.io/</a> 해당 링크에서 더욱 편하게 읽을 수 있습니다. <br>
+  
+  <div style="padding: 15px; text-align: left; font-size: 16px;">
   💡 1년차 주니어 백엔드 개발자 김현기입니다. 오류에 대응을 제 가장 큰 개인 역량으로 생각합니다.<br> 
   프로젝트를 진행하면서, 발생한 오류의 최선의 해결을 위해 질문과 학습을 주저하지 않으며. <br>
   이러한 오류에 대한 이해와 관리에 노력을 기울이며 개발합니다,<br><br>
   또한 좋은 개발은 좋은 팀원과 함께라고 생각하며 팀원들과의 소통과 협업을 중요하게 생각합니다.<br>
-  긍정적인 태도를 가지고 일을 즐기며 열심히 하겠습니다
+  긍정적인 태도를 가지고 일을 즐기며 열심히 하겠습니다<br><br>
   </div>
 content:
   #경력
