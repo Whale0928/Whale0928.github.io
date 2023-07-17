@@ -9,6 +9,7 @@ version: 2
 name: 김현기
 title: Junior Backend Engineer
 email: rlagusrl928@gmail.com
+phone: 010-9916-1042
 github: www.github.com/Whale0928
 velog: https://velog.io/@disdos0928
 
@@ -16,10 +17,13 @@ velog: https://velog.io/@disdos0928
 darkmode: never
 
 # 소셜 링크
-github_username: Whale0928
+# github_username: Whale0928
 
 # 아이콘 추가 시 경로 추가
 additional_links:
+  - title: github
+    icon: fab fa-github
+    url: www.github.com/Whale0928
   - title: velog
     icon: fas fa-blog
     url: https://velog.io/@disdos0928
@@ -28,14 +32,13 @@ about_profile_image: images/profile.jpg
 
 #자기소개
 about_content: |
-  <a href='https://whale0928.github.io/' style = 'color:black;' >https://whale0928.github.io/</a> 해당 링크에서 더욱 편하게 읽을 수 있습니다. <br>
-  
-  <div style="padding: 15px; text-align: left; font-size: 16px;">
-  💡 1년차 주니어 백엔드 개발자 김현기입니다. 오류에 대응을 제 가장 큰 개인 역량으로 생각합니다.<br> 
-  프로젝트를 진행하면서, 발생한 오류의 최선의 해결을 위해 질문과 학습을 주저하지 않으며. <br>
-  이러한 오류에 대한 이해와 관리에 노력을 기울이며 개발합니다,<br><br>
-  또한 좋은 개발은 좋은 팀원과 함께라고 생각하며 팀원들과의 소통과 협업을 중요하게 생각합니다.<br>
-  긍정적인 태도를 가지고 일을 즐기며 열심히 하겠습니다<br><br>
+  <div style="padding: 15px; text-align: left; font-size: 14px;">
+  💡 주니어 백엔드 개발자 김현기입니다. 오류에 대한 깊은 이해와 그에 대응하는 능력을 제 가장 큰 자산으로 여깁니다.<br> 
+  프로젝트를 진행하면서 발생하는 오류는 저에게 새로운 도전이며, 이를 해결하기 위해 끊임없이 질문하고 학습합니다.<br>
+  이러한 과정을 통해 오류 관리와 이해를 향상시키며, 더 나은 개발자로 성장하고 있습니다.<br><br>
+  또한, 좋은 개발은 좋은 팀원들과 함께 이루어진다는 것을 믿습니다.<br>
+  따라서 팀원들과의 원활한 소통과 협업을 매우 중요하게 생각합니다.<br>
+  항상 긍정적인 태도를 유지하며, 일에 대한 열정을 잃지 않고 즐겁게 일하겠습니다.<br><br>
   </div>
 content:
   #경력
@@ -43,56 +46,63 @@ content:
     layout: text
     content: |
       <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px; margin-top:20px">
-        
+      
         <section id="title" style="text-align: left;">
           <div style="font-weight: bold; font-size: 34px;">SGU</div>
           <div style="font-weight: bold; font-size: 18px;">패션 ERP 솔루션</div>
           <div style="font-weight: bold; font-size: 15px;">2022.08 ~ 재직</div>
         </section><br>
-        
+      
           💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
           ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 분야에 특화된 회사입니다.<br><br>
-          
+      
           부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
           이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br><br>          
           ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
           프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br>          
           회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
-          이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br>
-        
-        
-        <br>
-        <div style= 'font-size:20px; font-weight:bold'> 💼 업무 경험</div>
-        <br>
+          이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br><br>
       
-          <article style= 'font-size:14px;'>
-              <b> ⬛ 쿼리 최적화로 ERP 시스템의 응답 시간 개선:</b> 
-              50,000건 이상의 데이터를 처리하는 데 시간이 오래 걸리는 쿼리 문제를 해결하기 위해,<br>
-              쿼리를 한 번만 실행하고 결과를 애플리케이션 서버 메모리에서 처리하는 방법으로 최적화하였습니다.<br>
-              이로써 사용자 경험이 향상되고, DB 부하도 줄어들어 서버 안정성이 증가하였습니다.<br>
-          </article>
+        <div style= 'font-size:20px; font-weight:bold'> 💼 업무 경험</div><br>
+      
+            <article style= 'font-size:14px;'>
+              <div style="font-size: 15px; font-weight: bold;">쿼리 최적화로 ERP 시스템의 응답 시간 개선</div>
+              <ul>
+                <li>단순 조회를 위해 불필요한 조회 중복 발생.</li>
+                <li>50,000건 이상의 데이터 처리에 대한 쿼리 최적화.</li>
+                <li>쿼리 한 번 실행 후 결과를 애플리케이션 서버 메모리에서 처리.</li>
+                <li>사용자 경험 향상 및 DB 부하 감소로 서버 안정성 증가.</li>
+              </ul>
+            </article>
           <br>
-          <article style= 'font-size:14px;'>
-              <b> ⬛ API 연동을 위한 공통 모듈 개발:</b> 
-              회계 및 결재 처리를 위해 ERP 솔루션과 Groupware 솔루션 간 API를 연동하는 기능을 개발하였습니다.<br>
-              이 과정에서 API 연동에 필요한 코드를 재사용 가능하게 하는 공통 모듈을 개발함으로써, 코드 중복을 줄이고 유지보수의 효율성을 높였습니다.<br>
-          </article>
+            <article style= 'font-size:14px;'>
+              <div style="font-size: 15px; font-weight: bold;">API 연동을 위한 공통 모듈 개발</div>
+              <ul>
+                <li>ERP 솔루션과 Groupware 솔루션 간 API 연동 기능 개발.</li>
+                <li>API 연동에 필요한 코드 재사용 가능한 공통 모듈 개발.</li>
+                <li>코드 중복 감소 및 유지보수 효율성 향상.</li>
+              </ul>
+            </article>
           <br>
-          <article style= 'font-size:14px;'>
-              <b> ⬛ 사용자 중심의 기능 개선:</b> 사용자와의 소통을 통해 개선사항을 발견하고 적용하였습니다. <br>
-              예를 들어 기존에는 DB 레이어 에서 강제로 Round 처리 되어. 데이터가 부정합하지만 감수하고 사용하던 부분을<br>
-              해당 현업 팀과 협의 하에 사용자가 직접 분배 비율을 입력하고,<br>
-              남은 소수점을 처리할 수 있도록 기능을 개선한 것입니다.<br>
-              이런 작업을 통해 사용자와의 커뮤니케이션을 강화하고 서로의 타협점을 찾아냈습니다.
-          </article>
+            <article style= 'font-size:14px;'>
+              <div style="font-size: 15px; font-weight: bold;">사용자 중심의 기능 개선</div>
+              <ul>
+                <li>사용자와의 협의를 통한 개선사항 발견 및 적용.</li>
+                <li>DB 레이어에서의 강제 Round 처리 문제를 협의를 통해 사용자 입력 분배 비율로 해결.</li>
+                <li>사용자와의 커뮤니케이션 강화 및 타협점 도출.</li>
+              </ul>
+            </article>
           <br>
-          <article style= 'font-size:14px;'>
-              <b> ⬛ 통계성 데이터 처리 : </b> ERP의 사업실적이라는 부분을 경험하며<br>
-              여러 실적 내역에 대한 통계성 데이터를 처리하고 조회하는 경험을 하였습니다.<br>
-              브랜드별 전년대비, 특정품목의 전년대비 , 시즌별 목표 실적등 다양한 데이터를 처리하고,<br>
-              이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br>
-          </article>
-      </section>
+            <article style= 'font-size:14px;'>
+              <div style="font-size: 15px; font-weight: bold;">통계성 데이터 처리</div>
+                <ul>
+                  <li>사업실적 부분 영역에서 통계성 데이터 처리 및 조회 경험.</li>
+                  <li>브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 다양한 데이터 처리.</li>
+                  <li>사용자 요구사항 이해 및 요구사항에 맞는 기능 구현.</li>
+                  <li>과도한 범위의 조회를 위해 쿼리를 속도 향상을 위한 경험</li>
+                </ul>
+            </article>
+          </section>
 
 
   #프로젝트
@@ -107,14 +117,14 @@ content:
         </div>
       
         <br>
-        
+      
         🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.<br> 
           펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
           추후 확장 가능한 서비스라는 생각으로 개발을 진행했습니다.<br> <br>                         
-        
+      
           <a href="https://f-lab-edu.github.io/petLink/">🐶 petLink api docs ( Click )</a><br>
           <a href="http://petlink.cloud/">🐱 Product API Server ( Click )</a><br>        
-        
+      
         <div style='display:flex; margin:15px'>          
           <div style='width:50%'>
             <ul style='font-size:14px; padding:10px;'>
@@ -126,7 +136,7 @@ content:
                 <li> 추후 확장 가능한 , 성장 가능한 서비스를 만드는 경험 </li>
             </ul>
           </div>          
-        
+      
           <div style='width:50%'>
             <ul style='font-size:14px; padding:10px;'>
               <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
@@ -139,27 +149,46 @@ content:
           </div> 
         </div>
       
-        <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
-          <article style= 'font-size:14px;'>
-              <b> ⬛ 테이블 설계 과정에서 제가 특히 집중했던 부분은</b> '데이터 무결성 보장'이었습니다.<br>
-              예를 들어, 'funding' 테이블과 'order' 테이블 사이의 관계를 설정할 때, 각 주문이 어떤 펀딩 아이템에 속하는지 정확하게 연결해야 했습니다.<br>
-              이를 위해 'order' 테이블에 'funding_id'라는 외래 키를 설정하여, 주문과 펀딩 아이템 간의 정확한 매핑을 보장하였습니다. <br>
-              이렇게 하여 펀딩 아이템과 주문 간의 데이터 무결성을 유지하면서, 펀딩 서비스의 핵심 비즈니스 요구사항을 정확하게 반영할 수 있었습니다.
-          </article> 
-           <br>
-          <article style= 'font-size:14px;'>
-            <b> ⬛ 경험으로 중요하게 생각했던 부분은</b> <a href='https://f-lab-edu.github.io/petLink/'>문서화</a>였습니다.<br>
-            대표적으로 프론트 팀이 따로 존재하진 않았지만 서로 협력을 위한 <a href='https://f-lab-edu.github.io/petLink/'>문서화</a> 링크를 구성하고 <br>
-            일정 관리를 위한 마일스톤과 깃허브 프로젝트등 다양한 코드 외 작업을 관리하며 <a href='https://f-lab-edu.github.io/petLink/'>문서화</a>를 중시하려 했습니다.<br>
-          </article>
-           <br>
-          <article style= 'font-size:14px;'>
-              <b> ⬛ 공통된 기록을 남기는 도중 충돌을 해결하기 위해 고민하기도 했습니다.</b> JPA Auditing를 통해 생성자와 수정자를 기록할 때 <br>
-              두개의 엔티티(매니저,멤버) 가 사용자로서 존재하기 때문에 충돌 문제가 발생했습니다. <br>
-              이 때 CustomUserService를 통해 생성자와 수정자를 구분하여 문제를 해결했습니다.  
-          </article>
-        </section>
+        <article style= 'font-size:14px;'>
+          <div style="font-size: 15px; font-weight: bold;">쿼리 최적화로 ERP 시스템의 응답 시간 개선</div>
+          <ul>
+            <li>50,000건 이상의 데이터 처리에 대한 쿼리 최적화.</li>
+            <li>쿼리 한 번 실행 후 결과를 애플리케이션 서버 메모리에서 처리.</li>
+            <li>사용자 경험 향상 및 DB 부하 감소로 서버 안정성 증가.</li>
+          </ul>
+        </article>
+        <br>
+        <article style= 'font-size:14px;'>
+          <div style="font-size: 15px; font-weight: bold;">API 연동을 위한 공통 모듈 개발</div>
+          <ul>
+            <li>ERP 솔루션과 Groupware 솔루션 간 API 연동 기능 개발.</li>
+            <li>API 연동에 필요한 코드 재사용 가능한 공통 모듈 개발.</li>
+            <li>코드 중복 감소 및 유지보수 효율성 향상.</li>
+          </ul>
+        </article>
+        <br>
+        <article style= 'font-size:14px;'>
+          <div style="font-size: 15px; font-weight: bold;">사용자 중심의 기능 개선</div>
+          <ul>
+            <li>사용자와의 소통을 통한 개선사항 발견 및 적용.</li>
+            <li>DB 레이어에서의 강제 Round 처리 문제를 사용자 입력 분배 비율로 해결.</li>
+            <li>사용자와의 커뮤니케이션 강화 및 타협점 도출.</li>
+          </ul>
+        </article>
+        <br>
+        <article style= 'font-size:14px;'>
+          <div style="font-size: 15px; font-weight: bold;">통계성 데이터 처리</div>
+          <ul>
+            <li>ERP의 사업실적 부분에서 통계성 데이터 처리 및 조회 경험.</li>
+            <li>브랜드별, 품목별, 시즌별 목표 실적 등 다양한 데이터 처리.</li>
+            <li>사용자 요구사항 이해 및 요구사항에 맞는 기능 구현.</li>
+          </ul>
+        </article>
+      
+      </section>
+      
       <br><br>
+      
        <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
         <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
         <div style="font-weight:bold; font-size: 18px;">"2022-04 ~ 2023-08"</div>
@@ -173,7 +202,7 @@ content:
       
             <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br> 
       
-        <div style='display:flex; margin:15px'>          
+         <div style='display:flex; margin:15px'>          
           <div style='width:50%'>
             <ul style='font-size:14px; padding:10px;'>
               <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
@@ -184,31 +213,35 @@ content:
           </div>          
       
           <div style='width:50%'>
-            <ul style='font-size:14px; padding:10px;'>
-              <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
-              <li>spring framework</li>
-              <li>Mybatis</li>
-              <li>Oracle</li>
-              <li>JavaScript</li>
-            </ul>
-          </div> 
-        </div>
+              <ul style='font-size:14px; padding:10px;'>
+                <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
+                <li>spring framework</li>
+                <li>Mybatis</li>
+                <li>Oracle</li>
+                <li>JavaScript</li>
+              </ul>
+            </div> 
+          </div>
       
-        <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
-          <article style= 'font-size:14px;'>
-            팀 프로젝트 중 가장 고민된 부분은  <b>'협업'</b> 이었습니다.<br><br>
-            패키지의 구조 , 반환 타입의 고민 , 에러에 대응등을 팀원과 함께 하며 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br>
-            동시에 팀원간 불화를 해결하는 과정에서도 협업의 중요성을 느낄 수 있었습니다.<br>
-            서로 다른 의견으로 인해 분쟁하는 일이 자주 발생했지만 , 서로 의견 분쟁이 있을때는 반드시 3자의 팀원을 껴서 중립적인 의견을 받아드려<br>
-            고집이 아닌 협업을 통해 문제를 해결해 나갔습니다.
-          </article> 
-           <br>
-          <article style= 'font-size:14px;'>
-            <b>도전적으로 해본 경험은 '채팅 모듈'</b> 이었습니다.<br>
-            게시판의 기능 중 분양자와 입양자간의 채팅 기능을 별도의 Node 프로젝트와 SSE 기반으로 구현하였습니다.<br>
-            이 때 같은 스프링 프로젝트 내에서 관리하는게 아닌<br>
-            이를 통해 단순히 프로젝트에 제한적으로 구현하는게 아닌 목적을 위해서 다양한 기능을 활용하는 경험을 해보았습니다.
-           </article>
+          <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
+            <article style= 'font-size:14px;'>
+              <div style="font-size: 15px; font-weight: bold;">협업 경험</div>
+              <ul>
+                <li>팀 프로젝트를 진행하면서 '협업'의 중요성을 깊이 이해.</li>
+                <li>패키지 구조, 반환 타입, 에러 대응 등의 문제를 팀원과 함께 논의를 통해 해결.</li>
+                <li>의견 분쟁이 발생할 때는 중립적인 의견을 받아들여 문제를 해결.</li>
+              </ul>
+            </article> 
+          <br>
+           <article style= 'font-size:14px;'>
+             <div style='font-size: 15px; font-weight: bold;'>채팅 모듈 구현</div>
+              <ul>
+                <li>'채팅 모듈' 구현에 처음 사용해보는 기술을 활용해 도전.</li>
+                <li>Node.Js와 SSE 기반으로 채팅 기능을 구현.</li>
+                <li>클라우드 서버를 처음으로 구축하여 별도의 채팅 서버를 구축.</li>
+                <li>프로젝트에 제한적이지 않고, 기능의 목적을 위해 다양한 기술을 활용.</li>
+              </ul>
+            </article>
         </section>
 
 
