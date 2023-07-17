@@ -149,49 +149,44 @@ content:
           </div> 
         </div>
       
-        <article style= 'font-size:14px;'>
-          <div style="font-size: 15px; font-weight: bold;">쿼리 최적화로 ERP 시스템의 응답 시간 개선</div>
-          <ul>
-            <li>50,000건 이상의 데이터 처리에 대한 쿼리 최적화.</li>
-            <li>쿼리 한 번 실행 후 결과를 애플리케이션 서버 메모리에서 처리.</li>
-            <li>사용자 경험 향상 및 DB 부하 감소로 서버 안정성 증가.</li>
-          </ul>
-        </article>
-        <br>
-        <article style= 'font-size:14px;'>
-          <div style="font-size: 15px; font-weight: bold;">API 연동을 위한 공통 모듈 개발</div>
-          <ul>
-            <li>ERP 솔루션과 Groupware 솔루션 간 API 연동 기능 개발.</li>
-            <li>API 연동에 필요한 코드 재사용 가능한 공통 모듈 개발.</li>
-            <li>코드 중복 감소 및 유지보수 효율성 향상.</li>
-          </ul>
-        </article>
-        <br>
-        <article style= 'font-size:14px;'>
-          <div style="font-size: 15px; font-weight: bold;">사용자 중심의 기능 개선</div>
-          <ul>
-            <li>사용자와의 소통을 통한 개선사항 발견 및 적용.</li>
-            <li>DB 레이어에서의 강제 Round 처리 문제를 사용자 입력 분배 비율로 해결.</li>
-            <li>사용자와의 커뮤니케이션 강화 및 타협점 도출.</li>
-          </ul>
-        </article>
-        <br>
-        <article style= 'font-size:14px;'>
-          <div style="font-size: 15px; font-weight: bold;">통계성 데이터 처리</div>
-          <ul>
-            <li>ERP의 사업실적 부분에서 통계성 데이터 처리 및 조회 경험.</li>
-            <li>브랜드별, 품목별, 시즌별 목표 실적 등 다양한 데이터 처리.</li>
-            <li>사용자 요구사항 이해 및 요구사항에 맞는 기능 구현.</li>
-          </ul>
-        </article>
+        <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
+          <article style= 'font-size:14px;'>
+            <div style="font-size: 15px; font-weight: bold;">데이터 무결성 보장에 집중한 테이블 설계</div>
+              <ul>
+                <li>'funding' 테이블과 'order' 테이블 사이의 관계 설정에 집중.</li>
+                <li>'order' 테이블에 'funding_id' 외래 키 설정으로 정확한 매핑 보장.</li>
+                <li>펀딩 아이템과 주문 간의 데이터 무결성 유지.</li>
+                <li>데이터 무결성 보장을 통해 서비스의 핵심 비즈니스 요구사항 정확 반영.</li>
+              </ul>
+          </article>
+          <br>
       
-      </section>
+          <article style= 'font-size:14px;'>
+            <div style="font-size: 15px; font-weight: bold;">문서화 중시</div>
+            <ul>
+              <li><a href='https://f-lab-edu.github.io/petLink/'>문서화</a>를 중요하게 생각하며 프로젝트 진행.</li>
+              <li>마일스톤과 깃허브 프로젝트 등을 활용한 일정 관리.</li>
+              <li>코드 외 작업도 철저히 <a href='https://f-lab-edu.github.io/petLink/'>문서화</a>.</li>
+              <li>문서화를 통해 프로젝트의 투명성과 협업 효율성 증대.</li>
+            </ul>
+          </article>
+          <br>
+      
+          <article style= 'font-size:14px;'>
+            <div style="font-size: 15px; font-weight: bold;">충돌 해결</div>
+            <ul>
+              <li>JPA Auditing을 통한 생성자와 수정자 기록 중 충돌 문제 발생.</li>
+              <li>CustomUserService를 통해 생성자와 수정자를 구분하여 문제 해결.</li>
+              <li>충돌 해결을 통해 데이터 무결성 유지 및 서비스 안정성 확보.</li>
+            </ul>
+          </article>
+        </section>
       
       <br><br>
       
        <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
         <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
-        <div style="font-weight:bold; font-size: 18px;">"2022-04 ~ 2023-08"</div>
+        <div style="font-weight:bold; font-size: 18px;">"2022-04 ~ 2022-08"</div>
         <div style="font-weight:bold; font-size: 15px;">
           <a href='https://github.com/WouldYouAdopt' style='color:black;'>"https://github.com/WouldYouAdopt"</a>
         </div>
