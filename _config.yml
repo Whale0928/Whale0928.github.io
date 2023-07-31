@@ -7,11 +7,11 @@ version: 2
 
 # 개인정보
 name: 김현기
-title: Junior Backend Engineer
+title: Junior Backend Developer
 email: rlagusrl928@gmail.com
 phone: 010-9916-1042
-github: www.github.com/Whale0928
-velog: https://velog.io/@disdos0928
+website: https://velog.io/@disdos0928
+website_title: Blog
 
 # 다크 모드 설정 (options: true, false, never)
 darkmode: never
@@ -33,12 +33,15 @@ about_profile_image: images/profile.jpg
 #자기소개
 about_content: |
   <div style="padding: 15px; text-align: left; font-size: 14px;">
-  💡 주니어 백엔드 개발자 김현기입니다. 오류에 대한 깊은 이해와 그에 대응하는 능력을 제 가장 큰 자산으로 여깁니다.<br> 
-  프로젝트를 진행하면서 발생하는 오류는 저에게 새로운 도전이며, 이를 해결하기 위해 끊임없이 질문하고 학습합니다.<br>
-  이러한 과정을 통해 오류 관리와 이해를 향상시키며, 더 나은 개발자로 성장하고 있습니다.<br><br>
-  또한, 좋은 개발은 좋은 팀원들과 함께 이루어진다는 것을 믿습니다.<br>
-  따라서 팀원들과의 원활한 소통과 협업을 매우 중요하게 생각합니다.<br>
-  항상 긍정적인 태도를 유지하며, 일에 대한 열정을 잃지 않고 즐겁게 일하겠습니다.<br><br>
+  안녕하세요 주니어 백엔드 개발자 김현기입니다. 저를 한 마디로 표현하자면 '도전을 즐기는 개발자'입니다.<br> 
+  새로운 문제를 만나면 끊임없이 질문하고 학습하며 실험하여 문제를 해결합니다.<br> 
+  이 과정에서 성장하여 더 나은 개발자가 되고자 노력하고 있습니다.<br><br>
+  또한, 팀에서의 소통과 협업을 중요하게 생각합니다.<br> 
+  저는 좋은 개발은 좋은 팀원들과 함께 이루어진다고 믿습니다.<br> 
+  그래서 항상 긍정적인 태도로 팀원들과 원활한 소통을 유지하려고 노력합니다.<br><br>
+  저는 항상 배우는 것을 즐기며, 새로운 기술, 방법론, 도구 등 언제나 배우기를 기대합니다.<br> 
+  이러한 자세는 저를 끊임없이 발전시켜주고, 변화하는 기술 트렌드에 빠르게 적응하게 만듭니다.<br>
+  감사합니다.<br>
   </div>
 content:
   #경력
