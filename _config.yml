@@ -1,3 +1,4 @@
+# 서버 시작 명령어 bundel exec jekyll serve
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
