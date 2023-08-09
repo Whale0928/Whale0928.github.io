@@ -31,7 +31,8 @@ additional_links:
 about_profile_image: images/profile.jpg
 
 #자기소개
-about_content: |
+about_content:
+  |
   <div style="padding: 15px; text-align: left; font-size: 14px;">
   안녕하세요 주니어 백엔드 개발자 김현기입니다. 저를 한 마디로 표현하자면 '도전을 즐기는 개발자'입니다.<br> 
   새로운 문제를 만나면 끊임없이 질문하고 학습하며 실험하여 문제를 해결합니다.<br> 
@@ -57,8 +58,7 @@ content:
         </section><br>
       
           💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
-          ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 분야에 특화된 회사입니다.<br><br>
-      
+          ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 회사입니다.<br><br>
           부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
           이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br><br>          
           ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
@@ -72,8 +72,8 @@ content:
               <div style="font-size: 15px; font-weight: bold;">쿼리 최적화로 ERP 시스템의 응답 시간 개선</div>
               <ul>
                 <li>단순 조회를 위해 불필요한 조회 중복 발생.</li>
-                <li>50,000건 이상의 데이터 처리에 대한 쿼리 최적화.</li>
-                <li>쿼리 한 번 실행 후 결과를 애플리케이션 서버 메모리에서 처리.</li>
+                <li>500,000건 이상의 데이터 처리에 대한 쿼리 최적화.</li>
+                <li>쿼리 한 번 실행 후 중복 조회 결과를 애플리케이션 서버 메모리에서 처리.</li>
                 <li>사용자 경험 향상 및 DB 부하 감소로 서버 안정성 증가.</li>
               </ul>
             </article>
@@ -81,9 +81,10 @@ content:
             <article style= 'font-size:14px;'>
               <div style="font-size: 15px; font-weight: bold;">API 연동을 위한 공통 모듈 개발</div>
               <ul>
-                <li>ERP 솔루션과 Groupware 솔루션 간 API 연동 기능 개발.</li>
-                <li>API 연동에 필요한 코드 재사용 가능한 공통 모듈 개발.</li>
+                <li>ERP 솔루션과 Groupware 솔루션 간 API 전자결제 연동 기능 개발.</li>
+                <li>API 연동에 필요한 공통 모듈 개발.</li>
                 <li>코드 중복 감소 및 유지보수 효율성 향상.</li>
+                <li>타 파트에서도 공통된 모듈을 개발해 문제 대응에 효과적으로 대응.</li>
               </ul>
             </article>
           <br>
@@ -112,12 +113,35 @@ content:
   - title: Projects - 프로젝트
     layout: text
     content: |
-      <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
+      <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">
+        
+        <style>
+          a{
+            text-decoration: none;
+            color: black;
+          }
+          b{
+            font-weight: bold;
+            font-size: 15px;
+          }
+          article{
+            margin: 20px 0px;
+          }
+          .t3{
+            font-size: 19px;
+            font-weight: bold;
+            margin: 6px 0px; 
+           }
+        </style>
+      
         <div style="font-weight:bold; font-size: 34px;">PetLink</div>
-        <div style="font-weight:bold; font-size: 18px;">"2023-03 ~ 2023-08"</div>
+        <div style="font-weight:bold; font-size: 18px;">2023-03 ~ 2023-08</div>
         <div style="font-weight:bold; font-size: 15px;">
-          <a href='https://github.com/f-lab-edu/petLink' style='color:black;'>"https://github.com/f-lab-edu/petLink"</a>
+          <a href='https://github.com/f-lab-edu/petLink' style='color:black;'>https://github.com/f-lab-edu/petLink</a>
         </div>
+      
+        <a href="https://f-lab-edu.github.io/petLink/">🐶 petLink api docs ( Click )</a><br>
+        <a href="http://petlink.cloud/">🐱 Product API Server ( Click )</a><br>        
       
         <br>
       
@@ -125,13 +149,12 @@ content:
           펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
           추후 확장 가능한 서비스라는 생각으로 개발을 진행했습니다.<br> <br>                         
       
-          <a href="https://f-lab-edu.github.io/petLink/">🐶 petLink api docs ( Click )</a><br>
-          <a href="http://petlink.cloud/">🐱 Product API Server ( Click )</a><br>        
+        <hr>
       
         <div style='display:flex; margin:15px'>          
-          <div style='width:50%'>
+          <div style='width:45%;'>
             <ul style='font-size:14px; padding:10px;'>
-                <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
+                <h4 style='margin-bottom:15px'>  🔍 주요 관심사 / 목표 </h4>
                 <li> 기능 하나하나를 깊게 고민해서 완성도 있게 구현하는 경험 </li>
                 <li> 코드 리뷰를 통해 고품질의 코드를 작성하는 경험 </li>
                 <li> 대용량 트래픽을 발생시켜 경험하고 처리하는 경험 </li>
@@ -140,49 +163,56 @@ content:
             </ul>
           </div>          
       
-          <div style='width:50%'>
-            <ul style='font-size:14px; padding:10px;'>
-              <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
-              <li> JAVA 17 </li>
-              <li> SpringBoot 3.0.5 </li>
-              <li> MySql 8.0 </li>
-              <li> JPA </li>
-              <li> QueryDSL </li>
-              </ul>
+          <div style=" background-color:lightgray;width:1px; margin-right:10px;"></div>
+      
+          <div style='width:45%;padding:10px'>
+              <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경  </h4>
+               JAVA 17 <br>
+               SpringBoot 3.0.5 <br>
+               MySql 8.0 <br>
+               JPA <br>
+               QueryDSL <br>
+              <hr>
+               NAVER_CLOUD <br>
+               Github <br>
           </div> 
         </div>
       
+        <hr>
+      
         <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
-          <article style= 'font-size:14px;'>
-            <div style="font-size: 15px; font-weight: bold;">데이터 무결성 보장에 집중한 테이블 설계</div>
-              <ul>
-                <li>'funding' 테이블과 'order' 테이블 사이의 관계 설정에 집중.</li>
-                <li>'order' 테이블에 'funding_id' 외래 키 설정으로 정확한 매핑 보장.</li>
-                <li>펀딩 아이템과 주문 간의 데이터 무결성 유지.</li>
-                <li>데이터 무결성 보장을 통해 서비스의 핵심 비즈니스 요구사항 정확 반영.</li>
-              </ul>
-          </article>
-          <br>
       
           <article style= 'font-size:14px;'>
-            <div style="font-size: 15px; font-weight: bold;">문서화 중시</div>
-            <ul>
-              <li><a href='https://f-lab-edu.github.io/petLink/'>문서화</a>를 중요하게 생각하며 프로젝트 진행.</li>
-              <li>마일스톤과 깃허브 프로젝트 등을 활용한 일정 관리.</li>
-              <li>코드 외 작업도 철저히 <a href='https://f-lab-edu.github.io/petLink/'>문서화</a>.</li>
-              <li>문서화를 통해 프로젝트의 투명성과 협업 효율성 증대.</li>
-            </ul>
+            <div class='t3'>문서화 중시</div>
+              문서화를 중요하게 생각하며 프로젝트 진행.<br>
+              마일스톤과 깃허브 프로젝트 등을 활용한 일정 관리.<br>
+              <a href='https://velog.io/@disdos0928'> 인프라, 코드들을 포스팅하여 <b>기록들을 관리.</b></a><br>
+              <a href='https://f-lab-edu.github.io/petLink/'><b>API 문서화</b>를 통해 프로젝트의 투명성과 협업 효율성 증대.</a>
           </article>
-          <br>
       
           <article style= 'font-size:14px;'>
-            <div style="font-size: 15px; font-weight: bold;">충돌 해결</div>
-            <ul>
-              <li>JPA Auditing을 통한 생성자와 수정자 기록 중 충돌 문제 발생.</li>
-              <li>CustomUserService를 통해 생성자와 수정자를 구분하여 문제 해결.</li>
-              <li>충돌 해결을 통해 데이터 무결성 유지 및 서비스 안정성 확보.</li>
-            </ul>
+            <div class='t3'>JPA Auditing 충돌</div>
+              JPA Auditing을 통한 생성자와 수정자 기록 중 충돌 문제 발생.<br>
+              CustomUserService를 통해 Member , Manager Entity를 생성자와 수정자를 구분하여 문제 해결.<br>
+              충돌 해결을 통해 데이터 무결성 유지 및 서비스 안정성 확보.<br>  
+              결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음<br>  
+      
+              <a href='https://velog.io/@disdos0928/%EB%91%90-%EA%B0%80%EC%A7%80-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-JPA-Auditing-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%EC%9E%91%EC%84%B1%EC%A4%91'>
+                <b>(Blog) 두개의 엔티티를 사용하면서 JPA Auditing 적용하기</b>
+              </a>
           </article>
+    
+          <article style= 'font-size:14px;'>
+            <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
+              중복되지 않는 주문번호 생성이 필요, 하지만 성능또한 고려해야함 <br>
+              UUID , 발급 서버 , DB 접근등 여러 방면의 조건을 고려 <br>  
+              중복되지 않으면서 + 다중화 환경에서도 활용가능하고 + 성능면에서 효율적인 스노우플레이크 방식 구현 <br>  
+      
+              <a href='https://velog.io/@disdos0928/DB%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4%EC%84%9C-%EC%A3%BC%EB%AC%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4%EC%95%BC%ED%95%9C%EB%8B%A4'>
+                <b>(Blog) DB에 접근하지 않으면서 주문번호를 생성해야한다.</b>
+              </a>
+          </article>
+      
         </section>
       
       <br><br>
@@ -193,33 +223,44 @@ content:
         <div style="font-weight:bold; font-size: 15px;">
           <a href='https://github.com/WouldYouAdopt' style='color:black;'>"https://github.com/WouldYouAdopt"</a>
         </div>
+        
+        
+        <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br> 
       
             🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
             유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
             6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>                
       
-            <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br> 
       
-         <div style='display:flex; margin:15px'>          
-          <div style='width:50%'>
-            <ul style='font-size:14px; padding:10px;'>
-              <h4 style='margin-bottom:15px'>  🔍 주요 관심사 🔍 </h4>
-              <li> 협업을 통한 프로젝트 경험 </li>
-              <li> 모듈을 추가해 확장해보는 경험 </li>
-              <li> ERD, UseCase 등 문서화 작업을 해보는 경험</li>
-            </ul>
-          </div>          
-      
-          <div style='width:50%'>
+            <hr>
+          
+          <div style='display:flex; margin:15px'>
+            <div style='width:45%;'>
               <ul style='font-size:14px; padding:10px;'>
-                <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경 🖥 </h4>
-                <li>spring framework</li>
-                <li>Mybatis</li>
-                <li>Oracle</li>
-                <li>JavaScript</li>
+                <h4 style='margin-bottom:15px'>  🔍 주요 관심사 / 목표 </h4>
+                <li> 협업을 통한 프로젝트 경험 </li>
+                <li> 모듈을 추가해 기능을 확장해보는 경험 </li>
+                <li> 테이블 설계 디자인 경험 </li>
+                <li> 페어 리뷰를 통한 코드 퀄리티 개선 경험 </li>
+                <li> ERD, UseCase, wire-frame 등 여러 문서화 작업을 해보는 경험</li>
               </ul>
-            </div> 
+            </div>
+          
+            <div style=" background-color:lightgray;width:1px; margin-right:10px;"></div>
+          
+            <div style='width:45%;padding:10px'>
+              <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경</h4>
+              JAVA<br>
+              Spring<br>
+              Mybatis<br>
+              Oracle<br>
+              HTML5/JS(ES6)<br>
+              Node.js<br>
+              <hr>
+              AWS-Ec2
+            </div>
           </div>
+          <hr>
       
           <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
             <article style= 'font-size:14px;'>
