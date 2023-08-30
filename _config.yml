@@ -45,71 +45,88 @@ about_content:
   이러한 자세는 저를 끊임없이 발전시켜주고, 변화하는 기술 트렌드에 빠르게 적응하게 만듭니다.<br>
   감사합니다.<br>
   </div>
+
+
 content:
   #경력
   - title: Work Experience - 경력
     layout: text
     content: |
-      <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px; margin-top:20px">
+      <style>
+          .tech-stack {
+              background: ivory;
+              padding: 8px;
+              margin: 3px;
+              border-radius: 10px;
+          }
+  
+          article {
+              font-size: 14px;
+          }
+  
+          .sub-title {
+              font-size: 15px;
+              font-weight: bold;
+              margin-bottom: 5px;
+          }
+  
+      </style>
+    
+      <section  style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px; margin-top:20px">
       
-        <section id="title" style="text-align: left;">
-          <div style="font-weight: bold; font-size: 34px;">SGU</div>
-          <div style="font-weight: bold; font-size: 18px;">패션 ERP 솔루션</div>
-          <div style="font-weight: bold; font-size: 15px;">2022.08 ~ 재직</div>
-        </section><br>
+      <section id="title" style="text-align: left;">
+        <div style="font-weight: bold; font-size: 34px;">SGU</div>
+        <div style="font-weight: bold; font-size: 18px;">ERP</div>
+        <div style="font-weight: bold; font-size: 15px;">2022.08 ~ 재직중</div>
+      </section>
       
-          💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
-          ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 회사입니다.<br><br>
-          부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
-          이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br><br>          
-          ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
-          프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br>          
-          회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
-          이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br><br>
+      <br>
       
-        <hr>
+        💡 네셔널, 네파, 야크, 스노우 피크, 바바 등의 아웃도어 브랜드들의<br>
+        ERP 솔루션 구축 및 유지보수를 패션 ERP 솔루션 회사입니다.<br><br>
+        부서 내 협업과 프로젝트 진행 상황 공유에는 Confluence를 활용했습니다.<br>
+        이 도구를 통해 효율적인 일정 관리와 작업 공유를 실현하였고,<br><br>
+        ERP 솔루션 구축과 유지보수를 통해 물류, 회계,사용자 비즈니스 프로세스를 이해하고,<br>
+        프로젝트에서는 새로운 요구 사항 기능 구현, 외부 인터페이스 관련 작업, 시스템 개선 작업 등 다양한 역할을 수행했습니다.<br>
+        회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
+        이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br>
       
-        <div style= 'font-size:20px; font-weight:bold'> 💼 업무 경험</div><br>
+      <hr>
       
-            <article style= 'font-size:14px;'>
-              <div style="font-size: 15px; font-weight: bold;">쿼리 최적화로 ERP 시스템의 응답 시간 개선</div>
-              <ul>
-                <li>단순 조회를 위해 불필요한 조회 중복 발생.</li>
-                <li>500,000건 이상의 데이터 처리에 대한 쿼리 최적화.</li>
-                <li>쿼리 한 번 실행 후 중복 조회 결과를 애플리케이션 서버 메모리에서 처리.</li>
-                <li>사용자 경험 향상 및 DB 부하 감소로 서버 안정성 증가.</li>
-              </ul>
-            </article>
-          <br>
-            <article style= 'font-size:14px;'>
-              <div style="font-size: 15px; font-weight: bold;">API 연동을 위한 공통 모듈 개발</div>
-              <ul>
-                <li>ERP 솔루션과 Groupware 솔루션 간 API 전자결제 연동 기능 개발.</li>
-                <li>API 연동에 필요한 공통 모듈 개발.</li>
-                <li>코드 중복 감소 및 유지보수 효율성 향상.</li>
-                <li>타 파트에서도 공통된 모듈을 개발해 문제 대응에 효과적으로 대응.</li>
-              </ul>
-            </article>
-          <br>
-            <article style= 'font-size:14px;'>
-              <div style="font-size: 15px; font-weight: bold;">사용자 중심의 기능 개선</div>
-              <ul>
-                <li>사용자와의 협의를 통한 개선사항 발견 및 적용.</li>
-                <li>DB 레이어에서의 강제 Round 처리 문제를 협의를 통해 사용자 입력 분배 비율로 해결.</li>
-                <li>사용자와의 커뮤니케이션 강화 및 타협점 도출.</li>
-              </ul>
-            </article>
-          <br>
-            <article style= 'font-size:14px;'>
-              <div style="font-size: 15px; font-weight: bold;">통계성 데이터 처리</div>
-                <ul>
-                  <li>사업실적 부분 영역에서 통계성 데이터 처리 및 조회 경험.</li>
-                  <li>브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 다양한 데이터 처리.</li>
-                  <li>사용자 요구사항 이해 및 요구사항에 맞는 기능 구현.</li>
-                  <li>과도한 범위의 조회를 위해 쿼리를 속도 향상을 위한 경험</li>
-                </ul>
-            </article>
-          </section>
+      <div style='font-size:20px; font-weight:bold;'>📐기술 스택</div>
+        <article style="margin: 15px">
+          <span class="tech-stack">Java</span>
+          <span class="tech-stack">Oracle</span>
+          <span class="tech-stack">JavaScript</span>
+          <span class="tech-stack">Confluence</span>
+          <span class="tech-stack">Git</span>
+          <span class="tech-stack">SVN</span>
+          <span class="tech-stack">Jenkins</span>
+          <span class="tech-stack">Maven</span>
+          <span class="tech-stack">Linux</span>
+        </article>
+      
+      <hr>
+      
+      <div style='font-size:20px; font-weight:bold'> 💼 업무 경험</div>
+          <article>
+            <div class="sub-title">조회를 위한 중복 쿼리 최적화</div>
+            단순 조회를 위해 불필요한 조회 중복 발생.<br>
+            쿼리 한 번 실행 후 어플리케이션 서버를 활용하여 개선<br>
+            사용자 경험 향상 및 DB 부하 감소로 서버 안정성 증가.
+          </article>
+          <article>
+          <div class="sub-title">ERP와 Groupware 솔루션 간 API 전자결재 연동 기능 개발.</div>
+          API 연동에 필요한 공통 모듈 개발.<br>
+          코드 중복 감소 및 유지보수 효율성 향상.<br>
+          타 파트에서도 공통된 모듈을 개발해 문제 대응에 효과적으로 대응.
+          </article>
+          <article>
+          <div class="sub-title">통계성 데이터 처리 및 조회 경험</div>
+          브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 다양한 통계성 데이터 처리.<br>
+          효율적인 쿼리 작성을 위해 인덱스,캐시등을 활용하여 성능 향상.
+          </article>
+      </section>
 
 
   #프로젝트
