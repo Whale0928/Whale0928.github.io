@@ -67,6 +67,8 @@ content:
           회사내에서의 경험을 통해 ERP 솔루션의 전반적인 구조와 비즈니스 프로세스에 대한 이해를 하였고,<br>
           이를 통해 사용자의 요구사항을 이해하고, 요구사항에 맞는 기능을 구현하는 경험을 하였습니다.<br><br>
       
+        <hr>
+      
         <div style= 'font-size:20px; font-weight:bold'> 💼 업무 경험</div><br>
       
             <article style= 'font-size:14px;'>
@@ -115,7 +117,7 @@ content:
     layout: text
     content: |
       <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">
-        
+      
         <style>
           a{
             text-decoration: none;
@@ -202,7 +204,7 @@ content:
                 <b>(Blog) 두개의 엔티티를 사용하면서 JPA Auditing 적용하기</b>
               </a>
           </article>
-    
+      
           <article style= 'font-size:14px;'>
             <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
               중복되지 않는 주문번호 생성이 필요, 하지만 성능또한 고려해야함 <br>
@@ -224,8 +226,8 @@ content:
         <div style="font-weight:bold; font-size: 15px;">
           <a href='https://github.com/WouldYouAdopt' style='color:black;'>"https://github.com/WouldYouAdopt"</a>
         </div>
-        
-        
+      
+      
         <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br> 
       
             🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
@@ -234,7 +236,7 @@ content:
       
       
             <hr>
-          
+      
           <div style='display:flex; margin:15px'>
             <div style='width:45%;'>
               <ul style='font-size:14px; padding:10px;'>
@@ -246,9 +248,9 @@ content:
                 <li> ERD, UseCase, wire-frame 등 여러 문서화 작업을 해보는 경험</li>
               </ul>
             </div>
-          
+      
             <div style=" background-color:lightgray;width:1px; margin-right:10px;"></div>
-          
+      
             <div style='width:45%;padding:10px'>
               <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경</h4>
               JAVA<br>
