@@ -59,19 +59,19 @@ content:
               margin: 3px;
               border-radius: 10px;
           }
-  
+      
           article {
               font-size: 14px;
           }
-  
+      
           .sub-title {
               font-size: 15px;
               font-weight: bold;
               margin-bottom: 5px;
           }
-  
+      
       </style>
-    
+      
       <section  style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px; margin-top:20px">
       
       <section id="title" style="text-align: left;">
@@ -140,7 +140,7 @@ content:
               margin: 3px;
               border-radius: 10px;
           }
-  
+      
           article {
               font-size: 14px;
           }
@@ -173,7 +173,7 @@ content:
               height: 30px;
               border-radius: 3px;
           }
-  
+      
           .link_btn_expr:hover{
               border: 1px solid lightgray;
               background: ivory;
@@ -181,33 +181,32 @@ content:
               overflow: hidden;
           }
       </style>
-    
+      
       <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;"> 
       
         <div style="font-weight:bold; font-size: 34px;">PetLink</div>
         <div style="font-weight:bold; font-size: 18px;">2023-03 ~ 2023-08</div>
-
         <button class="link_btn"><a href="https://github.com/f-lab-edu/petLink">Github</a></button>
         <button class="link_btn"><a href="https://f-lab-edu.github.io/petLink/">API Document </a></button>
         <button class="link_btn"><a href="http://petlink.cloud/">API Server</a></button>
 
         <br>  
-        
+      
         <article>
           🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.<br>
           펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
           추후 확장 가능한 서비스를 목적으로 개발을 진행했습니다.
        </article>  
-    
-      <div class='t3'>🖥️ 사용 기술 및 환경</div>
-        <span class="tech-stack"> JAVA 17 </span>
-        <span class="tech-stack"> SpringBoot 3.0.5 </span>
-        <span class="tech-stack"> MySql 8.0 </span>
-        <span class="tech-stack"> JPA  </span>
-        <span class="tech-stack"> QueryDSL  </span>
-        <span class="tech-stack"> NCP(NAVER CLOUD PLATFORM)  </span>
-        <span class="tech-stack"> GitHub-action  </span>
-  
+      
+            <div class='t3'>🖥️ 사용 기술 및 환경</div>
+              <span class="tech-stack"> JAVA 17 </span>
+              <span class="tech-stack"> SpringBoot 3.0.5 </span>
+              <span class="tech-stack"> MySql 8.0 </span>
+              <span class="tech-stack"> JPA  </span>
+              <span class="tech-stack"> QueryDSL  </span>
+              <span class="tech-stack"> NCP(NAVER CLOUD PLATFORM)  </span>
+              <span class="tech-stack"> GitHub-action  </span>
+          
             <div>
               <div class='t3'>🔍 주요 관심사 / 목표</div>
               <ul style='font-size:14px; padding:10px;'>
@@ -218,7 +217,7 @@ content:
                 <li> 추후 확장 가능한 , 성장 가능한 서비스를 만드는 경험 </li>
               </ul>
             </div>
-        
+      
                 <hr>
       
             <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
@@ -229,12 +228,12 @@ content:
               마일스톤과 깃허브 프로젝트 등을 활용한 일정 관리.<br>
               인프라, 코드들을 포스팅하여 기록들을 관리<br>
               <b>API 문서화</b>를 통해 프로젝트의 투명성과 협업 효율성 증대. <br><br>
-              
+      
               <button class="link_btn_expr"><a href="https://velog.io/@disdos0928">             Blog (블로그) </a></button>
               <button class="link_btn_expr"><a href="https://f-lab-edu.github.io/petLink/">     API 문서 </a></button>
-          
+      
               </article>
-        
+      
               <article style= 'font-size:14px;'>
               <div class='t3'>JPA Auditing 충돌</div>
               JPA Auditing을 통한 생성자와 수정자 기록 중 충돌 문제 발생.<br>
@@ -247,7 +246,7 @@ content:
                 </a>
                 </button>
               </article>
-        
+      
               <article style= 'font-size:14px;'>
                 <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
                 중복되지 않는 주문번호 생성이 필요, 하지만 성능또한 고려해야함 <br>
@@ -260,77 +259,74 @@ content:
                 </button>
               </article>
       
-             </section>
-            
-            <br><br>
-          
-           <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
+      </section>
+      
+      <br><br>
+      
+      <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">       
             <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
-            <div style="font-weight:bold; font-size: 18px;">"2022-04 ~ 2022-08"</div>
-            <div style="font-weight:bold; font-size: 15px;">
-              <a href='https://github.com/WouldYouAdopt' style='color:black;'>"https://github.com/WouldYouAdopt"</a>
-            </div>
-        
-        
-              <a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">🐶 Wire Frame ( Click )</a><br> 
-          
-                🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
-                유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
-                6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>                
-          
-          
-                <hr>
-          
-              <div style='display:flex; margin:15px'>
-                <div style='width:45%;'>
-                  <ul style='font-size:14px; padding:10px;'>
-                    <h4 style='margin-bottom:15px'>  🔍 주요 관심사 / 목표 </h4>
-                    <li> 협업을 통한 프로젝트 경험 </li>
-                    <li> 모듈을 추가해 기능을 확장해보는 경험 </li>
-                    <li> 테이블 설계 디자인 경험 </li>
-                    <li> 페어 리뷰를 통한 코드 퀄리티 개선 경험 </li>
-                    <li> ERD, UseCase, wire-frame 등 여러 문서화 작업을 해보는 경험</li>
-                  </ul>
-                </div>
-          
-                <div style=" background-color:lightgray;width:1px; margin-right:10px;"></div>
-          
-                <div style='width:45%;padding:10px'>
-                  <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경</h4>
-                  JAVA<br>
-                  Spring<br>
-                  Mybatis<br>
-                  Oracle<br>
-                  HTML5/JS(ES6)<br>
-                  Node.js<br>
-                  <hr>
-                  AWS-Ec2
-                </div>
+            <div style="font-weight:bold; font-size: 18px;">2022-04 ~ 2022-08</div>
+
+            <button class="link_btn"><a href="https://github.com/WouldYouAdopt">Github</a></button>
+            <button class="link_btn"><a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">Wire Frame</a></button>
+            <br>  <br>
+      
+            🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
+            유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
+            6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>                
+  
+            <hr>
+      
+            <div style='display:flex; margin:15px'>
+              <div style='width:45%;'>
+                <ul style='font-size:14px; padding:10px;'>
+                  <h4 style='margin-bottom:15px'>  🔍 주요 관심사 / 목표 </h4>
+                  <li> 협업을 통한 프로젝트 경험 </li>
+                  <li> 모듈을 추가해 기능을 확장해보는 경험 </li>
+                  <li> 테이블 설계 디자인 경험 </li>
+                  <li> 페어 리뷰를 통한 코드 퀄리티 개선 경험 </li>
+                  <li> ERD, UseCase, wire-frame 등 여러 문서화 작업을 해보는 경험</li>
+                </ul>
               </div>
+      
+            <div style=" background-color:lightgray;width:1px; margin-right:10px;"></div>
+      
+            <div style='width:45%;padding:10px'>
+              <h4 style='margin-bottom:15px'>  🖥️ 사용 기술 및 환경</h4>
+              JAVA<br>
+              Spring<br>
+              Mybatis<br>
+              Oracle<br>
+              HTML5/JS(ES6)<br>
+              Node.js<br>
               <hr>
-          
-              <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
-                <article style= 'font-size:14px;'>
-                  <div style="font-size: 15px; font-weight: bold;">협업 경험</div>
-                  <ul>
-                    <li>팀 프로젝트를 진행하면서 '협업'의 중요성을 깊이 이해.</li>
-                    <li>패키지 구조, 반환 타입, 에러 대응 등의 문제를 팀원과 함께 논의를 통해 해결.</li>
-                    <li>의견 분쟁이 발생할 때는 중립적인 의견을 받아들여 문제를 해결.</li>
-                  </ul>
-                </article> 
-            
-                <br>
-          
-               <article style= 'font-size:14px;'>
-                 <div style='font-size: 15px; font-weight: bold;'>채팅 모듈 구현</div>
-                  <ul>
-                    <li>'채팅 모듈' 구현에 처음 사용해보는 기술을 활용해 도전.</li>
-                    <li>Node.Js와 SSE 기반으로 채팅 기능을 구현.</li>
-                    <li>클라우드 서버를 처음으로 구축하여 별도의 채팅 서버를 구축.</li>
-                    <li>프로젝트에 제한적이지 않고, 기능의 목적을 위해 다양한 기술을 활용.</li>
-                  </ul>
-                </article>
-        </section>
+              AWS-Ec2
+            </div>
+          </div>
+          <hr>
+
+          <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
+            <article style= 'font-size:14px;'>
+              <div style="font-size: 15px; font-weight: bold;">협업 경험</div>
+              <ul>
+                <li>팀 프로젝트를 진행하면서 '협업'의 중요성을 깊이 이해.</li>
+                <li>패키지 구조, 반환 타입, 에러 대응 등의 문제를 팀원과 함께 논의를 통해 해결.</li>
+                <li>의견 분쟁이 발생할 때는 중립적인 의견을 받아들여 문제를 해결.</li>
+              </ul>
+            </article> 
+
+          <br>
+
+         <article style= 'font-size:14px;'>
+           <div style='font-size: 15px; font-weight: bold;'>채팅 모듈 구현</div>
+            <ul>
+              <li>'채팅 모듈' 구현에 처음 사용해보는 기술을 활용해 도전.</li>
+              <li>Node.Js와 SSE 기반으로 채팅 기능을 구현.</li>
+              <li>클라우드 서버를 처음으로 구축하여 별도의 채팅 서버를 구축.</li>
+              <li>프로젝트에 제한적이지 않고, 기능의 목적을 위해 다양한 기술을 활용.</li>
+            </ul>
+          </article>
+      </section>
 
   #교육,학습
   - title: Education - 교육 , 학습
