@@ -206,7 +206,7 @@ content:
               <span class="tech-stack"> QueryDSL  </span>
               <span class="tech-stack"> NCP(NAVER CLOUD PLATFORM)  </span>
               <span class="tech-stack"> GitHub-action  </span>
-          
+      
             <div>
               <div class='t3'>🔍 주요 관심사 / 목표</div>
               <ul style='font-size:14px; padding:10px;'>
@@ -274,7 +274,7 @@ content:
             🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
             유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
             6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>                
-  
+      
             <hr>
       
             <div style='display:flex; margin:15px'>
@@ -355,6 +355,34 @@ content:
         description: |
           - 컴퓨터 공학과를 전공하며 다양한 프로젝트를 진행하며 경험
           - 과정 동안 하드웨어와 소프트웨어 개발에 관심을 갖게 되었습니다
+
+
+  #추가적인 설명
+  - title: ex
+    layout: text
+    content:
+      <div>
+      <div style='font-size:20px; font-weight:bold'> 역량을 키우기 위한 경험들</div>
+      <article>
+      저는 역량이 부족해 문제를 해결하기 힘든 순간이 오면 그에 대해 좌절하기 보다 해결책을 찾기을 위해 노력합니다.<br>
+      해당 분야의 멘토에게 질문을 통해 학습하기도 하고, 전문 서적을 통해서 학습하기도 합니다.<br>
+      제가 모르는 분야가 필요하다고 생각되면 그에 대한 학습 목표를 세우며 목적성 있는 학습을 하기 위해 노력합니다.<br>      
+      
+      </article>
+      </div>
+      <div>
+      <div style='font-size:20px; font-weight:bold'> 스탠바이랩에 지원하는 이유</div>
+      <article>
+      
+      편한 법률이라는 말은 어색한 느낌이 있다고 생각합니다.<br>
+      일반적인 사람들이 법에 대해 자주 접할 일이 없고, 좋은 일 보다는 나쁜 일에 대해 더 많이 접하게 되기 때문이라고 생각합니다.<br>
+      하지만 현대 사회에서는 필연적으로 법에 도움을 구하는 순간이 있다고 생각합니다.<br>
+      그런 순간에 간편하게 도움을 받을 수 있다면 좋다고 생각합니다<br><br>
+      Toss는 불편하던 금융 시장에서 편의성을 제공하며 성장한 기업입니다.<br>
+      스탠바이랩또한 법과 관련된 서비스 중 법인 관리라는 분야의 편리한 서비스를 제공하며 <br>
+      폭발적으로 성장할 수 있을거라 기대하며 그 성장에 기여해 보고 싶어 지원하게 되었습니다.<br>
+      </article>
+      </div>
 
 footer_show_references: true
 
