@@ -1,4 +1,4 @@
-# 서버 시작 명령어 bundel exec jekyll serve
+# 서버 시작 명령어 bundle exec jekyll serve
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
@@ -334,20 +334,20 @@ content:
     content:
       - layout: left
         title: F-LAB
-        sub_title: 스스로 학습하는 능력, F-Lab에서의 경험을 통해 배웠습니다
+        sub_title: 스스로 고민하면서 성장하는 멘토링 과정
         caption: 2023.02 ~ 2023.08
         description: |
           - 스스로 학습하는 것이 제일 중요한 멘토링 과정입니다.
           - 멘토님은 질문을 주어주며 스스로 학습 할 수 있도록 도와주는 과정
-          - 진행되는 다양한 헤커톤 종류의 이벤트에 참여하며 재밌고 효율적인 경험을 쌓을 수 있었습니다.
+          - 진행되는 다양한 헤커톤 이벤트에 참여하며 가치있는 경험을 쌓을 수 있었습니다.
       - layout: left
         title: 클라우드 AWS 구축/운영
-        sub_title: 과제를 통해 클라우드 환경에 친숙해져가는 과정
+        sub_title: 과제를 통해 클라우드 환경 활용 과정
         caption: 2022.10 ~ 2022.12
         description: |
           - 가벼운 수준의 클라우드 환경 구축 및 운영을 경험
           - 매주 가상의 시나리오를 제공해 문제를 해결하며 경험하는 과정
-          - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 가벼운 수준으로 경험
+          - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 경험
       - layout: left
         title: 한양사이버대학교
         sub_title: 컴퓨터 공학과
@@ -355,24 +355,6 @@ content:
         description: |
           - 컴퓨터 공학과를 전공하며 다양한 프로젝트를 진행하며 경험
           - 과정 동안 하드웨어와 소프트웨어 개발에 관심을 갖게 되었습니다
-
-
-  #추가적인 설명
-  - title: ex
-    layout: text
-    content:
-      <div>
-      <div style='font-size:20px; font-weight:bold'> 역량을 키우기 위한 경험들</div>
-      <article>
-      저는 역량이 부족해 문제를 해결하기 힘든 순간이 오면 그에 대해 좌절하기 보다 해결책을 찾기을 위해 노력합니다.<br>
-      클라우드 환경에 대한 역량이 필요하다 생각해 클라우드 환경을 구축하고 운영하는 과제를 수행했습니다.<br>
-      또한 좋은 코드 작성을 위해 코드 리뷰를 통해 피드백을 받고, 피드백을 통해 코드 퀄리티를 높이는 경험을 했습니다.<br>
-      이러한 경험들을 통해 저는 역량을 키우는 방법을 배웠고, 이러한 경험들을 통해 저는 더 나은 개발자가 되고자 합니다.<br>
-      일회성에서 끈나는 성장이 아닌 회사의 가치를 올리며 저의 성장을 이어가기 위해 지금도 노력합니다.<br>
-      </article>
-      </div>
-
-
 
 footer_show_references: true
 
