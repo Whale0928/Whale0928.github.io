@@ -60,7 +60,7 @@
     </style>
 </head>
 <body>
-
+|
 <style>
     .tech-stack {
         background: ivory;
@@ -84,7 +84,7 @@
     }
 
     article {
-        margin: 20px 0px;
+        margin: 20px 0;
     }
 
     .t3 {
@@ -119,18 +119,17 @@
 <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">
 
     <div style="font-weight:bold; font-size: 34px;">PetLink</div>
-    <div style="font-weight:bold; font-size: 18px;">2023-03 ~ 2023-08</div>
-    <button class="link_btn"><a href="https://github.com/f-lab-edu/petLink">Github</a></button>
-    <button class="link_btn"><a href="https://f-lab-edu.github.io/petLink/">API Document </a></button>
-    <button class="link_btn"><a href="http://petlink.cloud/">API Server</a></button>
-
-    <br>
+    <div style="font-weight:bold; font-size: 14px;">개인 프로젝트</div>
+    <div style="font-weight:bold; font-size: 14px;">진행 기간 : 2023-03 ~ 2023-08</div>
 
     <article>
-        🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.<br>
-        펀딩 외에도 유기동물 분양, 중고장터, 커뮤니티 등의 기능을 추후 제공할 여지가 있어.<br>
-        추후 확장 가능한 서비스를 목적으로 개발을 진행했습니다.
+        🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.
     </article>
+
+    <button class="link_btn"><a href="https://github.com/f-lab-edu/petLink">Github Link</a></button>
+    <button class="link_btn"><a href="https://f-lab-edu.github.io/petLink/">API Document Link</a></button>
+
+    <br>
 
     <div class='t3'>🖥️ 사용 기술 및 환경</div>
     <span class="tech-stack"> JAVA 17 </span>
@@ -140,40 +139,23 @@
     <span class="tech-stack"> QueryDSL  </span>
     <span class="tech-stack"> NCP(NAVER CLOUD PLATFORM)  </span>
     <span class="tech-stack"> GitHub-action  </span>
-
-    <div>
-        <div class='t3'>🔍 주요 관심사 / 목표</div>
-        <ul style='font-size:14px; padding:10px;'>
-            <li> 기능 하나하나를 깊게 고민해서 완성도 있게 구현하는 경험</li>
-            <li> 코드 리뷰를 통해 고품질의 코드를 작성하는 경험</li>
-            <li> 대용량 트래픽을 발생시켜 경험하고 처리하는 경험</li>
-            <li> 분산환경을 구축해보고 서비스간 연동해보는 경험</li>
-            <li> 추후 확장 가능한 , 성장 가능한 서비스를 만드는 경험</li>
-        </ul>
-    </div>
-
     <hr>
-
     <div style='font-size:20px; font-weight:bold'> 🚧 경험</div>
     <br>
-
     <article style='font-size:14px;'>
-        <div class='t3'>문서화 중시</div>
-        문서화를 중요하게 생각하며 프로젝트 진행.<br>
-        마일스톤과 깃허브 프로젝트 등을 활용한 일정 관리.<br>
-        인프라, 코드들을 포스팅하여 기록들을 관리<br>
-        <b>API 문서화</b>를 통해 프로젝트의 투명성과 협업 효율성 증대. <br><br>
-
-        <button class="link_btn_expr"><a href="https://velog.io/@disdos0928"> Blog (블로그) </a></button>
-        <button class="link_btn_expr"><a href="https://f-lab-edu.github.io/petLink/"> API 문서 </a></button>
-
+        <div class='t3'>신뢰성 있는 중시</div>
+        여러 업무를 진행하며 신뢰성 없는 API에 대한 문제점을 파악<br>
+        RestDocs를 활용한 테스트 기반의 API 명세 구현<br>
+        <b>테스트</b>를 통해 API 신뢰성과 관리 편의성 증가. <br>
+        <button class="link_btn_expr">
+            <a href="https://f-lab-edu.github.io/petLink/">api docs</a>
+        </button>
     </article>
 
     <article style='font-size:14px;'>
         <div class='t3'>JPA Auditing 충돌</div>
-        JPA Auditing을 통한 생성자와 수정자 기록 중 충돌 문제 발생.<br>
-        CustomUserService를 통해 Member , Manager Entity를 생성자와 수정자를 구분하여 문제 해결.<br>
-        충돌 해결을 통해 데이터 무결성 유지 및 서비스 안정성 확보.<br>
+        JPA Auditing을 통한 생성자와 수정자 기록 중 2개의 사용자 Entity로 인한 충돌 문제 발생.<br>
+        CustomUserService 활용하여 각각의 유니크키(email) 패턴 검증을 통해 문제 해결.<br>
         결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음<br><br>
         <button class="link_btn_expr">
             <a href="https://velog.io/@disdos0928/%EB%91%90-%EA%B0%80%EC%A7%80-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-JPA-Auditing-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%EC%9E%91%EC%84%B1%EC%A4%91">
@@ -184,8 +166,8 @@
 
     <article style='font-size:14px;'>
         <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
-        중복되지 않는 주문번호 생성이 필요, 하지만 성능또한 고려해야함 <br>
-        UUID , 발급 서버 , DB 접근등 여러 방면의 조건을 고려 <br>
+        주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생<br>
+        UUID , 주문번호 발급서버등 여러 방면의 조건을 고려 <br>
         중복되지 않으면서 + 다중화 환경에서도 활용가능하고 + 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
         <button class="link_btn_expr">
             <a href='https://velog.io/@disdos0928/DB%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4%EC%84%9C-%EC%A3%BC%EB%AC%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4%EC%95%BC%ED%95%9C%EB%8B%A4'>
@@ -264,5 +246,6 @@
         </ul>
     </article>
 </section>
+
 </body>
 </html>

@@ -59,6 +59,12 @@ about_content:
             <a href="https://velog.io/@disdos0928">https://velog.io/@disdos0928</a>
         </div>
     </div>
+    <div>
+        <div class="mini_title">Github</div>
+        <div class="mini_content">
+            <a href="https://github.com/whale0928">https://github.com/whale0928</a>
+        </div>
+    </div>
   </section>
 
 
@@ -247,14 +253,11 @@ content:
       
               <article style= 'font-size:14px;'>
               <div class='t3'>문서화 중시</div>
-              문서화를 중요하게 생각하며 프로젝트 진행.<br>
               마일스톤과 깃허브 프로젝트 등을 활용한 일정 관리.<br>
               인프라, 코드들을 포스팅하여 기록들을 관리<br>
               <b>API 문서화</b>를 통해 프로젝트의 투명성과 협업 효율성 증대. <br><br>
-      
               <button class="link_btn_expr"><a href="https://velog.io/@disdos0928">             Blog (블로그) </a></button>
-              <button class="link_btn_expr"><a href="https://f-lab-edu.github.io/petLink/">     API 문서 </a></button>
-      
+              <button class="link_btn_expr"><a href="https://f-lab-edu.github.io/petLink/">     API 문서 </a></button>      
               </article>
       
               <article style= 'font-size:14px;'>
