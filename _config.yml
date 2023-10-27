@@ -355,30 +355,90 @@ content:
   - title: Education - 교육 , 학습
     layout: text
     content:
-      - layout: left
-        title: F-LAB
-        sub_title: 스스로 고민하면서 성장하는 멘토링 과정
-        caption: 2023.02 ~ 2023.08
-        description: |
-          - 스스로 학습하는 것이 제일 중요한 멘토링 과정입니다.
-          - 멘토님은 질문을 주어주며 스스로 학습 할 수 있도록 도와주는 과정
-          - 진행되는 다양한 헤커톤 이벤트에 참여하며 가치있는 경험을 쌓을 수 있었습니다.
-      - layout: left
-        title: 클라우드 AWS 구축/운영
-        sub_title: 과제를 통해 클라우드 환경 활용 과정
-        caption: 2022.10 ~ 2022.12
-        description: |
-          - 가벼운 수준의 클라우드 환경 구축 및 운영을 경험
-          - 매주 가상의 시나리오를 제공해 문제를 해결하며 경험하는 과정
-          - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 경험
-      - layout: left
-        title: 한양사이버대학교
-        sub_title: 컴퓨터 공학과
-        caption: 2016.03 ~ 2023.03
-        description: |
-          - 컴퓨터 공학과를 전공하며 다양한 프로젝트를 진행하며 경험
-          - 과정 동안 하드웨어와 소프트웨어 개발에 관심을 갖게 되었습니다
-
+      |
+      <style>
+        .edu_article {
+        background-color: rgba(000, 102, 000, 0.1);
+        padding: 30px;
+        border-radius: 14px;
+        font-size: 14px;
+        margin-top: 20px;
+        display: flex;
+        }
+      
+        .title-area {
+        width: 30%;
+        }
+      
+        .description {
+        width: 70%;
+        }
+      
+        .title {
+        font-size: 20px;
+        font-weight: bold
+        }
+      
+        .sub-title {
+        font-size: 16px;
+        }
+      
+      </style>
+      <article class='edu_article'>
+        <div class="title-area">
+            <div class="title">
+                nextstep 플레이그라운드 with TDD, 클린 코드
+            </div>
+            <div class="sub-title">
+                nextstep에서 진행하는 클린코드 과정
+            </div>
+            <div class="date">
+                2023.9 ~ 2023.11
+            </div>
+        </div>
+        <div class="description">
+            <div>테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정</div>
+            <div>클린코드의 필요성과 리팩토링의 방법등을 학습</div>
+        </div>
+      </article>
+      
+      <article class='edu_article'>
+        <div class="title-area">
+            <div class="title">
+                F-LAB
+            </div>
+            <div class="sub-title">
+                Back-End 멘토링 과정
+            </div>
+            <div class="date">
+                2023.02 ~ 2023.08
+            </div>
+        </div>
+        <div class="description">
+            <div>Back-end 시니어 개발자와 함께하는 멘토링 과정</div>
+            <div>내부적으로 진행되는 다양한 해커톤에 참여</div>
+            <div>주도적으로 질문하는 환경으로서 스스로 고민하는 실력 향상</div>
+        </div>
+      </article>
+      
+      <article class='edu_article'>
+        <div class="title-area">
+            <div class="title">
+                클라우드 AWS 구축/운영
+            </div>
+            <div class="sub-title">
+                시나리오형 과제를 통해 클라우드 환경 활용 과정
+            </div>
+            <div class="date">
+                2022.10 ~ 2022.12
+            </div>
+        </div>
+        <div class="description">
+            <div>클라우드 환경 구축 및 운영을 경험</div>
+            <div>실제 회사 업무와 동일한 시나리오를 기반으로 문제를 해결하며 경험하는 과정</div>
+            <div>AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 경험</div>
+        </div>
+      </article>
 footer_show_references: true
 
 remote_theme: sproogen/resume-theme
