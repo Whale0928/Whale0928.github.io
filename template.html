@@ -168,7 +168,7 @@
         <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
         주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생<br>
         UUID , 주문번호 발급서버등 여러 방면의 조건을 고려 <br>
-        중복되지 않으면서 + 다중화 환경에서도 활용가능하고 + 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
+        중복되지 않으면서 + 다중화 환경에서도 활용가능하고 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
         <button class="link_btn_expr">
             <a href='https://velog.io/@disdos0928/DB%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4%EC%84%9C-%EC%A3%BC%EB%AC%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4%EC%95%BC%ED%95%9C%EB%8B%A4'>
                 (Blog) DB에 접근하지 않으면서 주문번호를 생성해야한다.
@@ -178,74 +178,55 @@
 
     <article style='font-size:14px;'>
         <div class='t3'>효율적인 배포를 위한 CICD 구축</div>
-        중복되지 않는 주문번호 생성이 필요, 하지만 성능또한 고려해야함 <br>
-        UUID , 발급 서버 , DB 접근등 여러 방면의 조건을 고려 <br>
-        중복되지 않으면서 + 다중화 환경에서도 활용가능하고 + 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
+        네이버 클라우드 환경에 배포시 매번 수작업으로 배포해야하는 반복성 문제 발생 <br>
+        GitHub Actions을 활용한 테스트 검증과 자동 배포 환경을 구축 <br>
+        이로 인해 CI 자동화 테스트를 통한 안정적인 PR 가능 , 자동화된 서버 배포 가능<br><br>
     </article>
 
+    <article style='font-size:14px;'>
+        <div class='t3'>동시성 해결을 위한 Redis 분산 락 서버 구현</div>
+        클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생<br>
+        DB락 , 어플리케이션 서버 제어등 다양한 방식들과 트레이드오프를 비교 분석 후 Redis 분산락 서버 선택<br>
+        비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.<br><br>
+    </article>
 </section>
 
 <br><br>
 
 <section style="background-color:rgba(000,102,000,0.1); padding:30px; border-radius:14px; font-size:14px;">
     <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
-    <div style="font-weight:bold; font-size: 18px;">2022-04 ~ 2022-08</div>
+    <div style="font-weight:bold; font-size: 14px;">팀 프로젝트</div>
+    <div style="font-weight:bold; font-size: 14px;">진행 기간 : 2022-04 ~ 2022-08</div>
 
     <button class="link_btn"><a href="https://github.com/WouldYouAdopt">Github</a></button>
-    <button class="link_btn"><a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">Wire Frame</a>
-    </button>
-    <br> <br>
+    <button class="link_btn"><a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">Wire Frame</a></button>
+    <br>
 
-    🐊 유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트<br>
-    유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.<br>
-    6명의 팀원으로 진행 되어, 기능적인 학습 외에도 협업을 통한 프로젝트 진행 경험을 쌓을 수 있었습니다.<br><br>
+    <article>
+        🐊 6명의 팀원으로 진행 되어, 기능적인 경헙과 협업에 대한 많은 이벤트를 얻을수 있엇던<br>
+        유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트 프로젝트입니다.<br>
+        유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.
+    </article>
 
     <hr>
 
     <div class='t3'>🖥️ 사용 기술 및 환경</div>
-    <span class="tech-stack"> JAVA</span>
-    <span class="tech-stack"> Spring</span>
+    <span class="tech-stack"> JAVA 1.8 </span>
+    <span class="tech-stack"> Spring Framework</span>
     <span class="tech-stack"> Mybatis</span>
-    <span class="tech-stack"> Oracle</span>
-    <span class="tech-stack"> HTML5/JS(ES6)</span>
+    <span class="tech-stack"> oracle</span>
     <span class="tech-stack"> Node.js</span>
-    <span class="tech-stack"> AWS-Ec2</span>
-
-    <div>
-        <div class='t3'>🔍 주요 관심사 / 목표</div>
-        <ul style='font-size:14px; '>
-            <li> 협업을 통한 프로젝트 경험</li>
-            <li> 모듈을 추가해 기능을 확장해보는 경험</li>
-            <li> 테이블 설계 디자인 경험</li>
-            <li> 페어 리뷰를 통한 코드 퀄리티 개선 경험</li>
-            <li> ERD, UseCase, wire-frame 등 여러 문서화 작업을 해보는 경험</li>
-        </ul>
-    </div>
+    <span class="tech-stack"> aws ec2</span>
+    <span class="tech-stack"> slack</span>
     <hr>
 
     <div style='font-size:20px; font-weight:bold'> 🚧 경험</div>
-    <br>
     <article style='font-size:14px;'>
-        <div style="font-size: 15px; font-weight: bold;">협업 경험</div>
-        <ul>
-            <li>팀 프로젝트를 진행하면서 '협업'의 중요성을 깊이 이해.</li>
-            <li>패키지 구조, 반환 타입, 에러 대응 등의 문제를 팀원과 함께 논의를 통해 해결.</li>
-            <li>의견 분쟁이 발생할 때는 중립적인 의견을 받아들여 문제를 해결.</li>
-        </ul>
-    </article>
-
-    <br>
-
-    <article style='font-size:14px;'>
-        <div style='font-size: 15px; font-weight: bold;'>채팅 모듈 구현</div>
-        <ul>
-            <li>'채팅 모듈' 구현에 처음 사용해보는 기술을 활용해 도전.</li>
-            <li>Node.Js와 SSE 기반으로 채팅 기능을 구현.</li>
-            <li>클라우드 서버를 처음으로 구축하여 별도의 채팅 서버를 구축.</li>
-            <li>프로젝트에 제한적이지 않고, 기능의 목적을 위해 다양한 기술을 활용.</li>
-        </ul>
+        <div class='t3'>채팅 모듈 구현</div>
+        분양자와 입양자간 1 : 1 채팅 기능의 구현이 필요 <br>
+        SSE , WebSocket , spring , node등 다양한 기능,환경적 고민 <br>
+        비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.<br><br>
     </article>
 </section>
-
 </body>
 </html>
