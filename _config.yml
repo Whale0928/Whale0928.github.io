@@ -367,11 +367,11 @@ content:
         }
       
         .title-area {
-        width: 30%;
+        width: 40%;
         }
       
         .description {
-        width: 70%;
+        width: 60%;
         }
       
         .title {
@@ -387,7 +387,7 @@ content:
       <article class='edu_article'>
         <div class="title-area">
             <div class="title">
-                nextstep 플레이그라운드 with TDD, 클린 코드
+                플레이그라운드 with TDD, 클린 코드
             </div>
             <div class="sub-title">
                 nextstep에서 진행하는 클린코드 과정
