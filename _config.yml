@@ -51,16 +51,16 @@ content:
           background: ivory;
           padding: 8px;
           margin: 3px;
-          border-radius: 10px;
+          border-radius: 5px;
           font-size: 12px;
           }
           .description-area{
           margin-top: 10px;
-          font-size: 14px;
+          font-size: 12px;
           }
           .sub-title{
             font-weight: bold;
-            font-size: 16px;
+            font-size: 14px;
             margin: 5px 0;
           }
           </style>
@@ -110,196 +110,80 @@ content:
 
   #프로젝트
   - title: Projects - 프로젝트
-    layout: text
-    content: |
-      <style>
-          .tech-stack {
-              background: ivory;
-              padding: 8px;
-              margin: 3px;
-              border-radius: 10px;
-          }
-      
-          article {
-              font-size: 14px;
-          }
-      
-          a {
-              text-decoration: none;
-              color: black;
-          }
-      
-          b {
-              font-weight: bold;
-              font-size: 15px;
-          }
-      
-          article {
-              margin: 10px 0;
-          }
-      
-          .t3 {
-              font-size: 17px;
-              font-weight: bold;
-              margin: 20px 0;
-          }
-      
-          .link_btn {
-              border: 1px solid ivory;
-              background: ivory;
-              height: 30px;
-              border-radius: 3px;
-              overflow: hidden;
-          }
-      
-          .link_btn_expr {
-              border: 1px solid ivory;
-              background: rgba(000, 102, 000, 0.1);
-              height: 30px;
-              border-radius: 3px;
-          }
-      
-          .link_btn_expr:hover {
-              border: 1px solid lightgray;
-              background: ivory;
-              border-radius: 3px;
-              overflow: hidden;
-          }
-      </style>
-      
-      <section style="background-color:white; padding:30px; border-radius:14px; font-size:14px;">
-        <div style="font-weight:bold; font-size: 34px;">PetLink</div>
-        <div style="font-weight:bold; font-size: 14px;">개인 프로젝트</div>
-        <div style="font-weight:bold; font-size: 14px;">진행 기간 : 2023-03 ~ 2023-08</div>
-      
-        <article>
-            🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼입니다.
-        </article>
-      
-        <button class="link_btn"><a href="https://github.com/f-lab-edu/petLink">Github Link</a></button>
-        <button class="link_btn"><a href="https://f-lab-edu.github.io/petLink/">API Document Link</a></button>
-
-        <br>
-      
-        <div class='t3'>🖥️ 사용 기술 및 환경</div>
-        <span class="tech-stack"> JAVA 17 </span>
-        <span class="tech-stack"> SpringBoot 3.0.5 </span>
-        <span class="tech-stack"> MySql 8.0 </span>
-        <span class="tech-stack"> JPA  </span>
-        <span class="tech-stack"> QueryDSL  </span>
-        <span class="tech-stack"> NCP(NAVER CLOUD PLATFORM)  </span>
-        <span class="tech-stack"> GitHub-action  </span>
-        <hr>
-      
-        <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
-
-        <br>
-        <article style='font-size:14px;'>
-            <div class='t3'>신뢰성 있는 중시</div>
-            여러 업무를 진행하며 신뢰성 없는 API에 대한 문제점을 파악<br>
-            RestDocs를 활용한 테스트 기반의 API 명세 구현<br>
-            <b>테스트</b>를 통해 API 신뢰성과 관리 편의성 증가. <br>
-            <button class="link_btn_expr">
-                <a href="https://f-lab-edu.github.io/petLink/">api docs</a>
-            </button>
-        </article>
-      
-      
-        <article style='font-size:14px;'>
-            <div class='t3'>JPA Auditing 충돌</div>
-            JPA Auditing을 통한 생성자와 수정자 기록 중 2개의 사용자 Entity로 인한 충돌 문제 발생.<br>
-            CustomUserService 활용하여 각각의 유니크키(email) 패턴 검증을 통해 문제 해결.<br>
-            결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음<br><br>
-            <button class="link_btn_expr">
-                <a href="https://velog.io/@disdos0928/%EB%91%90-%EA%B0%80%EC%A7%80-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-JPA-Auditing-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%EC%9E%91%EC%84%B1%EC%A4%91">
-                    (Blog) 두개의 엔티티를 사용하면서 JPA Auditing 적용하기
-                </a>
-            </button>
-        </article>
-      
-        <article style='font-size:14px;'>
-            <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
-            주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생<br>
-            UUID , 주문번호 발급서버등 여러 방면의 조건을 고려 <br>
-            중복되지 않으면서 + 다중화 환경에서도 활용가능하고 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
-            <button class="link_btn_expr">
-                <a href='https://velog.io/@disdos0928/DB%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4%EC%84%9C-%EC%A3%BC%EB%AC%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4%EC%95%BC%ED%95%9C%EB%8B%A4'>
-                    (Blog) DB에 접근하지 않으면서 주문번호를 생성해야한다.
-                </a>
-            </button>
-        </article>
-      
-        <article style='font-size:14px;'>
-            <div class='t3'>효율적인 배포를 위한 CICD 구축</div>
-            네이버 클라우드 환경에 배포시 매번 수작업으로 배포해야하는 반복성 문제 발생 <br>
-            GitHub Actions을 활용한 테스트 검증과 자동 배포 환경을 구축 <br>
-            이로 인해 CI 자동화 테스트를 통한 안정적인 PR 가능 , 자동화된 서버 배포 가능<br><br>
-        </article>
-      
-        <article style='font-size:14px;'>
-            <div class='t3'>동시성 해결을 위한 Redis 분산 락 서버 구현</div>
-            클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생<br>
-            DB락 , 어플리케이션 서버 제어등 다양한 방식들과 트레이드오프를 비교 분석 후 Redis 분산락 서버 선택<br>
-            비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.<br><br>
-        </article>
-      </section>
-      
-      <br><br>
-      
-      
-        <section style="background-color:white; padding:30px; border-radius:14px; font-size:14px;">
-            <div style="font-weight:bold; font-size: 34px;">AllWeAdopt</div>
-            <div style="font-weight:bold; font-size: 14px;">팀 프로젝트</div>
-            <div style="font-weight:bold; font-size: 14px;">진행 기간 : 2022-04 ~ 2022-08</div>
-      
-            <button class="link_btn"><a href="https://github.com/WouldYouAdopt">Github</a></button>
-            <button class="link_btn"><a href="https://ovenapp.io/project/NOqCJlhArKAp4ob0uKBliJMQMCUAxXyL/">Wire Frame</a>
-            </button>
+    layout: list
+    content:
+      - layout: left
+        title: PetLink
+        sub_title: 🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.
+        caption: 2023-03 ~ 2023-08
+        description: |
+          <section style="background-color:white; padding:30px; border-radius:14px; font-size:14px;">
+            <a href="https://github.com/f-lab-edu/petLink">Github Link</a>
+            <a href="https://f-lab-edu.github.io/petLink/">API Document Link</a>
             <br>
-      
-            <article>
-                🐊 6명의 팀원으로 진행 되어, 기능적인 경헙과 협업에 대한 많은 이벤트를 얻을수 있엇던<br>
-                유기 동물을 위한 플랫폼 '포인핸드'를 벤치마킹한 사이트 프로젝트입니다.<br>
-                유기동물 분양, 입양, 펀딩 ,포인트 게임 등의 기능등을 제공합니다.
-            </article>
-      
-            <hr>
-      
+          
             <div class='t3'>🖥️ 사용 기술 및 환경</div>
-            <span class="tech-stack"> JAVA 1.8 </span>
-            <span class="tech-stack"> Spring Framework</span>
-            <span class="tech-stack"> Mybatis</span>
-            <span class="tech-stack"> oracle</span>
-            <span class="tech-stack"> Node.js</span>
-            <span class="tech-stack"> aws ec2</span>
-            <span class="tech-stack"> Slack</span>
+            <span class="stack"> JAVA 17 </span>
+            <span class="stack"> SpringBoot 3.0.5 </span>
+            <span class="stack"> MySql 8.0 </span>
+            <span class="stack"> JPA  </span>
+            <span class="stack"> QueryDSL  </span>
+            <span class="stack"> NCP(NAVER CLOUD PLATFORM)  </span>
+            <span class="stack"> GitHub-action  </span>
             <hr>
-
-          <div style='font-size:20px; font-weight:bold'> 🚧 경험</div>
-          <article style='font-size:14px;'>
-              <div class='t3'>설계</div>
-              여러명이 진행하는 프로젝트이다보니 각자 기능 구현의 이해 해소가 필요<br>
-              erd , use-case , wirefream 등 다양한 범위의 설계 작업<br>
-              설계의 명확성으로 인행 프로젝트 진행 중 발생하는 문제를 최소화<br>
-          </article>
-          <article style='font-size:14px;'>
-              <div class='t3'>펀딩 구매 담당 구현</div>
-              결제모듈 , 디비 락등을 활용해 기능 구현 , 주문 - 결제 매핑 해소 테이블 설계 등<br>
-              서비스의 핵심 기능 펀딩 파트를 담당<br>                    
-          </article>
-          <article style='font-size:14px;'>
-              <div class='t3'>매니저 펀딩 관리 구현</div>
-              펀딩 관리 기능을 구현<br>
-              펀딩 이미지처리,펀딩 수정 등록 , 주문 관리등 기능 구현<br>    
-          </article>
-          <article style='font-size:14px;'>
-              <div class='t3'>채팅 모듈 구현</div>
-              분양자와 입양자간 채팅 기능의 구현이 필요 <br>
-              WebSocket,SEE 등 다양한 기술과 환경들을 고민 후 서비스 기능 구현<br>
-              별도의 서버 , 빠른 환경 , 메인 서비스와 별도의 서비스 구축을 통해 효율적인 활용 가능
-              <br>
-          </article>
-      </section>
+          
+            <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
+          
+            <br>
+            <article style='font-size:14px;'>
+                <div class='t3'>신뢰성 있는 중시</div>
+                여러 업무를 진행하며 신뢰성 없는 API에 대한 문제점을 파악<br>
+                RestDocs를 활용한 테스트 기반의 API 명세 구현<br>
+                <b>테스트</b>를 통해 API 신뢰성과 관리 편의성 증가. <br>
+                <button class="link_btn_expr">
+                    <a href="https://f-lab-edu.github.io/petLink/">api docs</a>
+                </button>
+            </article>
+          
+          
+            <article style='font-size:14px;'>
+                <div class='t3'>JPA Auditing 충돌</div>
+                JPA Auditing을 통한 생성자와 수정자 기록 중 2개의 사용자 Entity로 인한 충돌 문제 발생.<br>
+                CustomUserService 활용하여 각각의 유니크키(email) 패턴 검증을 통해 문제 해결.<br>
+                결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음<br><br>
+                <button class="link_btn_expr">
+                    <a href="https://velog.io/@disdos0928/%EB%91%90-%EA%B0%80%EC%A7%80-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-JPA-Auditing-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%EC%9E%91%EC%84%B1%EC%A4%91">
+                        (Blog) 두개의 엔티티를 사용하면서 JPA Auditing 적용하기
+                    </a>
+                </button>
+            </article>
+          
+            <article style='font-size:14px;'>
+                <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
+                주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생<br>
+                UUID , 주문번호 발급서버등 여러 방면의 조건을 고려 <br>
+                중복되지 않으면서 + 다중화 환경에서도 활용가능하고 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
+                <button class="link_btn_expr">
+                    <a href='https://velog.io/@disdos0928/DB%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4%EC%84%9C-%EC%A3%BC%EB%AC%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4%EC%95%BC%ED%95%9C%EB%8B%A4'>
+                        (Blog) DB에 접근하지 않으면서 주문번호를 생성해야한다.
+                    </a>
+                </button>
+            </article>
+          
+            <article style='font-size:14px;'>
+                <div class='t3'>효율적인 배포를 위한 CICD 구축</div>
+                네이버 클라우드 환경에 배포시 매번 수작업으로 배포해야하는 반복성 문제 발생 <br>
+                GitHub Actions을 활용한 테스트 검증과 자동 배포 환경을 구축 <br>
+                이로 인해 CI 자동화 테스트를 통한 안정적인 PR 가능 , 자동화된 서버 배포 가능<br><br>
+            </article>
+          
+            <article style='font-size:14px;'>
+                <div class='t3'>동시성 해결을 위한 Redis 분산 락 서버 구현</div>
+                클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생<br>
+                DB락 , 어플리케이션 서버 제어등 다양한 방식들과 트레이드오프를 비교 분석 후 Redis 분산락 서버 선택<br>
+                비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.<br><br>
+            </article>
+          </section>  
 
   #교육,학습
   - title: Education - 교육 , 학습
