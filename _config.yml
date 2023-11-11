@@ -24,19 +24,17 @@ darkmode: never
 about_profile_image: images/profile.jpg
 about_content:
   |
-  주니어 백엔드 개발자 김현기입니다. 
-  저는 팀에서의 소통과 협업을 중요하게 생각합니다. 좋은 개발은 좋은 팀원들과 함께 이루어진다고 믿습니다.
-  그래서 항상 긍정적인 태도로 팀원들과 원활한 소통을 유지하려고 노력합니다.  
-  저는 항상 배우는 것을 즐기며, 새로운 기술, 방법론, 도구 등 언제나 배우기를 기대합니다.
-  이러한 자세를 통해 회사의 성장과 저의 성장을 위해 노력합니다.
-  감사합니다.
-
+  주니어 백엔드 개발자 김현기입니다. <br>
+  저는 제 성장욕구을 회사에 풀기를 원합니다. <br>
+  기존의 문제를 좀더 좋은 방식으로 개선하기를 원하며 <br>
+  회사의 비용 절감 인프라 구축등 다양한 방면에서 기여하고 싶습니다. <br>
+  이러한 고민들과 노력을을 기반해 회사와 함께 성장하는 개발자가 되겠습니다. <br>
+  감사합니다.<br>
 content:
-  - title: Work Experience - 경력
+  - title: 경력
     layout: list
     content:
       - layout: left
-        border: weak
         title: SGU
         sub_title: IT 2팀 사원
         caption: 2022.08 ~ 재직중
@@ -48,7 +46,7 @@ content:
           margin-top: 10px;
           }
           .stack{
-          background: ivory;
+          border: 1px solid #eaecef;
           padding: 8px;
           margin: 3px;
           border-radius: 5px;
@@ -60,8 +58,11 @@ content:
           }
           .sub-title{
             font-weight: bold;
-            font-size: 14px;
+            font-size: 12px;
             margin: 5px 0;
+          }
+          .description{
+            font-size: 12px;
           }
           </style>
           <div class="description-area">
@@ -83,177 +84,153 @@ content:
           <article>
           <div class="sub-title">조회를 위한 중복 쿼리 최적화</div>
           최대 임계치 확인을 위한 불필요한 조회 중복 발생<br>
-          이를 통해 기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.
+          이를 통해 기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
           </article>
           <article>
           <div class="sub-title">ERP 와 Groupware 간 전자결재 연동 기능 개발.</div>
           연동에 필요한 각 주요 기능 설계 후 공통 모듈 개발<br>
-          성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.
+          성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
           </article>
           <article>
           <div class="sub-title">통계성 데이터 처리 및 조회 경험</div>
           브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 수많은 통계성 데이터 처리 필요<br>
           보다 효율적이고 가독성을 높히기 위한 쿼리 작성을 위해 인덱스,캐시,집계 테이블등을 활용하여 성능과 가독성 향상.<br>
-          기존 <b>2000ms</b> 이상 소요되던 쿼리를 700ms 이하로 단축.
+          기존 <b>2000ms</b> 이상 소요되던 쿼리를 700ms 이하로 단축.<br>
           </article>
           <article>
           <div class="sub-title">커뮤니티 서비스를 구축</div>
           사용자와 기존 서비스간 사용 목적이 매우 상이해 재설계 개발이 필요. <br>
-          재설계를 통해 기존 중복 설계되어있던 10개의 클래스를 3개로 줄이며 효율적인 설계 구현.<br>
+          재설계를 통해 기존 중복 설계되어있던 10개의 클래스를 3개로 줄이며 효율적인 설계 구현.<br><br>
           </article>
           <article>
           <div class="sub-title">공통 기능 리팩토링 구현</div>
           많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생<br>
           공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.<br>
-          이를 통해 기존 한 클래스에 5000줄이던 클래스를 각각의 목적에 나눠 분리하며 효율성 증가
+          이를 통해 기존 한 클래스에 5000줄이던 클래스를 각각의 목적에 나눠 분리하며 효율성 증가<br>
           </article>
 
   #프로젝트
-  - title: Projects - 프로젝트
+  - title: 프로젝트
     layout: list
     content:
       - layout: left
         title: PetLink
-        sub_title: 🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.
+        # sub_title: 🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.
         caption: 2023-03 ~ 2023-08
+        link: https://f-lab-edu.github.io/petLink/
+        #link_text: docs
+        additional_links:
+          - title: Github page
+            icon: fab fa-github
+            url: https://github.com/f-lab-edu/petLink
         description: |
-          <section style="background-color:white; padding:30px; border-radius:14px; font-size:14px;">
-            <a href="https://github.com/f-lab-edu/petLink">Github Link</a>
-            <a href="https://f-lab-edu.github.io/petLink/">API Document Link</a>
-            <br>
           
-            <div class='t3'>🖥️ 사용 기술 및 환경</div>
-            <span class="stack"> JAVA 17 </span>
-            <span class="stack"> SpringBoot 3.0.5 </span>
-            <span class="stack"> MySql 8.0 </span>
-            <span class="stack"> JPA  </span>
-            <span class="stack"> QueryDSL  </span>
-            <span class="stack"> NCP(NAVER CLOUD PLATFORM)  </span>
-            <span class="stack"> GitHub-action  </span>
-            <hr>
+          <div class="description-area">
+          🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.
+          </div>
           
-            <div style= 'font-size:20px; font-weight:bold'> 🚧 경험</div><br>
+          <div class = "stack-area">
+          <div class="stack"> JAVA 17 </div>
+          <div class="stack"> SpringBoot 3.0.5 </div>
+          <div class="stack"> MySql 8.0 </div>
+          <div class="stack"> JPA  </div>
+          <div class="stack"> QueryDSL  </div>
+          <div class="stack"> NCP(NAVER CLOUD PLATFORM)  </div>
+          <div class="stack"> GitHub-action  </div>
+          </div>
+          <hr>
           
-            <br>
-            <article style='font-size:14px;'>
-                <div class='t3'>신뢰성 있는 중시</div>
-                여러 업무를 진행하며 신뢰성 없는 API에 대한 문제점을 파악<br>
-                RestDocs를 활용한 테스트 기반의 API 명세 구현<br>
-                <b>테스트</b>를 통해 API 신뢰성과 관리 편의성 증가. <br>
-                <button class="link_btn_expr">
-                    <a href="https://f-lab-edu.github.io/petLink/">api docs</a>
-                </button>
-            </article>
+          <article>
+              <div class='sub-title'>신뢰성 있는 중시</div>
+              여러 업무를 진행하며 신뢰성 없는 API에 대한 문제점을 파악<br>
+              RestDocs를 활용한 테스트 기반의 API 명세 구현<br>
+              <b>테스트</b>를 통해 API 신뢰성과 관리 편의성 증가. <br>
+          </article>
           
+          <article>
+              <div class='sub-title'>JPA Auditing 충돌</div>
+              JPA Auditing을 통한 생성자와 수정자 기록 중 2개의 사용자 Entity로 인한 충돌 문제 발생.<br>
+              CustomUserService 활용하여 각각의 유니크키(email) 패턴 검증을 통해 문제 해결.<br>
+              결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음<br>
+          </article>
           
-            <article style='font-size:14px;'>
-                <div class='t3'>JPA Auditing 충돌</div>
-                JPA Auditing을 통한 생성자와 수정자 기록 중 2개의 사용자 Entity로 인한 충돌 문제 발생.<br>
-                CustomUserService 활용하여 각각의 유니크키(email) 패턴 검증을 통해 문제 해결.<br>
-                결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음<br><br>
-                <button class="link_btn_expr">
-                    <a href="https://velog.io/@disdos0928/%EB%91%90-%EA%B0%80%EC%A7%80-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-JPA-Auditing-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%EC%9E%91%EC%84%B1%EC%A4%91">
-                        (Blog) 두개의 엔티티를 사용하면서 JPA Auditing 적용하기
-                    </a>
-                </button>
-            </article>
+          <article>
+              <div class='sub-title'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
+              주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생<br>
+              UUID , 주문번호 발급서버등 여러 방면의 조건을 고려 <br>
+              중복되지 않으면서 + 다중화 환경에서도 활용가능하고 성능면에서 효율적인 스노우플레이크 방식 구현 <br>
+          </article>
           
-            <article style='font-size:14px;'>
-                <div class='t3'>중복되지 않는 키를 만들면서 효율성을 극대화</div>
-                주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생<br>
-                UUID , 주문번호 발급서버등 여러 방면의 조건을 고려 <br>
-                중복되지 않으면서 + 다중화 환경에서도 활용가능하고 성능면에서 효율적인 스노우플레이크 방식 구현 <br><br>
-                <button class="link_btn_expr">
-                    <a href='https://velog.io/@disdos0928/DB%EC%97%90-%EC%A0%91%EA%B7%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4%EC%84%9C-%EC%A3%BC%EB%AC%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4%EC%95%BC%ED%95%9C%EB%8B%A4'>
-                        (Blog) DB에 접근하지 않으면서 주문번호를 생성해야한다.
-                    </a>
-                </button>
-            </article>
+          <article>
+              <div class='sub-title'>효율적인 배포를 위한 CICD 구축</div>
+              네이버 클라우드 환경에 배포시 매번 수작업으로 배포해야하는 반복성 문제 발생 <br>
+              GitHub Actions을 활용한 테스트 검증과 자동 배포 환경을 구축 <br>
+              이로 인해 CI 자동화 테스트를 통한 안정적인 PR 가능 , 자동화된 서버 배포 가능<br>
+          </article>
           
-            <article style='font-size:14px;'>
-                <div class='t3'>효율적인 배포를 위한 CICD 구축</div>
-                네이버 클라우드 환경에 배포시 매번 수작업으로 배포해야하는 반복성 문제 발생 <br>
-                GitHub Actions을 활용한 테스트 검증과 자동 배포 환경을 구축 <br>
-                이로 인해 CI 자동화 테스트를 통한 안정적인 PR 가능 , 자동화된 서버 배포 가능<br><br>
-            </article>
-          
-            <article style='font-size:14px;'>
-                <div class='t3'>동시성 해결을 위한 Redis 분산 락 서버 구현</div>
-                클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생<br>
-                DB락 , 어플리케이션 서버 제어등 다양한 방식들과 트레이드오프를 비교 분석 후 Redis 분산락 서버 선택<br>
-                비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.<br><br>
-            </article>
-          </section>  
+          <article>
+              <div class='sub-title'>동시성 해결을 위한 Redis 분산 락 서버 구현</div>
+              클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생<br>
+              DB락 , 어플리케이션 서버 제어등 다양한 방식들과 트레이드오프를 비교 분석 후 Redis 분산락 서버 선택<br>
+              비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.<br>
+          </article>
+
+  - title: 교육
+    layout: list
+    content:
+      - layout: top-left
+        title: 한양사이버대학교
+        sub_title: 컴퓨터공학과
+        caption: 2016 - 2023 (졸업)
+        description: |
+          <div class="description">
+              <div> Linux , JAVA , 알고리즘 , CS등 다양한 분야를 학습</div>
+          </div>
+  
 
   #교육,학습
-  - title: Education - 교육 , 학습
+  - title: 대외활동
     layout: list
+    border: weak
     content:
       - layout: left
-        border: weak
-        title: SGU
-        sub_title: IT 2팀 사원
-        caption: 2022.08 ~ 재직중
+        title: 플레이그라운드 with TDD, 클린 코드
+        sub_title: nextstep에서 진행하는 클린코드 과정
+        caption: 2023.9 ~ 2023.11
         description: |
-  - title:
-    layout: list
-    content:
-      |
-      <article class='edu_article'>
-        <div class="title-area">
-            <div class="title">
-                플레이그라운드 with TDD, 클린 코드
-            </div>
-            <div class="sub-title">
-                nextstep에서 진행하는 클린코드 과정
-            </div>
-            <div class="date">
-                2023.9 ~ 2023.11
-            </div>
-        </div>
-        <div class="description">
-            <div>테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정</div>
-            <div>클린코드의 필요성과 리팩토링의 방법등을 학습</div>
-        </div>
-      </article>
-      
-      <article class='edu_article'>
-        <div class="title-area">
-            <div class="title">
-                F-LAB
-            </div>
-            <div class="sub-title">
-                Back-End 멘토링 과정
-            </div>
-            <div class="date">
-                2023.02 ~ 2023.08
-            </div>
-        </div>
-        <div class="description">
+          <div class="description">
+              <div>테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정</div>
+              <div>클린코드의 필요성과 리팩토링의 방법등을 학습</div>
+          </div>
+      - layout: left
+        title: F-LAB
+        sub_title: Back-End 멘토링 과정
+        caption: 2023.02 ~ 2023.08
+        description: |
+          <div class="description">
             <div>Back-end 시니어 개발자와 함께하는 멘토링 과정</div>
             <div>내부적으로 진행되는 다양한 해커톤에 참여</div>
             <div>주도적으로 질문하는 환경으로서 스스로 고민하는 실력 향상</div>
-        </div>
-      </article>
-      
-      <article class='edu_article'>
-        <div class="title-area">
-            <div class="title">
-                클라우드 AWS 구축/운영
-            </div>
-            <div class="sub-title">
-                시나리오형 과제를 통해 클라우드 환경 활용 과정
-            </div>
-            <div class="date">
-                2022.10 ~ 2022.12
-            </div>
-        </div>
-        <div class="description">
+          </div>
+      - layout: left
+        title: 클라우드 AWS 구축/운영
+        sub_title: 시나리오형 과제를 통해 클라우드 환경 활용 과정
+        caption: 2022.10 ~ 2022.12
+        description: |
+          <div class="description">
             <div>클라우드 환경 구축 및 운영을 경험</div>
             <div>실제 회사 업무와 동일한 시나리오를 기반으로 문제를 해결하며 경험하는 과정</div>
             <div>AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 경험</div>
-        </div>
-      </article>
+          </div>
+      - layout: left
+        title: KH 정보교육원
+        sub_title: 스프링 웹 기반 교육과정
+        caption: 2022.02 ~ 2022.08
+        description: |
+          <div class="description">
+            <div>팀프로젝트 기반의 교육 Java - Spring 교육과정 </div>
+          </div>
+
 footer_show_references: true
 
 remote_theme: sproogen/resume-theme
