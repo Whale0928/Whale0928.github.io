@@ -184,10 +184,9 @@ content:
       - layout: top-left
         title: 한양사이버대학교
         sub_title: 컴퓨터공학과
-        caption: 2016 - 2023 (졸업)
         description: |
           <div class="description">
-              <div> Linux , JAVA , 알고리즘 , CS등 다양한 분야를 학습</div>
+              <div>2016.03 - 2023.03 (졸업)</div>
           </div>
   
 
@@ -213,7 +212,6 @@ content:
           <div class="description">
             <div>Back-end 시니어 개발자와 함께하는 멘토링 과정</div>
             <div>내부적으로 진행되는 다양한 해커톤에 참여</div>
-            <div>주도적으로 질문하는 환경으로서 스스로 고민하는 실력 향상</div>
           </div>
       - layout: left
         title: 클라우드 AWS 구축/운영
@@ -222,8 +220,7 @@ content:
         description: |
           <div class="description">
             <div>클라우드 환경 구축 및 운영을 경험</div>
-            <div>실제 회사 업무와 동일한 시나리오를 기반으로 문제를 해결하며 경험하는 과정</div>
-            <div>AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등등을 경험</div>
+            <div>AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험</div>
           </div>
       - layout: left
         title: KH 정보교육원
