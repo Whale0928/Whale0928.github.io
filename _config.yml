@@ -14,7 +14,7 @@ phone: 010 9916 1042
 website: https://velog.io/@disdos0928
 
 # 다크 모드 설정 (options: true, false, never)
-darkmode: true
+darkmode: false
 
 # 소셜 링크
 # github_username: Whale0928
@@ -58,48 +58,55 @@ content:
           }
           </style>
           
-          사내의 인적,물적등 모든 자원을 효율적으로 관리 할 수 있는 ERP<br>
-          그중 패션 분야에 특화된 ERP 서비스 개발 및 유지보수 전문 회사입니다.<br>
-          스노우피크,네셔널지오그래픽,네파 등 다양한 패션 브랜드의 ERP 서비스를 개발하고 있습니다.<br>
+          >사내의 인적,물적등 모든 자원을 효율적으로 관리 할 수 있는 ERP<br>
+          >그중 패션 분야에 특화된 ERP 서비스 개발 및 유지보수 전문 회사입니다.<br>
+          >스노우피크,네셔널지오그래픽,네파 등 다양한 패션 브랜드의 ERP 서비스를 개발하고 있습니다.<br>
           
           <div class = "stack-area">
             <div class = "stack">Java</div>
             <div class = "stack">Spring</div>
             <div class = "stack">Oracle</div>
+            <div class = "stack">Mybatis</div>
             <div class = "stack">JavaScript</div>
             <div class = "stack">Confluence</div>
-            <div class = "stack">Git</div>
+            <div class = "stack">Git/SVN</div>
             <div class = "stack">Jenkins</div>
             <div class = "stack">Linux</div>
           </div>
           
           <br>
           
-          #### Work Experience(주요 업무)
+          #### Work Experience( 업무 경험 ) 
           
           <br>
           
-          - 조회를 위한 중복 쿼리 최적화
-            - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
-            - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
-
-          - ERP 와 Groupware 간 전자결재 연동 기능 개발.
-            - 연동에 필요한 각 주요 기능 설계 후 공통 모듈 개발<br>
-            - 성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
-
-          - 통계성 데이터 처리 및 조회 경험
-            - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 수많은 통계성 데이터 처리 필요
-            - 인덱스,캐시,집계 테이블등을 활용하여 성능과 가독성 향상.
-            - 기존 <b>2000ms</b> 이상 소요되던 쿼리를 <b>700ms</b> 이하로 단축.<br>
-
-          - 커뮤니티 서비스를 구축
-            - 사용자와 기존 서비스간 사용 목적이 매우 상이해 재설계 개발이 필요.
-            - 재설계를 통해 기존 중복 설계를 개선하여 <b>10개의</b> 클래스를 <b>3개로</b> 줄이며 효율적인 설계 구현.<br>
+          조회를 위한 중복 쿼리 최적화
+          - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
+          - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
           
-          - 공통 기능 리팩토링 구현
-            - 많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생
-            - 공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.
-              - 이를 통해 기존 한 클래스에 5000줄이던 클래스를 각각의 목적에 나눠 분리하며 효율성 증가<br>
+          ERP 와 Groupware 간 전자결재 연동 기능 개발.
+          - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 모듈 개발<br>
+          - 성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
+          
+          통계성 데이터 처리 및 조회 경험
+          - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 많은 통계성 데이터 처리 필요
+          - 인덱스,캐시,집계 테이블등을 활용하여 성능과 가독성 향상.
+          
+          조건 쿼리 개선
+          - 사업실적 통계 서비스에 계속 추가되는 서브쿼리 조건으로 인한 속도 저하 발생
+          - 서브쿼리를 조인으로 해소하여 기존 <b>2000ms</b> 이상 소요되던 쿼리를 <b>300ms</b> 이하로 단축.<br>
+          
+          커뮤니티 서비스를 구축
+          - 사용자와 기존 서비스간 사용 목적이 매우 상이해 재설계 개발이 필요.
+          - 재설계를 통해 기존 중복 설계를 개선하여 <b>10개의</b> 클래스를 <b>3개로</b> 줄이며 효율적인 설계 구현.<br>
+          
+          공통 기능 리팩토링 구현
+          - 많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생
+          - 공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.
+          - 이를 통해 기존 한 클래스에 <b>5000줄이상인</b> 클래스를 각각의 목적에 나눠 분리하며 효율성 증가<br>
+          
+          물류 I/F 개발 
+          - 물류 I/F 개발을 통해 WMS와 ERP 물류간의 데이터 연동을 구현
 
   #프로젝트
   - title: 프로젝트
@@ -107,51 +114,60 @@ content:
     content:
       - layout: left
         title: PetLink
-        # sub_title: 🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.
         caption: 2023-03 ~ 2023-08
         link: https://f-lab-edu.github.io/petLink/
-        #link_text: docs
         additional_links:
           - title: Github page
             icon: fab fa-github
             url: https://github.com/f-lab-edu/petLink
         description: |
+          <br>
           🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.<br>
           
+          <br>
+          
           <div class = "stack-area">
-          <div class="stack"> JAVA 17 </div>
-          <div class="stack"> SpringBoot 3.0.5 </div>
-          <div class="stack"> MySql 8.0 </div>
-          <div class="stack"> JPA  </div>
-          <div class="stack"> QueryDSL  </div>
-          <div class="stack"> NCP(NAVER CLOUD PLATFORM)  </div>
-          <div class="stack"> GitHub-action  </div>
+            <div class="stack"> JAVA 17 </div>
+            <div class="stack"> SpringBoot 3.0 </div>
+            <div class="stack"> Spring Security </div>
+            <div class="stack"> Spring Data JPA  </div>
+            <div class="stack"> MySql 8.0 </div>
+            <div class="stack"> Redis  </div>
+            <div class="stack"> QueryDSL  </div>
+            <div class="stack"> Naver Cloud Platform  </div>
+            <div class="stack"> AWS EC2  </div>
+            <div class="stack"> Ubuntu  </div>
+            <div class="stack"> Object Storage  </div>
+            <div class="stack"> GitHub-action  </div>
+            <div class="stack"> Docker  </div>
+            <div class="stack"> Restdocs(with openapi)  </div>
+            <div class="stack"> Junit5  </div>
           </div>
           
-            - 신뢰성과 관리 편의성을 위한 테스트 기반의 API 명세 구현
-              - RestDocs를 활용한 테스트 기반의 신뢰성 API 명세 구현
-              - <b>Open API Spec</b>을 통한 Swagger UI를 활용한 관리 편의성 증가 
-        
-            - JPA Auditing 충돌
-              - JPA Auditing을 통한 생성자와 수정자 기록 중 2개의 사용자 Entity로 인한 충돌 문제 발생.
-              - CustomUserService 활용하여 각각의 유니크키(email) 패턴 검증을 통해 문제 해결.
-              - 결과적으로 DB의 데이터 효율성을 얻고 , 객체로 다루기 쉽게 설계하면서. 기록성 데이터를 남기기 쉽게 되었음
-        
-            - 중복되지 않는 키를 만들면서 효율성을 극대화
-              - 주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생
-              - UUID , 주문번호 발급서버등 여러 방면의 조건을 고려
-              - 중복되지 않으면서 + 다중화 환경에서도 활용가능하고 성능면에서 효율적인 스노우플레이크 방식 구현 
-        
-            - 효율적인 배포를 위한 CICD 구축
-              - 네이버 클라우드 환경에 배포시 매번 수작업으로 배포해야하는 반복성 문제 발생 
-              - GitHub Actions을 활용한 테스트 검증과 자동 배포 환경을 구축 
-              - 이로 인해 CI 자동화 테스트를 통한 안정적인 PR 가능 , 자동화된 서버 배포 가능
-        
-            - 동시성 해결을 위한 Redis 분산 락 서버 구현
-              - 클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생.
-              - DB락 , 어플리케이션 서버 제어등 다양한 방식들과 트레이드오프를 비교 분석 후 Redis 분산락 서버 선택.
-              - 비용적 손해가 있지만 분산서버에서의 관리 장점과 추후 확장 가능한 방식의 효과를 얻음.
+          <br>
+            신뢰성과 관리 편의성을 위한 테스트 기반의 API 명세 구현
+            - RestDocs와 Swagger-UI를 활용한 테스트 기반의 신뢰성 API 명세 구현
+            - <b>Open API Spec</b>을 통한 Swagger UI를 활용한 관리 편의성 증가
+          
+            중복되지 않는 키를 만들면서 효율성을 극대화
+            - 주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생
+            - 중복되지 않으면서 다중화 환경에서도 활용가능하고 성능면에서 효율적인 <b>스노우플레이크</b> 방식 구현 
 
+           효율적인 배포를 위한 CICD 구축
+            - 매번 수작업으로 jar 배포해야하는 반복성 문제 발생 
+            - GitHub Actions과 Docker를 활용한 안정적인 PR,  <b>자동화된 서버 배포 환경을 구축.</b>
+
+           동시성 해결을 위한 Redis 분산 락 서버 구현 <br>
+            - 클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생.
+            - DB락 , 서버 제어등 다양한 방식들과 트레이드 오프를 비교 분석 <b>Redis 분산락 서버 구현</b>을 통한 문제 해소.
+
+          Junit5를 활용한 테스트 기반의 개발 <br>
+            - 테스트 기반의 개발을 위해 Junit5를 활용한 테스트 코드 작성
+            - Mock를 활용한 <b>단위 테스트 코드</b> 작성
+
+          효율적인 쿼리를 위한 QueryDSL 활용 <br>
+            - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
+            - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
 
   - title: 교육
     layout: list
@@ -160,9 +176,9 @@ content:
         title: 한양사이버대학교
         sub_title: 컴퓨터공학과
         description: |
-          <div class="description">
-              <div>2016.03 - 2023.03 (졸업)</div>
-          </div>
+          - 컴퓨터공학과
+          - 2016.03 - 2023.03 (졸업)
+          - 리눅스 , DB , 소프트웨어 공학 등등의 분야를 학습
   
 
   #교육,학습
@@ -175,36 +191,28 @@ content:
         sub_title: nextstep에서 진행하는 클린코드 과정
         caption: 2023.9 ~ 2023.11
         description: |
-          <div class="description">
-              <div>테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정</div>
-              <div>클린코드의 필요성과 리팩토링의 방법등을 학습</div>
-          </div>
+          - 테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정
+          - 클린코드의 필요성과 리팩토링의 방법등을 학습
       - layout: left
         title: F-LAB
         sub_title: Back-End 멘토링 과정
         caption: 2023.02 ~ 2023.08
         description: |
-          <div class="description">
-            <div>Back-end 시니어 개발자와 함께하는 멘토링 과정</div>
-            <div>내부적으로 진행되는 다양한 해커톤에 참여</div>
-          </div>
+          - Back-end 시니어 개발자와 함께하는 백엔드 멘토링 과정
+          - 내부적으로 진행되는 다양한 해커톤에 참여
       - layout: left
         title: 클라우드 AWS 구축/운영
         sub_title: 시나리오형 과제를 통해 클라우드 환경 활용 과정
         caption: 2022.10 ~ 2022.12
         description: |
-          <div class="description">
-            <div>클라우드 환경 구축 및 운영을 경험</div>
-            <div>AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험</div>
-          </div>
+          - 클라우드 환경 구축 및 운영을 경험
+          - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험
       - layout: left
         title: KH 정보교육원
         sub_title: 스프링 웹 기반 교육과정
         caption: 2022.02 ~ 2022.08
         description: |
-          <div class="description">
-            <div>팀프로젝트 기반의 교육 Java - Spring 교육과정 </div>
-          </div>
+          - 팀프로젝트 기반의 교육 Java - Spring 웹 교육과정 수료 
 
 footer_show_references: true
 
