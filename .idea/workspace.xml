@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="">
+    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="docs : 이력서 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
       <workItem from="1701356898344" duration="12000" />
       <workItem from="1701443462754" duration="974000" />
       <workItem from="1701493080046" duration="6618000" />
-      <workItem from="1701519544261" duration="5687000" />
+      <workItem from="1701519544261" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="docs : 회사정보 작성">
       <created>1686288290678</created>
@@ -355,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701530449139</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="docs : 이력서 수정">
+      <option name="closed" value="true" />
+      <created>1701531195620</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1701531195620</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
