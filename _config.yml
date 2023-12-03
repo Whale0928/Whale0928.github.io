@@ -14,7 +14,7 @@ phone: 010 9916 1042
 website: https://velog.io/@disdos0928
 
 # 다크 모드 설정 (options: true, false, never)
-darkmode: false
+darkmode: never
 
 # 소셜 링크
 # github_username: Whale0928
@@ -24,6 +24,27 @@ darkmode: false
 about_profile_image: images/profile.jpg
 about_content:
   |
+  <style>
+    .button-style {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: lightseagreen;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .button-style:hover {
+        background-color: lightgray;
+        color: white;
+        text-decoration: none;
+    }
+  </style>
   <div style="font-size:15px; padding:5px; line-height: 30px ">
   개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,<br>
   기존 문제들을 더 효율적이고 긍정적인 방식으로 해결하고자 노력합니다.<br>
@@ -32,6 +53,9 @@ about_content:
   이러한 노력과 고민을 바탕으로 회사와 함께 성장하는 것을 목표로 하고 있습니다.<br>
   감사합니다.🙇‍️🙇‍
   </div>
+  <a href="https://github.com/Whale0928" class="button-style">Github</a>
+  <a href="https://velog.io/@disdos0928" class="button-style">Blog</a>
+
 content:
   - title: 경력
     layout: list
