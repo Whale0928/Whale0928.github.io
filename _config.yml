@@ -33,9 +33,8 @@ about_content:
         text-align: center;
         text-decoration: none;
         outline: none;
-        color: #fff;
-        background-color: lightseagreen;
-        border: none;
+        color: black;
+        border: 1px solid lightgray;
         border-radius: 15px;
     }
 
