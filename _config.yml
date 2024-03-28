@@ -14,47 +14,41 @@ phone: 010 9916 1042
 website: https://velog.io/@disdos0928
 
 # 다크 모드 설정 (options: true, false, never)
-darkmode: never
+darkmode: false
 
 # 소셜 링크
 # github_username: Whale0928
 
 # 아이콘 추가 시 경로 추가
 
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile_1.jpeg
 about_content:
   |
-  <style>
-    .button-style {
-        display: inline-block;
-        padding: 5px 10px;
-        font-size: 16px;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        color: black;
-        border: 1px solid lightgray;
-        border-radius: 15px;
-    }
-
+  <style>   
     .button-style:hover {
         background-color: lightgray;
         color: white;
         text-decoration: none;
     }
   </style>
-  <div style="font-size:15px; padding:5px; line-height: 30px ">
-  개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,<br>
-  저는 기존 문제들을 더 효율적이고 긍정적인 방식으로 해결하고자 노력하며.<br>
-  비용 절감, 인프라 개선, 좋은 커뮤니케이션 등 다양한 분야에서 회사의 성장에 기여하고자 합니다,<br>
-  좋은 코드 작성뿐만 아니라, 팀 문화에 긍정적인 영향을 주는 동료가 되고자 합니다.<br>
-  이를 통해 회사와 함께 성장하는 것이 제 목표입니다.<br>
-  감사합니다.🙇‍️🙇‍
-  </div>
+  >개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,<br>
+  >
+  >저는 기존 문제들을 더 효율적이고 긍정적인 방식으로 해결하고자 노력하며.<br>
+  >
+  >비용 절감, 인프라 개선, 좋은 커뮤니케이션 등 다양한 분야에서 회사의 성장에 기여하고자 합니다,<br>
+  >
+  >좋은 코드 작성뿐만 아니라, 팀 문화에 긍정적인 영향을 주는 동료가 되고자 합니다.<br>
+  >
+  >이를 통해 회사와 함께 성장하는 것이 제 목표입니다.<br>
+  >
+  >감사합니다. 🙇‍️🙇‍
   
-  <a href="https://github.com/Whale0928" class="button-style">Github</a>
-  <a href="https://velog.io/@disdos0928" class="button-style">Blog</a>
+  
+  <hr>
+  
+  github : <a href="https://github.com/Whale0928" class="button-style">https://github.com/Whale0928</a>
+  
+  velog : <a href="https://velog.io/@disdos0928" class="button-style">https://velog.io/@disdos0928</a>
 
 content:
   - title: 경력
@@ -63,7 +57,7 @@ content:
       - layout: left
         title: SGU
         sub_title: IT 2팀 사원
-        caption: 2022.08 ~ 재직중
+        caption: 2022.08 ~ 2024.04
         description: |
           <style>
           .stack-area{
@@ -83,21 +77,25 @@ content:
           font-size: 12px;
           }
           </style>
+          회사의 모든 자원을 효율적으로 관리하는 ERP(Enterprise Resource Planning) 시스템을 개발하고 유지보수하는 전문 기업입니다.
           
-          >사내의 인적,물적등 모든 자원을 효율적으로 관리 할 수 있는 ERP<br>
-          >그중 패션 분야에 특화된 ERP 서비스 개발 및 유지보수 전문 회사입니다.<br>
-          >스노우피크,네셔널지오그래픽,네파 등 다양한 패션 브랜드의 ERP 서비스를 개발하고 있습니다.<br>
+          특히, 패션 산업에 특화된 ERP 솔루션을 제공하며, 
+          
+          이를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.
+          
+          스노우피크, 네셔널지오그래픽, 네파 등 다양한 패션 브랜드들이 우리의 ERP 서비스를 이용하여 자원 관리를 효율화하고 있습니다.
+          
+          ------
           
           <div class = "stack-area">
-            <div class = "stack">Java 8</div>
-            <div class = "stack">Spring</div>
+            <div class = "stack">Java / Spring Framework</div>
             <div class = "stack">Oracle</div>
             <div class = "stack">Mybatis</div>
             <div class = "stack">JavaScript</div>
             <div class = "stack">Confluence</div>
-            <div class = "stack">Git/SVN</div>
+            <div class = "stack">Gitlab</div>
             <div class = "stack">Jenkins</div>
-            <div class = "stack">Linux</div>
+            <div class = "stack">Scouter</div>
           </div>
           
           <br>
@@ -106,34 +104,28 @@ content:
           
           <br>
           
-          조회를 위한 중복 쿼리 최적화
-          - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
-          - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
-          
-          ERP 와 Groupware 간 전자결재 연동 기능 개발.
-          - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 모듈 개발<br>
-          - 성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
-          
-          통계성 데이터 처리 및 조회 경험
-          - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 많은 통계성 데이터 처리 필요
-          - 인덱스,캐시,집계 테이블등을 활용하여 성능과 가독성 향상.
-          
-          조건 쿼리 개선
-          - 사업실적 통계 서비스에 계속 추가되는 서브쿼리 조건으로 인한 속도 저하 발생
-          - 서브쿼리를 조인으로 해소하여 기존 <b>2000ms</b> 이상 소요되던 쿼리를 <b>300ms</b> 이하로 단축.<br>
-          
-          커뮤니티 서비스를 구축
-          - 사용자와 기존 서비스간 사용 목적이 매우 상이해 재설계 개발이 필요.
-          - 재설계를 통해 기존 중복 설계를 개선하여 <b>10개의</b> 클래스를 <b>3개로</b> 줄이며 효율적인 설계 구현.<br>
-          
-          공통 기능 리팩토링 구현
-          - 많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생
-          - 공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.
-          - 이를 통해 기존 한 클래스에 <b>5000줄이상인</b> 클래스를 각각의 목적에 나눠 분리하며 유지보수성 증가<br>
-          
-          WMS : ERP 간 물류 I/F 개발 
-          - 물류 I/F 개발을 통해 자사 WMS와 타사  ERP 물류간의 데이터 연동을 구현
-          - 이를 통해 물류 I/F 개발을 통해 물류 데이터의 신뢰성과 정확성을 확보하며 물류 데이터의 신뢰성과 정확성을 확보<br>
+          - **조회를 위한 중복 쿼리 최적화**
+            - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
+            - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
+          - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
+            - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 모듈 개발<br>
+            - 성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
+          - **통계성 데이터 처리 및 조회 경험**
+            - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 많은 통계성 데이터 처리 필요
+            - 인덱스 , 캐시 , 복잡성 해소 테이블등을 활용하여 성능과 가독성 향상.
+          - **조건 쿼리 개선**
+            - 사업실적 통계 서비스에 계속 추가되는 서브쿼리 조건으로 인한 속도 저하 발생
+            - 서브쿼리를 조인으로 해소하여 기존 <b>2000ms</b> 이상 소요되던 쿼리를 <b>300ms</b> 이하로 단축.<br>
+          - **커뮤니티 서비스 리팩토링**
+            - 추가적인 목적의 활용도가 대폭 증가 하여 복제된 서비스가 많아짐
+            - 리팩토링을 통해 기존 중복 설계를 개선하여 <b>10개의</b> 클래스를 <b>3개로</b> 줄이며 효율적인 설계 구현.<br>
+          - **공통 기능 리팩토링 구현**
+            - 많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생
+            - 공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.
+            - 이를 통해 기존 한 클래스에 <b>5000줄이상인</b> 클래스를 각각의 목적에 나눠 분리하며 유지보수성 증가<br>
+          - **WMS : ERP 간 물류 I/F 개발**
+            - 물류 I/F 개발을 통해 자사 WMS와 타사  ERP 물류간의 데이터 연동을 구현
+            - 이를 통해 물류 I/F 개발을 통해 물류 데이터의 신뢰성과 정확성을 확보하며 물류 데이터의 신뢰성과 정확성을 확보<br>
 
   #프로젝트
   - title: 프로젝트
@@ -148,8 +140,7 @@ content:
             icon: fab fa-github
             url: https://github.com/f-lab-edu/petLink
         description: |
-          <br>
-          🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 개발한 프로젝트입니다.<br>
+          >🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 진행한 개인 프로젝트입니다.<br>
           
           <br>
           
