@@ -57,41 +57,38 @@ content:
       - layout: left
         title: SGU
         sub_title: IT 2팀 사원
-        caption: 2022.08 ~ 2024.04
         description: |
           <style>
           .stack-area{
-          display: flex;
-          flex-wrap: wrap;
-          margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
           }
           .stack{
-          border: 1px solid #eaecef;
-          padding: 8px;
-          margin: 3px;
-          border-radius: 5px;
-          font-size: 12px;
+            border: 1px solid #eaecef;
+            padding: 4px;
+            margin: 2px;
+            border-radius: 2px;
+            font-size: 12px;
           }
           .description-area{
-          margin-top: 10px;
-          font-size: 12px;
+            margin-top: 10px;
+            font-size: 12px;
           }
           </style>
-          회사의 모든 자원을 효율적으로 관리하는 ERP(Enterprise Resource Planning) 시스템을 개발하고 유지보수하는 전문 기업입니다.
           
-          특히, 패션 산업에 특화된 ERP 솔루션을 제공하며, 
-          
-          이를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.
-          
+          회사의 모든 자원을 효율적으로 관리하는 ERP(Enterprise Resource Planning) 시스템을 서비스합니다..<br>
+          특히, 패션 산업에 특화된 ERP 솔루션을 제공하며,<br> 
+          이를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.<br>
           스노우피크, 네셔널지오그래픽, 네파 등 다양한 패션 브랜드들이 우리의 ERP 서비스를 이용하여 자원 관리를 효율화하고 있습니다.
           
           ------
           
           <div class = "stack-area">
             <div class = "stack">Java / Spring Framework</div>
+            <div class = "stack">JavaScript</div>
             <div class = "stack">Oracle</div>
             <div class = "stack">Mybatis</div>
-            <div class = "stack">JavaScript</div>
             <div class = "stack">Confluence</div>
             <div class = "stack">Gitlab</div>
             <div class = "stack">Jenkins</div>
@@ -102,14 +99,16 @@ content:
           
           #### Work Experience( 업무 경험 ) 
           
-          <br>
+          > erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br> 
+          > 서비스 품질 향상을 위해 많은 경험을 해볼 수 있었습니다. <br> 
+          > 여러 도메인을 경험하며 다양한 문제를 해결하고자 노력하였습니다. <br>
           
+          - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
+            - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 API 모듈 개발<br>
+            - 성공적인 API 모듈 개발/설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
           - **조회를 위한 중복 쿼리 최적화**
             - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
             - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
-          - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
-            - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 모듈 개발<br>
-            - 성공적인 모듈 개발,설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
           - **통계성 데이터 처리 및 조회 경험**
             - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 많은 통계성 데이터 처리 필요
             - 인덱스 , 캐시 , 복잡성 해소 테이블등을 활용하여 성능과 가독성 향상.
@@ -126,13 +125,44 @@ content:
           - **WMS : ERP 간 물류 I/F 개발**
             - 물류 I/F 개발을 통해 자사 WMS와 타사  ERP 물류간의 데이터 연동을 구현
             - 이를 통해 물류 I/F 개발을 통해 물류 데이터의 신뢰성과 정확성을 확보하며 물류 데이터의 신뢰성과 정확성을 확보<br>
+        caption: 2022.08 ~ 2024.04
 
-  #프로젝트
-  - title: 프로젝트
+  # 사이드 프로젝트
+  - title: 사이드 프로젝트
     layout: list
     content:
       - layout: left
-        title: PetLink
+        title: bottle-note
+        caption: 2024-01 ~ in progress
+        link: https://github.com/bottle-note
+        additional_links:
+          - title: Github page
+            icon: fab fa-github
+            url: https://github.com/bottle-note
+        description: |
+          
+          > 🍾 술을 리뷰하고 평가할 수 있는 spring boot 기반의 프로젝트입니다. <br>
+          > 총 5명의 팀으로서 진행하였으며, back-end , devops infra를 담당하였습니다.<br> 
+          
+          <div class = "stack-area">
+            <div class="stack"> JAVA 17 </div>
+            <div class="stack"> SpringBoot 3.0 </div>
+            <div class="stack"> Spring Security </div>
+            <div class="stack"> Spring Data JPA  </div>
+            <div class="stack"> MySql 8.0 </div>
+            <div class="stack"> github Action  </div>
+            <div class="stack"> Docker  </div>
+            <div class="stack"> Restdocs  </div>
+            <div class="stack"> Junit5  </div>
+          </div>
+          <br>
+          - github projects를 활용한 이슈 기반의 개발 진행
+            - 이슈와 깃허브 projects의 일정 관리를 통한 개발 진행
+            - 프로젝트 관리 기능을 통해 개발 일정 및 상태를 관리
+          
+          <hr>
+      - layout: left
+        title: petLink
         caption: 2023-03 ~ 2023-08
         link: https://f-lab-edu.github.io/petLink/
         additional_links:
@@ -140,10 +170,9 @@ content:
             icon: fab fa-github
             url: https://github.com/f-lab-edu/petLink
         description: |
-          >🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 진행한 개인 프로젝트입니다.<br>
           
-          <br>
-          
+          >🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 진행한 spring boot 기반 사이드 프로젝트입니다.<br>
+
           <div class = "stack-area">
             <div class="stack"> JAVA 17 </div>
             <div class="stack"> SpringBoot 3.0 </div>
@@ -161,37 +190,33 @@ content:
             <div class="stack"> Restdocs(with openapi)  </div>
             <div class="stack"> Junit5  </div>
           </div>
-          
           <br>
-            신뢰성과 관리 편의성을 위한 테스트 기반의 API 명세 구현
-            - RestDocs와 Swagger-UI를 활용한 테스트 기반의 신뢰성 API 명세 구현
-            - <b>Open API Spec</b>을 통한 Swagger UI를 활용한 관리 편의성 증가
-          
-            중복되지 않는 키를 만들면서 효율성을 극대화
-            - 주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생
-            - 중복되지 않으면서 다중화 환경에서도 활용가능하고 성능면에서 효율적인 <b>스노우플레이크</b> 방식 구현 
+            - 신뢰성과 관리 편의성을 위한 테스트 기반의 API 명세 구현
+              - RestDocs와 Swagger-UI를 활용한 테스트 기반의 신뢰성 API 명세 구현
+              - <b>Open API Spec</b>을 통한 Swagger UI를 활용한 관리 편의성 증가
+            - 중복되지 않는 키를 만들면서 효율성을 극대화
+              - 주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생
+              - 중복되지 않으면서 다중화 환경에서도 활용가능하고 성능면에서 효율적인 <b>스노우플레이크</b> 방식 구현 
+           - 효율적인 배포를 위한 CICD 구축
+              - 매번 수작업으로 jar 배포해야하는 반복성 문제 발생 
+              - GitHub Actions과 Docker를 활용한 안정적인 PR,  <b>자동화된 서버 배포 환경을 구축.</b>
+           - 동시성 해결을 위한 Redis 분산 락 서버 구현 <br>
+              - 클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생.
+              - DB락 , 서버 제어등 다양한 방식들과 트레이드 오프를 비교 분석 <b>Redis 분산락 서버 구현</b>을 통한 문제 해소.
+          - Junit5를 활용한 테스트 기반의 개발 <br>
+              - 테스트 기반의 개발을 위해 Junit5를 활용한 테스트 코드 작성
+              - Mock를 활용한 <b>단위 테스트 코드</b> 작성
+          - 효율적인 쿼리를 위한 QueryDSL 활용 <br>
+              - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
+              - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
+  
 
-           효율적인 배포를 위한 CICD 구축
-            - 매번 수작업으로 jar 배포해야하는 반복성 문제 발생 
-            - GitHub Actions과 Docker를 활용한 안정적인 PR,  <b>자동화된 서버 배포 환경을 구축.</b>
-
-           동시성 해결을 위한 Redis 분산 락 서버 구현 <br>
-            - 클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생.
-            - DB락 , 서버 제어등 다양한 방식들과 트레이드 오프를 비교 분석 <b>Redis 분산락 서버 구현</b>을 통한 문제 해소.
-
-          Junit5를 활용한 테스트 기반의 개발 <br>
-            - 테스트 기반의 개발을 위해 Junit5를 활용한 테스트 코드 작성
-            - Mock를 활용한 <b>단위 테스트 코드</b> 작성
-
-          효율적인 쿼리를 위한 QueryDSL 활용 <br>
-            - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
-            - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
-
+  # 교육
   - title: 교육
     layout: list
     content:
       - layout: top-left
-        title: 한양사이버대학교
+        title: HYCU_한양사이버대학교
         sub_title: 컴퓨터공학과
         description: |
           - 컴퓨터공학과
