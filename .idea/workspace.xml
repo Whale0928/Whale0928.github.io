@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="docs: update resume">
+    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
@@ -159,7 +159,7 @@
       <workItem from="1706832755798" duration="2786000" />
       <workItem from="1711705928174" duration="1334000" />
       <workItem from="1711708120867" duration="235000" />
-      <workItem from="1711949063451" duration="10370000" />
+      <workItem from="1711949063451" duration="10468000" />
     </task>
     <task id="LOCAL-00001" summary="docs : 회사정보 작성">
       <created>1686288290678</created>
@@ -426,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711635569653</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="docs: update resume">
+      <option name="closed" value="true" />
+      <created>1711978399829</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1711978399829</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
