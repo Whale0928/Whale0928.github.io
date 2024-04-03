@@ -130,7 +130,7 @@ content:
           - **WMS : ERP 간 물류 I/F 개발**
             - 물류 I/F 개발을 통해 자사 WMS와 타사  ERP 물류간의 데이터 연동을 구현
             - 이를 통해 물류 I/F 개발을 통해 물류 데이터의 신뢰성과 정확성을 확보하며 물류 데이터의 신뢰성과 정확성을 확보<br>
-        caption: 2022.08 ~ 2024.04
+          <br><br><br>
 
   # 사이드 프로젝트
   - title: 사이드 프로젝트
@@ -140,8 +140,6 @@ content:
         title: bottle-note
         caption: 2024-01 ~ 진행중
         link: https://github.com/bottle-note
-        quote: |
-          사이드 프로젝트
         additional_links:
           - title: Github page
             icon: fab fa-github
@@ -221,19 +219,8 @@ content:
           - 효율적인 쿼리를 위한 QueryDSL 활용 <br>
               - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
               - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
-
-  # 교육
-  - title: 교육
-    layout: list
-    content:
-      - layout: top-left
-        title: 한양사이버대학교
-        sub_title: 컴퓨터공학과
-        description: |
-          - 컴퓨터공학과
-          - 2016.03 - 2023.03 (졸업)
-          - 리눅스 , DB , 소프트웨어 공학 등등의 분야를 학습
-  
+          <br><br><br>
+          
 
   #교육,학습
   - title: 대외활동
@@ -261,12 +248,26 @@ content:
         description: |
           - 클라우드 환경 구축 및 운영을 경험
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험
+          <br><br><br>
+        
+
+  # 교육
+  - title: 교육
+    layout: list
+    content:
+      - layout: top-left
+        title: 한양사이버대학교
+        sub_title: 컴퓨터공학과
+        description: |
+          - 컴퓨터공학과
+          - 2016.03 - 2023.03 (졸업)
+          - 리눅스 , DB , 소프트웨어 공학 등등의 분야를 학습
       - layout: left
         title: KH education
         sub_title: 스프링 웹 기반 교육과정
         caption: 2022.02 ~ 2022.08
         description: |
-          - 팀프로젝트 기반의 교육 Java - Spring 웹 교육과정 수료 
+          - 팀프로젝트 기반의 교육 Java - Spring 웹 교육과정 수료
 
 footer_show_references: true
 
