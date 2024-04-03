@@ -75,15 +75,19 @@ content:
             margin-top: 10px;
             font-size: 12px;
           }
+          .text-area {
+            border-left: 3px solid wheat;
+            padding: 10px;
+            font-size: 14px;
+            margin: 20px 0;
+          }
           </style>
           
-          회사의 모든 자원을 효율적으로 관리하는 ERP(Enterprise Resource Planning) 시스템을 서비스합니다..<br>
-          특히, 패션 산업에 특화된 ERP 솔루션을 제공하며,<br> 
-          이를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.<br>
-          스노우피크, 네셔널지오그래픽, 네파 등 다양한 패션 브랜드들이 우리의 ERP 서비스를 이용하여 자원 관리를 효율화하고 있습니다.
           
-          ------
-          
+          <div class = "text-area">
+          패션 산업에 특화된 ERP 솔루션을 서비스합니다..<br>         
+          이 서비스를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.<br>
+          </div>
           <div class = "stack-area">
             <div class = "stack">Java / Spring Framework</div>
             <div class = "stack">Oracle</div>
@@ -93,14 +97,16 @@ content:
             <div class = "stack">Jenkins</div>
             <div class = "stack">Scouter</div>
           </div>
-                
+
+          ------
           <br>
           
           #### Work Experience( 업무 경험 ) 
           
-          > erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br> 
-          > 서비스 품질 향상을 위해 많은 경험을 해볼 수 있었습니다. <br> 
-          > 여러 도메인을 경험하며 다양한 문제를 해결하고자 노력하였습니다. <br>
+          <div class = "text-area">
+          erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br>          
+          서비스 품질 향상을 위해 많은 경험을 해볼 수 있었습니다. <br>
+          </div>
           
           - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
             - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 API 모듈 개발<br>
@@ -132,8 +138,10 @@ content:
     content:
       - layout: left
         title: bottle-note
-        caption: 2024-01 ~ in progress
+        caption: 2024-01 ~ 진행중
         link: https://github.com/bottle-note
+        quote: |
+          사이드 프로젝트
         additional_links:
           - title: Github page
             icon: fab fa-github
@@ -141,25 +149,27 @@ content:
         description: |
           
           > 🍾 술을 리뷰하고 평가할 수 있는 spring boot 기반의 프로젝트입니다. <br>
-          > 총 5명의 팀으로서 진행하였으며, back-end , devops infra를 담당하였습니다.<br> 
+          > 실제 서비스를 하기 위해 진행중이며 현재 개발중에 있습니다.<br>
+          > 총 5명의 팀으로서 진행하였으며, back-end , devops , infra를 담당합니다.<br> 
           
           <div class = "stack-area">
             <div class="stack"> JAVA 17 </div>
             <div class="stack"> SpringBoot 3.0 </div>
             <div class="stack"> Spring Security </div>
             <div class="stack"> Spring Data JPA  </div>
-            <div class="stack"> MySql 8.0 </div>
+            <div class="stack"> MySql</div>
             <div class="stack"> github Action  </div>
             <div class="stack"> Docker  </div>
             <div class="stack"> Restdocs  </div>
             <div class="stack"> Junit5  </div>
           </div>
           <br>
-          - github projects를 활용한 이슈 기반의 개발 진행
-            - 이슈와 깃허브 projects의 일정 관리를 통한 개발 진행
-            - 프로젝트 관리 기능을 통해 개발 일정 및 상태를 관리
+          - github projects를 도입
+            - 일정 , 이슈 , chart 등 여러 정보를 관리해야하지만 비용적 문제로 인해 고민
+            - 개인적으로 활용해본 github projects를 활용하여 <b>프로젝트 관리의 효율성 증가</b>
           - 정적분석을 활용한 소수인원의 단점 보완
-            - Qudana , SonarQube를 활용한 정적 분석을 통한 **코드 품질 향상**
+            - 팀원이 각각의 개성으로 인해 코드 품질이 일정하지 않은 문제 발생
+            - Qudana , SonarQube를 활용한 정적 분석과 CheckStyle 을 통한 **일관된 코드 품질 향상**
           
           <hr>
       - layout: left
@@ -172,7 +182,8 @@ content:
             url: https://github.com/f-lab-edu/petLink
         description: |
           
-          >🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 플랫폼을 구상하고 진행한 spring boot 기반 사이드 프로젝트입니다.<br>
+          >🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 <br>
+          > 플랫폼을 구상하고 진행한 spring boot 기반 사이드 프로젝트입니다.<br> 
 
           <div class = "stack-area">
             <div class="stack"> JAVA 17 </div>
@@ -210,14 +221,13 @@ content:
           - 효율적인 쿼리를 위한 QueryDSL 활용 <br>
               - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
               - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
-  
 
   # 교육
   - title: 교육
     layout: list
     content:
       - layout: top-left
-        title: HYCU_한양사이버대학교
+        title: 한양사이버대학교
         sub_title: 컴퓨터공학과
         description: |
           - 컴퓨터공학과
@@ -252,7 +262,7 @@ content:
           - 클라우드 환경 구축 및 운영을 경험
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험
       - layout: left
-        title: KH 정보교육원
+        title: KH education
         sub_title: 스프링 웹 기반 교육과정
         caption: 2022.02 ~ 2022.08
         description: |
