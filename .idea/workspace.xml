@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="">
+    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="docs: update resume profile images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -475,7 +477,8 @@
     <MESSAGE value="docs : 프로필 이미지" />
     <MESSAGE value="docs : 이력서 수정" />
     <MESSAGE value="docs: update resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update resume" />
+    <MESSAGE value="docs: update resume profile images" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update resume profile images" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
