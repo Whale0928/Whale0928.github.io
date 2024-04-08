@@ -21,7 +21,7 @@ darkmode: false
 
 # 아이콘 추가 시 경로 추가
 
-about_profile_image: images/profile_2.jpg
+about_profile_image: images/profile_1.jpeg
 about_content:
   |
   <style>   
@@ -46,9 +46,9 @@ about_content:
   
   <hr>
   
-  **github** : <a href="https://github.com/Whale0928" class="button-style">https://github.com/Whale0928</a>
+  github : <a href="https://github.com/Whale0928" class="button-style">https://github.com/Whale0928</a>
   
-  **velog** : <a href="https://velog.io/@disdos0928" class="button-style">https://velog.io/@disdos0928</a>
+  velog : <a href="https://velog.io/@disdos0928" class="button-style">https://velog.io/@disdos0928</a>
 
 content:
   - title: 경력
@@ -110,27 +110,28 @@ content:
           
           - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
             - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 API 모듈 개발<br>
-            - 성공적인 API 모듈 개발/설계로 인해 예상 개발 시간을 **1/4** 수준으로 단축.<br>
+            - 성공적인 API 모듈 개발/설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
           - **조회를 위한 중복 쿼리 최적화**
             - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
-            - 이를 해결해  기존 **800ms** 이상 소요되던 쿼리를 **400ms** 이하로 단축.<br>
+            - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
           - **통계성 데이터 처리 및 조회 경험**
             - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 많은 통계성 데이터 처리 필요
             - 인덱스 , 캐시 , 복잡성 해소 테이블등을 활용하여 성능과 가독성 향상.
           - **조건 쿼리 개선**
             - 사업실적 통계 서비스에 계속 추가되는 서브쿼리 조건으로 인한 속도 저하 발생
-            - 서브쿼리를 조인으로 해소하여 기존 **2000ms** 이상 소요되던 쿼리를 **300ms** 이하로 단축.<br>
+            - 서브쿼리를 조인으로 해소하여 기존 <b>2000ms</b> 이상 소요되던 쿼리를 <b>300ms</b> 이하로 단축.<br>
           - **커뮤니티 서비스 리팩토링**
             - 추가적인 목적의 활용도가 대폭 증가 하여 복제된 서비스가 많아짐
-            - 리팩토링을 통해 기존 중복 설계를 개선하여 **10개의** 클래스를 **3개로** 줄이며 효율적인 설계 구현.<br>
+            - 리팩토링을 통해 기존 중복 설계를 개선하여 <b>10개의</b> 클래스를 <b>3개로</b> 줄이며 효율적인 설계 구현.<br>
           - **공통 기능 리팩토링 구현**
             - 많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생
             - 공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.
-            - 이를 통해 기존 한 클래스에 **5000줄이상인** 클래스를 각각의 목적에 나눠 분리하며 유지보수성 증가<br>
+            - 이를 통해 기존 한 클래스에 <b>5000줄이상인</b> 클래스를 각각의 목적에 나눠 분리하며 유지보수성 증가<br>
           - **WMS : ERP 간 물류 I/F 개발**
             - 물류 I/F 개발을 통해 자사 WMS와 타사  ERP 물류간의 데이터 연동을 구현
             - 이를 통해 물류 I/F 개발을 통해 물류 데이터의 신뢰성과 정확성을 확보하며 물류 데이터의 신뢰성과 정확성을 확보<br>
-        caption: 2022.08 ~ 2024.04
+          <br><br><br>
+          <br><br><br>
 
   # 사이드 프로젝트
   - title: 사이드 프로젝트
@@ -140,8 +141,6 @@ content:
         title: bottle-note
         caption: 2024-01 ~ 진행중
         link: https://github.com/bottle-note
-        quote: |
-          사이드 프로젝트
         additional_links:
           - title: Github page
             icon: fab fa-github
@@ -166,7 +165,7 @@ content:
           <br>
           - github projects를 도입
             - 일정 , 이슈 , chart 등 여러 정보를 관리해야하지만 비용적 문제로 인해 고민
-            - 개인적으로 활용해본 github projects를 활용하여 **프로젝트 관리의 효율성 증가**
+            - 개인적으로 활용해본 github projects를 활용하여 <b>프로젝트 관리의 효율성 증가</b>
           - 정적분석을 활용한 소수인원의 단점 보완
             - 팀원이 각각의 개성으로 인해 코드 품질이 일정하지 않은 문제 발생
             - Qudana , SonarQube를 활용한 정적 분석과 CheckStyle 을 통한 **일관된 코드 품질 향상**
@@ -205,35 +204,24 @@ content:
           <br>
             - 신뢰성과 관리 편의성을 위한 테스트 기반의 API 명세 구현
               - RestDocs와 Swagger-UI를 활용한 테스트 기반의 신뢰성 API 명세 구현
-              - **Open API Spec**을 통한 Swagger UI를 활용한 관리 편의성 증가
+              - <b>Open API Spec</b>을 통한 Swagger UI를 활용한 관리 편의성 증가
             - 중복되지 않는 키를 만들면서 효율성을 극대화
               - 주문번호를 생성하는 기능 구현 중 중복을 방지하려면 DB에 접근하는 문제 발생
-              - 중복되지 않으면서 다중화 환경에서도 활용가능하고 성능면에서 효율적인 **스노우플레이크** 방식 구현 
+              - 중복되지 않으면서 다중화 환경에서도 활용가능하고 성능면에서 효율적인 <b>스노우플레이크</b> 방식 구현 
            - 효율적인 배포를 위한 CICD 구축
               - 매번 수작업으로 jar 배포해야하는 반복성 문제 발생 
-              - GitHub Actions과 Docker를 활용한 안정적인 PR,  **자동화된 서버 배포 환경을 구축.**
+              - GitHub Actions과 Docker를 활용한 안정적인 PR,  <b>자동화된 서버 배포 환경을 구축.</b>
            - 동시성 해결을 위한 Redis 분산 락 서버 구현 <br>
               - 클라이언트가 동시에 펀딩에 참여해 재고 감소 로직 수행 시 재고 동시성 문제 발생.
-              - DB락 , 서버 제어등 다양한 방식들과 트레이드 오프를 비교 분석 **Redis 분산락 서버 구현**을 통한 문제 해소.
+              - DB락 , 서버 제어등 다양한 방식들과 트레이드 오프를 비교 분석 <b>Redis 분산락 서버 구현</b>을 통한 문제 해소.
           - Junit5를 활용한 테스트 기반의 개발 <br>
               - 테스트 기반의 개발을 위해 Junit5를 활용한 테스트 코드 작성
-              - Mock를 활용한 **단위 테스트 코드** 작성
+              - Mock를 활용한 <b>단위 테스트 코드</b> 작성
           - 효율적인 쿼리를 위한 QueryDSL 활용 <br>
               - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
-              - **QueryDSL**을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
-
-  # 교육
-  - title: 교육
-    layout: list
-    content:
-      - layout: top-left
-        title: 한양사이버대학교
-        sub_title: 컴퓨터공학과
-        description: |
-          - 컴퓨터공학과
-          - 2016.03 - 2023.03 (졸업)
-          - 리눅스 , DB , 소프트웨어 공학 등등의 분야를 학습
-  
+              - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
+          <br><br><br>
+          
 
   #교육,학습
   - title: 대외활동
@@ -261,12 +249,26 @@ content:
         description: |
           - 클라우드 환경 구축 및 운영을 경험
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험
+          <br><br><br>
+        
+
+  # 교육
+  - title: 교육
+    layout: list
+    content:
+      - layout: top-left
+        title: 한양사이버대학교
+        sub_title: 컴퓨터공학과
+        description: |
+          - 컴퓨터공학과
+          - 2016.03 - 2023.03 (졸업)
+          - 리눅스 , DB , 소프트웨어 공학 등등의 분야를 학습
       - layout: left
         title: KH education
         sub_title: 스프링 웹 기반 교육과정
         caption: 2022.02 ~ 2022.08
         description: |
-          - 팀프로젝트 기반의 교육 Java - Spring 웹 교육과정 수료 
+          - 팀프로젝트 기반의 교육 Java - Spring 웹 교육과정 수료
 
 footer_show_references: true
 
