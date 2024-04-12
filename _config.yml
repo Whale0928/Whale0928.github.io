@@ -21,7 +21,6 @@ darkmode: false
 
 # 아이콘 추가 시 경로 추가
 
-about_profile_image: images/profile_2.jpg
 about_content:
   |
   <style>   
@@ -31,20 +30,17 @@ about_content:
         text-decoration: none;
     }
   </style>
-  >개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,<br>
-  >
-  >저는 기존 문제들을 더 효율적이고 긍정적인 방식으로 해결하고자 노력하며.<br>
-  >
-  >비용 절감, 인프라 개선, 좋은 커뮤니케이션 등 다양한 분야에서 회사의 성장에 기여하고자 합니다,<br>
-  >
-  >좋은 코드 작성뿐만 아니라, 팀 문화에 긍정적인 영향을 주는 동료가 되고자 합니다.<br>
-  >
-  >이를 통해 회사와 함께 성장하는 것이 제 목표입니다.<br>
-  >
-  >감사합니다. 🙇‍️🙇‍
+  개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,
   
+  저는 기존 문제들을 더 효율적이고 긍정적인 방식으로 해결하고자 노력하며.
   
-  <hr>
+  비용 절감, 인프라 개선, 좋은 커뮤니케이션 등 다양한 분야에서 회사의 성장에 기여하고자 합니다,
+  
+  좋은 코드 작성뿐만 아니라, 팀 문화에 긍정적인 영향을 주는 동료가 되고자 합니다
+  
+  이를 통해 회사와 함께 성장하는 것이 제 목표입니다.
+  
+  감사합니다. 🙇‍️🙇‍
   
   github : <a href="https://github.com/Whale0928" class="button-style">https://github.com/Whale0928</a>
   
@@ -87,7 +83,10 @@ content:
           <div class = "text-area">
           패션 산업에 특화된 ERP 솔루션을 서비스합니다..<br>         
           이 서비스를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.<br>
+          erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br>          
+          서비스 품질 향상을 위해 많은 경험을 해볼 수 있었습니다. <br>
           </div>
+          
           <div class = "stack-area">
             <div class = "stack">Java / Spring Framework</div>
             <div class = "stack">Oracle</div>
@@ -102,11 +101,6 @@ content:
           <br>
           
           #### Work Experience( 업무 경험 ) 
-          
-          <div class = "text-area">
-          erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br>          
-          서비스 품질 향상을 위해 많은 경험을 해볼 수 있었습니다. <br>
-          </div>
           
           - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
             - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 API 모듈 개발<br>
@@ -221,7 +215,7 @@ content:
               - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
               - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
           <br><br><br>
-          
+  
 
   #교육,학습
   - title: 대외활동
@@ -250,7 +244,7 @@ content:
           - 클라우드 환경 구축 및 운영을 경험
           - AWS EC2 , EKS, CloudFormation , CloudWatch , IAM 등을 경험
           <br><br><br>
-        
+  
 
   # 교육
   - title: 교육
