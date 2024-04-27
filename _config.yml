@@ -7,20 +7,28 @@ favicon: images/favicon.ico
 version: 2
 
 # 개인정보
-name: 김현기 ( KIM HYUN GI )
-title: Junior Back-End Developer
+name: 김현기
+title: 서버 백엔드 엔지니어
+email_title: 이메일
 email: rlagusrl928@gmail.com
+phone_title: 연락처
 phone: 010 9916 1042
+website_title: 블로그
 website: https://velog.io/@disdos0928
+github_title: 깃허브
+github: https://github.com/Whale0928
 
 # 다크 모드 설정 (options: true, false, never)
-darkmode: false
+darkmode: never
 
 # 소셜 링크
-# github_username: Whale0928
+github_username: Whale0928
+additional_links:
+- title: Blog
+  icon: fab fa-brands fa-vimeo
+  url: https://velog.io/@disdos0928
 
-# 아이콘 추가 시 경로 추가
-
+about_profile_image: images/img.png
 about_content:
   |
   <style>   
@@ -30,21 +38,12 @@ about_content:
         text-decoration: none;
     }
   </style>
-  개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,
-  
-  저는 기존 문제들을 더 효율적이고 긍정적인 방식으로 해결하고자 노력하며.
-  
-  비용 절감, 인프라 개선, 좋은 커뮤니케이션 등 다양한 분야에서 회사의 성장에 기여하고자 합니다,
-  
-  좋은 코드 작성뿐만 아니라, 팀 문화에 긍정적인 영향을 주는 동료가 되고자 합니다
-  
-  이를 통해 회사와 함께 성장하는 것이 제 목표입니다.
-  
-  감사합니다. 🙇‍️🙇‍
-  
-  github : <a href="https://github.com/Whale0928" class="button-style">https://github.com/Whale0928</a>
-  
-  velog : <a href="https://velog.io/@disdos0928" class="button-style">https://velog.io/@disdos0928</a>
+  개인의 성장과 회사의 발전을 동시에 추구하는 백엔드 개발자 김현기입니다,<br>
+  저는 기존 문제들을 더 **효율적이고 긍정적인 방식**으로 해결하고자 노력하며.<br>
+  **비용 절감**, **인프라 개선**, 좋은 커뮤니케이션 등 다양한 분야에서 회사의 성장에 기여하고자 합니다,<br>
+  좋은 코드 작성뿐만 아니라, 팀 문화에 **긍정적인 영향을 주는 동료**가 되고자 합니다<br>
+  이를 통해 **회사와 함께 성장하는 것**이 제 목표입니다.<br>
+  감사합니다.
 
 content:
   - title: 경력
@@ -53,6 +52,7 @@ content:
       - layout: left
         title: SGU
         sub_title: IT 2팀 사원
+        caption: 2022.08 ~ 2024.04
         description: |
           <style>
           .stack-area{
@@ -142,7 +142,7 @@ content:
         description: |
           
           > 🍾 술을 리뷰하고 평가할 수 있는 spring boot 기반의 프로젝트입니다. <br>
-          > 실제 서비스를 하기 위해 진행중이며 현재 개발중에 있습니다.<br>
+          > 실제 서비스를 하기 위한 프로젝트로 현재 진행중으로 개발 중입니다..<br>
           > 총 5명의 팀으로서 진행하였으며, back-end , devops , infra를 담당합니다.<br> 
           
           <div class = "stack-area">
@@ -157,8 +157,14 @@ content:
             <div class="stack"> Junit5  </div>
           </div>
           <br>
+          - 모니터링 환경 구축
+            - spring boot actuator를 활용한 모니터링 환경 구축
+            - mini pc를 활용한 on-premise 환경에서의 prometheus , grafana를 활용한 모니터링 환경 구축
+          - 배포 파이프 라인 구축
+            - github action을 활용한 CI/CD 파이프라인 구축
+            - ecs on faragate를 활용한 aws 인프라 환경을 구축
           - github projects를 도입
-            - 일정 , 이슈 , chart 등 여러 정보를 관리해야하지만 비용적 문제로 인해 고민
+            - 일정 , 이슈 , chart 등 여러 정보를 관리해야하지만 비용적 문제로 인해 노션등의 비용 발생 툴을 고민
             - 개인적으로 활용해본 github projects를 활용하여 <b>프로젝트 관리의 효율성 증가</b>
           - 정적분석을 활용한 소수인원의 단점 보완
             - 팀원이 각각의 개성으로 인해 코드 품질이 일정하지 않은 문제 발생
@@ -223,8 +229,15 @@ content:
     border: weak
     content:
       - layout: left
+        title: DDD 세레나데 6기
+        sub_title: nextstep에서 진행하는 DDD 과정
+        caption: 2024.04 ~ 진행중
+        description: |
+          - 레거시 프로젝트를 DDD로 점진적 리팩터링하는 경험
+          - DDD에 대한 지식과 이벤트 스토밍부터 이벤트 소싱, CQRS까지 다양한 개발 스킬을 경험.
+      - layout: left
         title: 플레이그라운드 with TDD, 클린 코드
-        sub_title: nextstep에서 진행하는 클린코드 과정
+        sub_title: nextstep에서 진행하는 TDD 과정
         caption: 2023.9 ~ 2023.11
         description: |
           - 테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정
@@ -235,6 +248,7 @@ content:
         caption: 2023.02 ~ 2023.08
         description: |
           - Back-end 시니어 개발자와 함께하는 백엔드 멘토링 과정
+          - 실무에서 경험하는 다양한 문제 해결과정을 경험
           - 내부적으로 진행되는 다양한 해커톤에 참여
       - layout: left
         title: 클라우드 AWS 구축/운영
@@ -253,16 +267,16 @@ content:
       - layout: top-left
         title: 한양사이버대학교
         sub_title: 컴퓨터공학과
+        caption: 2016.03 ~ 2023.03 (졸업)
         description: |
           - 컴퓨터공학과
-          - 2016.03 - 2023.03 (졸업)
           - 리눅스 , DB , 소프트웨어 공학 등등의 분야를 학습
       - layout: left
         title: KH education
         sub_title: 스프링 웹 기반 교육과정
         caption: 2022.02 ~ 2022.08
         description: |
-          - 팀프로젝트 기반의 교육 Java - Spring 웹 교육과정 수료
+          - spring 기반의 웹 개발 교육과정
 
 footer_show_references: true
 
