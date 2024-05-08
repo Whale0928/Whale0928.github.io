@@ -100,7 +100,8 @@ content:
 
           <br>
           
-          #### Work Experience( 업무 경험 ) 
+          #### Work Experience ( 업무 경험 ) 
+          <br><br><br>
           
           - **ERP 와 Groupware 간 전자결재 연동 API 기능 개발**
               - 주요 기능을 표준화하고 전략 패턴을 적용해 전자결재 상태 관리 및 승인 프로세스 일관성을 확보.
@@ -130,6 +131,8 @@ content:
               - 자사의 WMS와 타사 ERP 시스템 간 **물류 데이터 연동 API를 개발**.
               - **Optimistic Locking**를 통한 데이터 정합성 유지 이를 통해 물류 데이터의 정확성을 확보.
 
+          <br><br><br>
+          <br><br><br>
           <br><br><br>
           <br><br><br>
 
@@ -187,6 +190,7 @@ content:
             - 팀원이 각각의 개성으로 인해 코드 품질이 일정하지 않은 문제 발생
             - Qudana , SonarQube를 활용한 정적 분석과 CheckStyle 을 통한 코드 품질 향상
           
+          <br><br><br>
           <br><br><br>
           
           <hr>
@@ -253,9 +257,9 @@ content:
         description: |
           - 레거시 프로젝트를 DDD로 점진적 리팩터링하는 경험
           - 도메인에 대해 깊이 이해하고 도메인 주도 설계를 경험
-          - DDD에 대한 지식과 이벤트 스토밍부터 이벤트 소싱, CQRS까지 다양한 개발 스킬을 경험.
+          - DDD에 대한 지식과 이벤트 스토밍부터 이벤트 소싱, CQRS , 코드리뷰 스킬등 다양한 개발 스킬을 경험.
       - layout: left
-        title: 플레이그라운드 with TDD
+        title: TDD with Java
         sub_title: nextstep에서 진행하는 TDD 과정
         caption: 2023.9 ~ 2023.11
         description: |
