@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="">
+    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="docs: update resume profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
@@ -474,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715179669917</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="docs: update resume profile">
+      <option name="closed" value="true" />
+      <created>1715179978475</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1715179978475</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +514,8 @@
     <MESSAGE value="docs : 이력서 수정" />
     <MESSAGE value="docs: update resume" />
     <MESSAGE value="docs: update resume profile images" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update resume profile images" />
+    <MESSAGE value="docs: update resume profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update resume profile" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

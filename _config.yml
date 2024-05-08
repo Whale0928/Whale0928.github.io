@@ -137,7 +137,7 @@ content:
           <br><br><br>
 
   # 사이드 프로젝트
-  - title: 사이드 프로젝트
+  - title: 프로젝트
     layout: list
     content:
       - layout: left
@@ -243,6 +243,9 @@ content:
               - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
           
           <br><br><br>
+          <br><br><br>
+          <br><br><br>
+          <br><br><br>
   
 
   #교육,학습
@@ -276,7 +279,7 @@ content:
           - 내부적으로 진행되는 다양한 해커톤에 참여
       - layout: left
         title: 클라우드 AWS 구축/운영
-        sub_title: 시나리오형 과제를 통해 클라우드 환경 활용 과정
+        sub_title: 시나리오형 기반 클라우드 환경 활용 과정
         caption: 2022.10 ~ 2022.12
         description: |
           - 클라우드 환경 구축 및 운영을 경험
