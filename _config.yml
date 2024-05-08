@@ -24,9 +24,9 @@ darkmode: never
 # 소셜 링크
 github_username: Whale0928
 additional_links:
-- title: Blog
-  icon: fab fa-brands fa-vimeo
-  url: https://velog.io/@disdos0928
+  - title: Blog
+    icon: fab fa-brands fa-vimeo
+    url: https://velog.io/@disdos0928
 
 about_profile_image: images/img.png
 about_content:
@@ -53,6 +53,11 @@ content:
         title: SGU
         sub_title: IT 2팀 사원
         caption: 2022.08 ~ 2024.04
+        quote: >
+          패션 산업에 특화된 ERP 솔루션을 서비스합니다..<br>         
+          이 서비스를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.<br>
+          erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br>          
+          서비스 품질 향상을 위해 많은 노력을 기울였습니다.<br>
         description: |
           <style>
           .stack-area{
@@ -79,51 +84,52 @@ content:
           }
           </style>
           
-          
-          <div class = "text-area">
-          패션 산업에 특화된 ERP 솔루션을 서비스합니다..<br>         
-          이 서비스를 통해 패션 브랜드들이 자원을 더 효과적으로 관리할 수 있도록 돕고 있습니다.<br>
-          erp의 특성 상 WMS , CRM , SCM등 다양한 부분의 여러 도메인을 경험하고<br>          
-          서비스 품질 향상을 위해 많은 경험을 해볼 수 있었습니다. <br>
-          </div>
+          ------
           
           <div class = "stack-area">
-            <div class = "stack">Java / Spring Framework</div>
+            <div class = "stack">Java</div>
+            <div class = "stack">Spring Framework</div>
             <div class = "stack">Oracle</div>
             <div class = "stack">Mybatis</div>
-            <div class = "stack">Teams</div>
             <div class = "stack">Gitlab</div>
             <div class = "stack">Jenkins</div>
             <div class = "stack">Scouter</div>
+            <div class = "stack">AWS</div>
+            <div class = "stack">CentOs</div>
           </div>
 
-          ------
           <br>
           
           #### Work Experience( 업무 경험 ) 
           
-          - **ERP 와 Groupware 간 전자결재 연동 기능 개발.**
-            - 연동에 필요한 각 주요 기능 설계 후 공통 추상화 API 모듈 개발<br>
-            - 성공적인 API 모듈 개발/설계로 인해 예상 개발 시간을 <b>1/4</b> 수준으로 단축.<br>
-          - **조회를 위한 중복 쿼리 최적화**
-            - 최대 임계치 확인을 위한 불필요한 조회 중복 발생
-            - 이를 해결해  기존 <b>800ms</b> 이상 소요되던 쿼리를 <b>400ms</b> 이하로 단축.<br>
-          - **통계성 데이터 처리 및 조회 경험**
-            - 브랜드별 년매출, 품목별 년매출, 시즌별 목표 실적 등등 대규모 데이터를 다루다 보니 많은 통계성 데이터 처리 필요
-            - 인덱스 , 캐시 , 복잡성 해소 테이블등을 활용하여 성능과 가독성 향상.
-          - **조건 쿼리 개선**
-            - 사업실적 통계 서비스에 계속 추가되는 서브쿼리 조건으로 인한 속도 저하 발생
-            - 서브쿼리를 조인으로 해소하여 기존 <b>2000ms</b> 이상 소요되던 쿼리를 <b>300ms</b> 이하로 단축.<br>
+          - **ERP 와 Groupware 간 전자결재 연동 API 기능 개발**
+              - 주요 기능을 표준화하고 전략 패턴을 적용해 전자결재 상태 관리 및 승인 프로세스 일관성을 확보.
+              - 전자결재 표준을 추상화된 공통 인터페이스를 모듈화함으로써 개발 효율을 극대화하고 예상 개발 시간을 **기존 6주**에서 **2주로** 단축시킴.
+          
+          - **통계성 데이터 처리 개선**
+              - 브랜드 및 품목별 연간 매출, 시즌별 실적 목표 등 대규모 데이터를 위한 매우 복잡하고 느린 쿼리가 다수 존재.
+              - 뷰 테이블과 인덱스, 로컬 캐시를 활용해 복잡성을 해소하고 평균 **15000ms(15초)** 이상 소요되던 쿼리를 **5000ms(5초)** 이하로 단축.
+          
+          - **API 처리 속도 개선**
+              - 비효율적인 데이터 조회 중복 문제를 해결하기 위해 레거시 코드에 페이지네이션을 도입.
+              - 페이지 처리를 통해 기존 API 응답 속도가 **800ms(0.8초)** 이상 소요되던 쿼리를 **450ms(0.45초)** 이하로 단축.
+          
+          - **CRM 서비스에서 네이티브 쿼리 개선**
+              - CRM에서 계속 추가되는 연관 정보 노출 요청으로 인해 속도 저하 발생.
+              - 기존 subquery를 분석하여 join으로 해소, 기존 **3500ms(3.5초)** 이상 소요되던 쿼리를 **800ms(0.8초)** 이하로 단축.
+          
           - **커뮤니티 서비스 리팩토링**
-            - 추가적인 목적의 활용도가 대폭 증가 하여 복제된 서비스가 많아짐
-            - 리팩토링을 통해 기존 중복 설계를 개선하여 <b>10개의</b> 클래스를 <b>3개로</b> 줄이며 효율적인 설계 구현.<br>
+              - 매장 간, 본사 간, 매장 본사 간, MD 간 등 여러 목적의 커뮤니티들이 추가될수록 중복된 서비스가 많아지는 문제 발생.
+              - **추상 팩토리 패턴**을 활용해 중복된 서비스를 제거하고 추상화된 서비스를 통해 중복된 코드를 제거하며 **유지보수성을 높임**.
+          
           - **공통 기능 리팩토링 구현**
-            - 많은 서비스가 있다 보니 하나의 공통코드가 너무 무거워지는 문제 발생
-            - 공통코드를 분리하여 각 서비스에 맞는 공통코드를 분리하여 리팩토링 구현.
-            - 이를 통해 기존 한 클래스에 <b>5000줄이상인</b> 클래스를 각각의 목적에 나눠 분리하며 유지보수성 증가<br>
-          - **WMS : ERP 간 물류 I/F 개발**
-            - 물류 I/F 개발을 통해 자사 WMS와 타사  ERP 물류간의 데이터 연동을 구현
-            - 이를 통해 물류 I/F 개발을 통해 물류 데이터의 신뢰성과 정확성을 확보하며 물류 데이터의 신뢰성과 정확성을 확보<br>
+              - 다수의 서비스에서 사용되는 공통 코드의 과부하 문제를 해결하기 위해 각 서비스별로 필요한 기능만 포함하도록 **모듈을 분리**.
+              - 이를 통해 공통 코드를 모듈화하고, 중복 코드를 제거하여 **유지보수성**과 **재사용성**을 높임.
+          
+          - **WMS to ERP 물류 연동 API 개발**
+              - 자사의 WMS와 타사 ERP 시스템 간 **물류 데이터 연동 API를 개발**.
+              - **Optimistic Locking**를 통한 데이터 정합성 유지 이를 통해 물류 데이터의 정확성을 확보.
+
           <br><br><br>
           <br><br><br>
 
@@ -139,11 +145,11 @@ content:
           - title: Github page
             icon: fab fa-github
             url: https://github.com/bottle-note
+        quote: >
+          🍾 술을 리뷰하고 평가할 수 있는 spring boot 기반의 프로젝트입니다. <br>
+          실제 서비스를 하기 위한 프로젝트로 진행중인 프로젝트입니다.<br>
+          총 5명의 팀으로서 진행하며, back-end , devops , infra를 담당합니다.<br>
         description: |
-          
-          > 🍾 술을 리뷰하고 평가할 수 있는 spring boot 기반의 프로젝트입니다. <br>
-          > 실제 서비스를 하기 위한 프로젝트로 현재 진행중으로 개발 중입니다..<br>
-          > 총 5명의 팀으로서 진행하였으며, back-end , devops , infra를 담당합니다.<br> 
           
           <div class = "stack-area">
             <div class="stack"> JAVA 17 </div>
@@ -155,11 +161,22 @@ content:
             <div class="stack"> Docker  </div>
             <div class="stack"> Restdocs  </div>
             <div class="stack"> Junit5  </div>
+            <div class="stack"> QueryDSL  </div>
+            <div class="stack"> AWS ECS  </div>
+            <div class="stack"> AWS ECR  </div>
+            <div class="stack"> AWS Route53  </div>
+            <div class="stack"> AWS S3  </div>
+            <div class="stack"> AWS CloudFront  </div>
+            <div class="stack"> Grafana </div>
+            <div class="stack"> Prometheus </div>
           </div>
           <br>
+          - DSL을 통한 다이나믹 쿼리 처리 DSL을 통한 다이나믹 쿼리 처리
+            - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
+            - 변동 사항이 많은 검색/ 정렬 조건을 처리하기 위해 도입 후 팀원에게 공유 전파
           - 모니터링 환경 구축
-            - spring boot actuator를 활용한 모니터링 환경 구축
-            - mini pc를 활용한 on-premise 환경에서의 prometheus , grafana를 활용한 모니터링 환경 구축
+            - spring boot actuator/ micrometer를 활용한 모니터링 환경 구축
+            - on-premise 환경에서의 prometheus , grafana를 활용한 모니터링 환경 구축
           - 배포 파이프 라인 구축
             - github action을 활용한 CI/CD 파이프라인 구축
             - ecs on faragate를 활용한 aws 인프라 환경을 구축
@@ -168,7 +185,9 @@ content:
             - 개인적으로 활용해본 github projects를 활용하여 <b>프로젝트 관리의 효율성 증가</b>
           - 정적분석을 활용한 소수인원의 단점 보완
             - 팀원이 각각의 개성으로 인해 코드 품질이 일정하지 않은 문제 발생
-            - Qudana , SonarQube를 활용한 정적 분석과 CheckStyle 을 통한 **일관된 코드 품질 향상**
+            - Qudana , SonarQube를 활용한 정적 분석과 CheckStyle 을 통한 코드 품질 향상
+          
+          <br><br><br>
           
           <hr>
       - layout: left
@@ -177,13 +196,11 @@ content:
         link: https://f-lab-edu.github.io/petLink/
         additional_links:
           - title: Github page
-            icon: fab fa-github
             url: https://github.com/f-lab-edu/petLink
+        quote: >
+          🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 <br>
+           플랫폼을 구상하고 진행한 spring boot 기반 사이드 프로젝트입니다.<br>
         description: |
-          
-          >🐕 petLink는 반려동물 용품 구매와 동시에 펀딩에 참여할 수 있는 <br>
-          > 플랫폼을 구상하고 진행한 spring boot 기반 사이드 프로젝트입니다.<br> 
-
           <div class = "stack-area">
             <div class="stack"> JAVA 17 </div>
             <div class="stack"> SpringBoot 3.0 </div>
@@ -220,6 +237,7 @@ content:
           - 효율적인 쿼리를 위한 QueryDSL 활용 <br>
               - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
               - <b>QueryDSL</b>을 활용한 동적 쿼리 작성으로 효율적인 쿼리 작성
+          
           <br><br><br>
   
 
@@ -234,13 +252,15 @@ content:
         caption: 2024.04 ~ 진행중
         description: |
           - 레거시 프로젝트를 DDD로 점진적 리팩터링하는 경험
+          - 도메인에 대해 깊이 이해하고 도메인 주도 설계를 경험
           - DDD에 대한 지식과 이벤트 스토밍부터 이벤트 소싱, CQRS까지 다양한 개발 스킬을 경험.
       - layout: left
-        title: 플레이그라운드 with TDD, 클린 코드
+        title: 플레이그라운드 with TDD
         sub_title: nextstep에서 진행하는 TDD 과정
         caption: 2023.9 ~ 2023.11
         description: |
           - 테스트 기반으로 리팩토링을 통해 클린 코드를 경험하는 과정
+          - 테스트 코드의 장점과 테스트 주도 개발의 장점을 경험
           - 클린코드의 필요성과 리팩토링의 방법등을 학습
       - layout: left
         title: F-LAB
