@@ -1,0 +1,15 @@
+- DSL을 통한 다이나믹 쿼리 처리 DSL을 통한 다이나믹 쿼리 처리
+    - JPA를 활용한 쿼리 작성 시 여러 조건을 고려해야하는 문제 발생
+    - 변동 사항이 많은 검색/ 정렬 조건을 처리하기 위해 도입 후 팀원에게 공유 전파
+- 모니터링 환경 구축
+  - spring boot actuator/ micrometer를 활용한 모니터링 환경 구축
+  - on-premise 환경에서의 prometheus , grafana를 활용한 모니터링 환경 구축
+- 배포 파이프 라인 구축
+  - github action을 활용한 CI/CD 파이프라인 구축
+  - ecs on faragate를 활용한 aws 인프라 환경을 구축
+- github projects를 도입
+  - 일정 , 이슈 , chart 등 여러 정보를 관리해야하지만 비용적 문제로 인해 노션등의 비용 발생 툴을 고민
+  - 개인적으로 활용해본 github projects를 활용하여 <b>프로젝트 관리의 효율성 증가</b>
+- 정적분석을 활용한 소수인원의 단점 보완
+  - 팀원이 각각의 개성으로 인해 코드 품질이 일정하지 않은 문제 발생
+  - Qudana , SonarQube를 활용한 정적 분석과 CheckStyle 을 통한 코드 품질 향상
