@@ -209,7 +209,7 @@ content:
       - layout: left
         title: DDD 세레나데 6기
         sub_title: nextstep에서 진행하는 DDD 과정
-        caption: 2024.04 ~ 진행중
+        caption: 2024.04 ~ 2024.06
         description: |
           - 레거시 프로젝트를 DDD로 점진적 리팩터링하는 경험
           - 도메인에 대해 깊이 이해하고 도메인 주도 설계를 경험
