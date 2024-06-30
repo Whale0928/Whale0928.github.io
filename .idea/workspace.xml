@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="docs: update">
-      <change afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
+    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/landscape-trees.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profile_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/up.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,9 @@
   <component name="KubernetesApiProvider">{}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="없음" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -184,7 +182,7 @@
       <workItem from="1719439520560" duration="3192000" />
       <workItem from="1719489295895" duration="3000" />
       <workItem from="1719507763272" duration="21342000" />
-      <workItem from="1719684616220" duration="2345000" />
+      <workItem from="1719684616220" duration="7504000" />
     </task>
     <task id="LOCAL-00001" summary="docs : 회사정보 작성">
       <created>1686288290678</created>
@@ -531,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718382507707</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="docs: update readme">
+      <option name="closed" value="true" />
+      <created>1719719145126</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1719719145126</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +571,8 @@
     <MESSAGE value="docs: update resume profile images" />
     <MESSAGE value="docs: update resume profile" />
     <MESSAGE value="docs: update" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update" />
+    <MESSAGE value="docs: update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update readme" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
