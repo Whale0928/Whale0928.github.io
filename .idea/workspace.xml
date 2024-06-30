@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="">
+    <list default="true" id="5744a764-6374-461c-924f-f90e38cf744a" name="변경" comment="docs: update">
+      <change afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/landscape-trees.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profile_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/up.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +74,16 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/Whale0928.github.io&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/deadwhale/workspace/이력서/Whale0928.github.io&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -175,7 +180,11 @@
       <workItem from="1715581333221" duration="383000" />
       <workItem from="1716535857430" duration="5889000" />
       <workItem from="1716805210455" duration="11000" />
-      <workItem from="1718299989271" duration="1857000" />
+      <workItem from="1718299989271" duration="2471000" />
+      <workItem from="1719439520560" duration="3192000" />
+      <workItem from="1719489295895" duration="3000" />
+      <workItem from="1719507763272" duration="21342000" />
+      <workItem from="1719684616220" duration="2345000" />
     </task>
     <task id="LOCAL-00001" summary="docs : 회사정보 작성">
       <created>1686288290678</created>
@@ -514,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716543623723</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="docs: update">
+      <option name="closed" value="true" />
+      <created>1718382507707</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1718382507707</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
